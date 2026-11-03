@@ -288,7 +288,7 @@ const SIZE_STATIONS = [
   ] },
   { id: 's5', chip: '🤔', title: 'זֶה תָּלוּי', stages: () => [
     cards('szRel', [{ html: `<div class="kit-col"><div class="kit-row bottom">${sized('🐭', 0.8)}${sized('🐶', 2)}</div><div class="kit-row bottom">${sized('🐶', 1.1)}${sized('🐘', 3)}</div></div>`, text: SIZE.ui.szRelIntro, clips: UI('szRelIntro') }]),
-    choose('szRelQ', () => shuffle([['🐶', '🐭', true], ['🐶', '🐘', false], ['🐱', '🐁', true], ['🐱', '🐄', false]]).map(([a, b, big]) => ({
+    choose('szRelQ', () => shuffle([['🐶', '🐭', true], ['🐶', '🐘', false], ['🐶', '🐁', true], ['🐶', '🐄', false]]).map(([a, b, big]) => ({
       top: `<div class="kit-row bottom rel-scene">${big ? sized(b, 0.8) + sized(a, 2) : sized(a, 1.1) + sized(b, 3)}</div>`,
       text: SIZE.ui.szRelQ, clips: UI('szRelQ'), keepOrder: true,
       options: [{ html: '<span class="dotsz big"></span><b>גָּדוֹל</b>', ok: big, after: UI('szBig') }, { html: '<span class="dotsz small"></span><b>קָטָן</b>', ok: !big, after: UI('szSmall') }] }))),
