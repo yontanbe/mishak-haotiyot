@@ -193,6 +193,12 @@ export const UI = {
   tapLula2: 'אֲנִי אוֹהֶבֶת אוֹתִיּוֹת!',
   tapLula3: 'אַתֶּם הַחֲבֵרִים הֲכִי טוֹבִים שֶׁלִּי!',
   album: 'אֵלֶּה כָּל הַחֲבֵרִים שֶׁפָּגַשְׁנוּ בַּמַּסָּע!',
+  reviewIntro: 'זְמַן חֲזָרָה! בּוֹאוּ נִבְדֹּק שֶׁאֲנַחְנוּ זוֹכְרִים אֶת הָאוֹתִיּוֹת שֶׁלָּמַדְנוּ.',
+  insFindLetter: 'אֵיפֹה הָאוֹת',
+  insFirstLetter: 'בְּאֵיזוֹ אוֹת מַתְחִילָה הַמִּלָּה?',
+  insLastLetter: 'בְּאֵיזוֹ אוֹת נִגְמֶרֶת הַמִּלָּה?',
+  insMatchLetters: 'מִצְאוּ זוּגוֹת: אוֹת וּתְמוּנָה שֶׁמַּתְאִימָה לָהּ.',
+  reviewDone: 'כָּל הַכָּבוֹד! זְכַרְתֶּם אֶת כָּל הָאוֹתִיּוֹת!',
   praise1: 'כָּל הַכָּבוֹד!',
   praise2: 'יֹפִי!',
   praise3: 'מְצֻיָּן!',
@@ -223,6 +229,41 @@ export function wordSentence(l, w) {
   const where = l.final ? 'נִגְמֶרֶת' : 'מַתְחִילָה';
   return `${w}. הַמִּלָּה ${w} ${where} בָּאוֹת ${l.name}.`;
 }
+
+// ---------- צלילים: ההברה הראשונה (או האחרונה באות סופית) של מילה ----------
+const G = (w) => w.match(/[\u05D0-\u05EA][\u0591-\u05C7]*/g) || [];
+const VOWEL = /[\u05B1-\u05BB\u05C7]/; // כל תנועה חוץ משווא
+const isMater = (g, prev) => /^ו[\u05B9\u05BC]$/.test(g) || /^וֹ$/.test(g) || (g === 'י' && prev && /[\u05B4\u05B5\u05B6]/.test(prev));
+export function firstSyllable(w) {
+  const g = G(w);
+  let out = g[0] || '';
+  let i = 1;
+  if (!VOWEL.test(g[0]) && g[1]) {
+    // שווא או בלי ניקוד: מוסיפים את האות הבאה (או את האם קריאה)
+    if (isMater(g[1], g[0])) return out + g[1];
+    out += g[1]; i = 2;
+  }
+  if (g[i] && isMater(g[i], g[i - 1])) out += g[i];
+  return out;
+}
+export function lastSyllable(w) {
+  const g = G(w);
+  if (g.length <= 2) return g.join('');
+  let i = g.length - 2;
+  let out = g[g.length - 1];
+  out = g[i] + out;
+  if (isMater(g[i], g[i - 1]) || !VOWEL.test(g[i])) out = g[i - 1] + out;
+  return out;
+}
+// משפט צלילים: אַ... אַ... אַרְיֵה!  ובאותיות סופיות: מֶלֶךְ! לֶךְ, לֶךְ.
+export function wordChant(l, w) {
+  if (l.final) { const s = lastSyllable(w); return `${w}! ${s}... ${s}.`; }
+  const s = firstSyllable(w);
+  return `${s}... ${s}... ${w}!`;
+}
+// פתח גנובה בסוף מילה (אֲבַטִּיחַ) גורם למנוע הקול להוסיף הברה. בטקסט לקול מורידים אותו.
+export const ttsWord = (w) => w.replace(/([חעה][\u05BC]?)\u05B7$/u, '$1');
+export const ttsText = (t) => t.replace(/([\u05D0-\u05EA][\u0591-\u05C7]*)/g, (m) => m).replace(/([חעה]\u05BC?)\u05B7(?=[\s.,!?…]|$)/gu, '$1');
 
 export function regionLine(r) {
   return r.arrive;
