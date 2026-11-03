@@ -2,6 +2,7 @@ import { LETTERS, REGIONS, UI, letterLines } from './data.js';
 import { STAGES, REVIEW_STAGES } from './stages.js';
 import { COLORS, COLOR_BY_ID, CUI, colorLines, COLOR_REVIEW_AFTER } from './colors-data.js';
 import { colorStages, COLOR_REVIEW_STAGES, splashSVG } from './colors-stages.js';
+import { WORLDS } from './worlds-stages.js';
 import { say, stop, sfx, settings, textOf, unlockAudio } from './audio.js';
 import { heroHTML, pose, setBase, friendHTML } from './hero.js';
 import * as P from './progress.js';
@@ -77,14 +78,11 @@ function home() {
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
         <div class="bubble-anchor home-bubble"></div>
-        <button class="mega play world-letters">
-          <span class="mega-ico">א</span>
-          <span class="mega-txt">${started ? 'מַמְשִׁיכִים בָּאוֹתִיּוֹת' : 'עוֹלַם הָאוֹתִיּוֹת'}<small>${started ? nextLabel : 'מַסָּע אֶל 27 אוֹתִיּוֹת'}</small></span>
-        </button>
-        <button class="mega play-colors world-colors">
-          <span class="mega-ico">🎨</span>
-          <span class="mega-txt">עוֹלַם הַצְּבָעִים<small>${colorsDone() ? `הֶחְזַרְנוּ ${colorsDone()} מִתּוֹךְ ${COLORS.length} צְבָעִים` : 'עֲנַן הָאָפֹר לָקַח אֶת הַצְּבָעִים!'}</small></span>
-        </button>
+        <div class="worlds-grid">
+          <button class="world-card play world-letters"><span class="wc-ico">א</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : '27 אוֹתִיּוֹת'}</small></button>
+          <button class="world-card play-colors world-colors"><span class="wc-ico">🎨</span><span class="wc-t">צְבָעִים</span><small>${colorsDone()}/${COLORS.length}</small></button>
+          ${WORLDS.map((W) => `<button class="world-card play-world world-${W.id}" data-w="${W.id}"><span class="wc-ico">${W.icon}</span><span class="wc-t">${W.title}</span><small>${wCount(W)}/${W.stations.length}</small></button>`).join('')}
+        </div>
         <div class="home-row">
           <button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>
           <button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>${doneCount()}/27</small></span></button>
@@ -114,6 +112,7 @@ function home() {
   };
   app.querySelector('.map').onclick = () => { unlockAudio(); sfx.pop(); map(); };
   app.querySelector('.play-colors').onclick = () => { unlockAudio(); sfx.pop(); colorsMap(); };
+  app.querySelectorAll('.play-world').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); worldMap(WORLDS.find((W) => W.id === b.dataset.w)); }));
   app.querySelector('.album').onclick = () => { unlockAudio(); sfx.pop(); album(); };
   app.querySelector('.gear').onclick = parents;
 }
@@ -406,6 +405,109 @@ function level(l, review = null) {
     },
     exit: () => { if (!review) P.recordTime(prog, l.id, since); save(); map(); },
     finish: () => map(Math.min(PATH.length - 1, pathIndex + 1)),
+  });
+}
+
+// =====================================================================
+// עולמות נוספים (גדול וקטן, איפה זה?, אנגלית, חיות): מפה, סיפור ותחנות
+// =====================================================================
+const wprog = (W) => { prog.worlds ||= {}; return (prog.worlds[W.id] ||= { done: {} }); };
+const wDone = (W, st) => !!wprog(W).done[st.id];
+const wNext = (W) => { const i = W.stations.findIndex((st) => !wDone(W, st)); return i === -1 ? W.stations.length - 1 : i; };
+const wCount = (W) => W.stations.filter((st) => wDone(W, st)).length;
+const wPic = (src, cls = '') => `<span class="fpic ${cls}"><img src="${src}" alt="" draggable="false" onerror="this.parentNode.classList.add('noimg')"><span class="emo">⭐</span></span>`;
+
+async function worldStory(W) {
+  app.innerHTML = `
+  <section class="screen story-screen world-story" style="${regionBG(W.bg)}">
+    <div class="story-stage">
+      <div class="story-friend">${wPic(W.friend, 'friend-big')}</div>
+      <div class="story-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
+    </div>
+    <button class="btn small skip">דַּלְּגוּ ⏭</button>
+  </section>`;
+  const hero = app.querySelector('.hero');
+  const bubble = app.querySelector('.bubble-anchor');
+  let skipped = false;
+  const end = () => { wprog(W).seen = true; save(); worldMap(W); };
+  app.querySelector('.skip').onclick = () => { skipped = true; stop(); end(); };
+  for (const sl of W.story) {
+    if (skipped) return;
+    setBase(hero, sl.pose);
+    await talk(hero, bubble, [sl.clip], sl.text);
+    await wait(400);
+  }
+  if (!skipped) end();
+}
+
+function worldMap(W, walkTo = null) {
+  stop();
+  if (!wprog(W).seen && walkTo == null) return worldStory(W);
+  const here = wNext(W);
+  const unlocked = DEV || prog.all ? W.stations.length - 1 : here;
+  app.innerHTML = `
+  <section class="screen map-screen world-map" style="${regionBG(W.bg)}">
+    <header class="map-head">
+      <button class="btn round home" aria-label="בית">🏠</button>
+      <div class="bag-count">${W.icon} ${wCount(W)}/${W.stations.length}</div>
+      <h2 class="wm-title">${W.title}</h2>
+    </header>
+    <div class="map-scroll">
+      <div class="path wpath">
+        ${W.stations.map((st, i) => {
+          const s0 = wDone(W, st) ? 'done' : i <= unlocked ? 'open' : 'locked';
+          const x = st.review ? 50 : 50 + Math.sin(i * 0.9) * 24;
+          const stars = wprog(W).done[st.id] || 0;
+          return `<button class="node wnode ${st.review ? 'review' : ''} ${s0} ${i === here && s0 !== 'done' ? 'current' : ''}" data-i="${i}" style="--x:${x}%">
+            <span class="ch">${s0 === 'locked' ? '🔒' : st.chip}</span>
+            <span class="review-letters">${st.title}</span>
+            ${s0 === 'done' ? `<span class="node-stars">${'⭐'.repeat(stars)}</span>` : ''}</button>`;
+        }).join('')}
+      </div>
+      <div class="map-end">${wCount(W) === W.stations.length ? `${wPic(W.friend, 'end-drop')} כָּל הַכָּבוֹד!` : '🏁'}</div>
+      <div class="map-lula">${heroHTML('wave', 'sm')}</div>
+    </div>
+  </section>`;
+  app.querySelector('.home').onclick = home;
+  const scroller = app.querySelector('.map-scroll');
+  const lulaBox = app.querySelector('.map-lula');
+  const hero = lulaBox.querySelector('.hero');
+  const place = (i, smooth) => {
+    const node = app.querySelector(`.node[data-i="${i}"]`);
+    if (!node) return;
+    const nr = node.getBoundingClientRect(); const sr = scroller.getBoundingClientRect();
+    const side = nr.left - sr.left > sr.width / 2 ? -1 : 1;
+    lulaBox.style.transition = smooth ? 'left 1.1s ease-in-out, top 1.1s ease-in-out' : 'none';
+    lulaBox.style.left = `${nr.left - sr.left + nr.width / 2 + side * (nr.width * 1.1)}px`;
+    lulaBox.style.top = `${nr.top - sr.top + scroller.scrollTop + nr.height}px`;
+  };
+  const start = walkTo != null ? Math.max(0, walkTo - 1) : here;
+  requestAnimationFrame(() => {
+    app.querySelector(`.node[data-i="${start}"]`)?.scrollIntoView({ block: 'center' });
+    place(start, false);
+    if (walkTo != null && walkTo !== start) setTimeout(() => { pose(hero, 'walk'); place(walkTo, true); setTimeout(() => pose(hero, 'wave'), 1300); }, 500);
+  });
+  if (wCount(W) === W.stations.length && walkTo === W.stations.length - 1) confetti(150);
+  app.querySelectorAll('.node').forEach((b) => (b.onclick = () => {
+    if (b.classList.contains('locked')) { sfx.boop(); b.classList.add('nope'); setTimeout(() => b.classList.remove('nope'), 400); return; }
+    sfx.pop(); stop(); const i = +b.dataset.i;
+    pose(hero, 'walk'); place(i, true);
+    setTimeout(() => worldLevel(W, i), 900);
+  }));
+}
+
+function worldLevel(W, idx) {
+  const st = W.stations[idx];
+  return runStages({
+    bg: regionBG(st.bg || W.bg),
+    chip: st.chip,
+    cls: `world-${W.id} ${st.review ? 'is-review' : ''}`,
+    stages: st.stages(),
+    statId: `${W.id}-${st.id}`,
+    extra: { worldId: W.id },
+    complete: (stars) => { const p = wprog(W); p.done[st.id] = Math.max(p.done[st.id] || 0, stars); },
+    exit: () => { save(); worldMap(W); },
+    finish: () => worldMap(W, Math.min(W.stations.length - 1, idx + 1)),
   });
 }
 

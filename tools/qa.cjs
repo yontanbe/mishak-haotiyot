@@ -93,7 +93,7 @@ async function playStage(page, key, where) {
       await click(page, '.balloon:not(.done)');
     } else {
       // בחירה: choice, tile, כן/לא
-      if (!(await click(page, '[data-ok="1"]:not(.right):not(.done):not(.popped)'))) { /* מחכים לקול או לאנימציה */ }
+      if (!(await click(page, '[data-ok="1"]:not(.right):not(.done):not(.popped)'))) await click(page, '.tap-me:not(.done)');
     }
     await page.waitForTimeout(350);
   }
@@ -109,7 +109,7 @@ async function playStage(page, key, where) {
   page.on('console', (m) => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) note('page', 'console', m.text()); });
   page.on('response', (r) => { if (r.status() >= 400 && !/fonts\.g/.test(r.url())) note('net', String(r.status()), r.url().replace(BASE, '')); });
   await page.goto(`${BASE}?qa=1`);
-  await page.evaluate(() => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true } })));
+  await page.evaluate(() => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true }, worlds: { size: { done: {}, seen: true }, where: { done: {}, seen: true }, english: { done: {}, seen: true }, animals: { done: {}, seen: true } } })));
   await page.goto(`${BASE}?qa=1`);
   await page.waitForTimeout(800);
   await inspect(page, 'home');
@@ -117,7 +117,7 @@ async function playStage(page, key, where) {
   let stations = 0;
   while (stations < LIMIT) {
     // מהבית: ממשיכים במסע
-    if (await page.$('.home-screen')) await click(page, WORLD === 'colors' ? '.play-colors' : '.play');
+    if (await page.$('.home-screen')) await click(page, WORLD === 'colors' ? '.play-colors' : WORLD === 'letters' ? '.play' : `.play-world[data-w="${WORLD}"]`);
     await page.waitForTimeout(1200);
     if (await page.$('.map-screen')) { await click(page, '.node.current'); await page.waitForTimeout(1500); }
     if (await page.$('.travel-screen')) { await page.waitForTimeout(800); await inspect(page, `travel-${stations}`); await click(page, '.travel-screen .skip'); }
@@ -149,6 +149,6 @@ async function playStage(page, key, where) {
   await click(page, '.album'); await page.waitForTimeout(800); await inspect(page, 'album');
   const prog = await page.evaluate(() => JSON.parse(localStorage.getItem('alefbet-quest-v1')));
   fs.writeFileSync(`qa-report-${WORLD}.json`, JSON.stringify({ mode: MODE, world: WORLD, stations, letters: Object.keys(prog.done).length, reviews: Object.keys(prog.reviews || {}).length, issues }, null, 1));
-  console.log(`\nstations ${stations}, letters done ${Object.keys(prog.done).length}, reviews ${Object.keys(prog.reviews || {}).length}, colors done ${Object.keys(prog.colors?.done || {}).length}, color reviews ${Object.keys(prog.colors?.reviews || {}).length}, issues ${issues.length}`);
+  console.log(`\nstations ${stations}, letters done ${Object.keys(prog.done).length}, reviews ${Object.keys(prog.reviews || {}).length}, colors done ${Object.keys(prog.colors?.done || {}).length}, color reviews ${Object.keys(prog.colors?.reviews || {}).length}, world stations ${Object.values(prog.worlds || {}).map((w) => Object.keys(w.done).length).join('/')}, issues ${issues.length}`);
   await browser.close();
 })();
