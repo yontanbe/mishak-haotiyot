@@ -41,6 +41,7 @@ async function inspect(page, where) {
     });
     // 4. בועת הדיבור חותכת או נחתכת
     document.querySelectorAll('.bubble-anchor .speech').forEach((el) => {
+      if (getComputedStyle(el.closest('.bubble-anchor')).opacity === '0') return; // מוסתרת בכוונה בזמן הליכה
       const r = el.getBoundingClientRect();
       if (r.left < -4 || r.right > W + 4 || r.top < -4) out.push(['bubble-cut', `"${el.textContent.trim().slice(0, 30)}"`]);
     });
