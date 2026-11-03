@@ -3,6 +3,11 @@ import { STAGES, REVIEW_STAGES } from './stages.js';
 import { COLORS, COLOR_BY_ID, CUI, colorLines, COLOR_REVIEW_AFTER } from './colors-data.js';
 import { colorStages, COLOR_REVIEW_STAGES, splashSVG } from './colors-stages.js';
 import { WORLDS } from './worlds-stages.js';
+import { HE_MORE, EN_WORLDS } from './more-stages.js';
+import { EN_UI } from './more-data.js';
+// עולמות בצד העברית (בלי פרק הניסיון באנגלית, שעבר לצד האנגלית) ובצד האנגלית
+const HE_WORLDS = [...WORLDS.filter((W) => W.id !== 'english'), ...HE_MORE];
+const ALL_WORLDS = [...WORLDS, ...HE_MORE, ...EN_WORLDS];
 import { say, stop, sfx, settings, textOf, unlockAudio } from './audio.js';
 import { heroHTML, pose, setBase, friendHTML } from './hero.js';
 import * as P from './progress.js';
@@ -62,30 +67,54 @@ const regionBG = (id, sky = ['#bfe9ff', '#fff6e0']) => `background-image:url(img
 const regionOf = (l) => REGIONS.find((r) => r.id === l.region);
 
 // ---------- מסך הבית ----------
+// ---------- בחירת שפה: עברית (לימוד עברית) או English (אנגלית לדוברי עברית) ----------
+function langSelect() {
+  stop();
+  app.innerHTML = `
+  <section class="screen lang-screen" style="${regionBG('home')}">
+    <div class="lang-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
+    <div class="lang-cards">
+      <button class="lang-card he" data-lang="he"><span class="lc-flag">א ב ג</span><b>עִבְרִית</b><small>אוֹתִיּוֹת, צְבָעִים, מִסְפָּרִים, סִפּוּרִים וְשִׁירִים</small></button>
+      <button class="lang-card en" data-lang="en"><span class="lc-flag" dir="ltr">A B C</span><b>English</b><small>לוֹמְדִים אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</small></button>
+    </div>
+  </section>`;
+  const hero = app.querySelector('.hero');
+  setBase(hero, 'wave');
+  showBubble(app.querySelector('.bubble-anchor'), EN_UI.langPick);
+  app.querySelector('.lang-screen').addEventListener('pointerdown', () => { unlockAudio(); }, { once: true });
+  setTimeout(() => { if (navigator.userActivation?.hasBeenActive) talk(hero, app.querySelector('.bubble-anchor'), ['ui/langPick'], EN_UI.langPick); }, 400);
+  app.querySelectorAll('.lang-card').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); prog.lang = b.dataset.lang; save(); home(); }));
+}
+
 function home() {
   stop();
+  if (!prog.lang) return langSelect();
+  const en = prog.lang === 'en';
   const next = PATH[nextIndex()];
   const started = doneCount() > 0;
   const nextLabel = next.type === 'review' ? 'הַתַּחֲנָה הַבָּאָה: חֲזָרָה 🔁' : `הַתַּחֲנָה הַבָּאָה: הָאוֹת ${next.l.ch}`;
+  const card = (W) => `<button class="world-card play-world world-${W.id}" data-w="${W.id}"><span class="wc-ico">${W.icon}</span><span class="wc-t">${W.title}</span><small>${wCount(W)}/${W.stations.length}</small></button>`;
   app.innerHTML = `
-  <section class="screen home-screen" style="${regionBG('home')}">
+  <section class="screen home-screen ${en ? 'home-en' : ''}" style="${regionBG(en ? 'english' : 'home')}">
     <div class="home-logo">
-      <h1><span>מִשְׂחַק</span> <span>הָאוֹתִיּוֹת</span> <span class="ab">א-ב</span></h1>
-      <p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>
+      ${en ? '<h1><span dir="ltr">English</span> <span>עִם</span> <span class="ab">לוּלָה</span></h1><p>לוֹמְדִים אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</p>'
+        : '<h1><span>מִשְׂחַק</span> <span>הָאוֹתִיּוֹת</span> <span class="ab">א-ב</span></h1><p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>'}
     </div>
-    ${scorePanel()}
+    ${en ? '' : scorePanel()}
     <div class="home-stage">
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
         <div class="bubble-anchor home-bubble"></div>
-        <div class="worlds-grid">
+        <div class="worlds-grid ${en ? 'en' : ''}">
+          ${en ? EN_WORLDS.map(card).join('') : `
           <button class="world-card play world-letters"><span class="wc-ico">א</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : '27 אוֹתִיּוֹת'}</small></button>
           <button class="world-card play-colors world-colors"><span class="wc-ico">🎨</span><span class="wc-t">צְבָעִים</span><small>${colorsDone()}/${COLORS.length}</small></button>
-          ${WORLDS.map((W) => `<button class="world-card play-world world-${W.id}" data-w="${W.id}"><span class="wc-ico">${W.icon}</span><span class="wc-t">${W.title}</span><small>${wCount(W)}/${W.stations.length}</small></button>`).join('')}
+          ${HE_WORLDS.map(card).join('')}`}
         </div>
         <div class="home-row">
-          <button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>
+          ${en ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
           <button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>${doneCount()}/27</small></span></button>
+          <button class="mega small lang-switch"><span class="mega-ico">🌐</span><span class="mega-txt">${en ? 'עִבְרִית' : 'English'}</span></button>
         </div>
       </nav>
     </div>
@@ -94,10 +123,12 @@ function home() {
   const hero = app.querySelector('.hero');
   const bubble = app.querySelector('.bubble-anchor');
   setBase(hero, 'wave');
-  showBubble(bubble, UI.homeHello);
+  const helloKey = en ? 'enHome' : 'homeHello';
+  const helloText = en ? EN_UI.enHome : UI.homeHello;
+  showBubble(bubble, helloText);
   // הדפדפן מאפשר קול רק אחרי נגיעה, אז לולה מברכת בנגיעה הראשונה
   let greeted = false;
-  const greet = () => { if (greeted) return; greeted = true; unlockAudio(); talk(hero, bubble, ['ui/homeHello'], UI.homeHello); };
+  const greet = () => { if (greeted) return; greeted = true; unlockAudio(); talk(hero, bubble, [`ui/${helloKey}`], helloText); };
   setTimeout(() => { if (navigator.userActivation?.hasBeenActive) greet(); }, 500);
   let tapN = 0;
   hero.onclick = () => {
@@ -106,14 +137,15 @@ function home() {
     const k = `tapLula${1 + (tapN++ % 3)}`;
     talk(hero, bubble, [`ui/${k}`], UI[k]);
   };
-  app.querySelector('.play').onclick = () => {
+  app.querySelector('.play')?.addEventListener('click', () => {
     unlockAudio(); sfx.pop();
     if (!prog.seenStory) storyIntro(); else go(PATH[nextIndex()]);
-  };
-  app.querySelector('.map').onclick = () => { unlockAudio(); sfx.pop(); map(); };
-  app.querySelector('.play-colors').onclick = () => { unlockAudio(); sfx.pop(); colorsMap(); };
-  app.querySelectorAll('.play-world').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); worldMap(WORLDS.find((W) => W.id === b.dataset.w)); }));
+  });
+  app.querySelector('.map')?.addEventListener('click', () => { unlockAudio(); sfx.pop(); map(); });
+  app.querySelector('.play-colors')?.addEventListener('click', () => { unlockAudio(); sfx.pop(); colorsMap(); });
+  app.querySelectorAll('.play-world').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); worldMap(ALL_WORLDS.find((W) => W.id === b.dataset.w)); }));
   app.querySelector('.album').onclick = () => { unlockAudio(); sfx.pop(); album(); };
+  app.querySelector('.lang-switch').onclick = () => { sfx.pop(); prog.lang = en ? 'he' : 'en'; save(); home(); };
   app.querySelector('.gear').onclick = parents;
 }
 

@@ -7,6 +7,7 @@ const fs = require('fs');
 
 const MODE = process.argv[2] || 'desktop';
 const WORLD = process.argv[4] || 'letters'; // letters | colors
+const WORLD_IDS = ['size', 'where', 'english', 'animals', 'numbers', 'math', 'stories', 'songs', 'en-hello', 'en-colors', 'en-numbers', 'en-body', 'en-family', 'en-animals', 'en-food', 'en-feelings', 'en-actions', 'en-abc'];
 const LIMIT = +(process.argv[3] || 999);
 const VIEW = MODE === 'phone' ? { width: 390, height: 844 } : { width: 1280, height: 800 };
 const BASE = process.env.QA_URL || 'http://localhost:8080/';
@@ -109,7 +110,7 @@ async function playStage(page, key, where) {
   page.on('console', (m) => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) note('page', 'console', m.text()); });
   page.on('response', (r) => { if (r.status() >= 400 && !/fonts\.g/.test(r.url())) note('net', String(r.status()), r.url().replace(BASE, '')); });
   await page.goto(`${BASE}?qa=1`);
-  await page.evaluate(() => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true }, worlds: { size: { done: {}, seen: true }, where: { done: {}, seen: true }, english: { done: {}, seen: true }, animals: { done: {}, seen: true } } })));
+  await page.evaluate(({ ids, lang }) => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true }, worlds: Object.fromEntries(ids.map((w) => [w, { done: {}, seen: true }])), lang })), { ids: WORLD_IDS, lang: WORLD.startsWith('en-') ? 'en' : 'he' });
   await page.goto(`${BASE}?qa=1`);
   await page.waitForTimeout(800);
   await inspect(page, 'home');

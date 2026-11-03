@@ -366,7 +366,7 @@ const WHERE_STATIONS = [
 // =====================================================================
 // אנגלית ראשונה
 // =====================================================================
-const enKey = (w) => w.en.toLowerCase();
+const enKey = (w) => w.en.toLowerCase().replace(/[^a-z]/g, '');
 const enHTML = (w) => (w.hex ? `<span class="en-splash">${splashSVG(w.hex)}</span>` : w.n ? `<span class="en-count">${'🍎'.repeat(w.n)}<b>${w.n}</b></span>` : `<span class="en-emoji">${w.e}</span>`);
 const enCap = (w) => `<span class="en-cap"><bdi dir="ltr">${w.en}</bdi> <small>${w.he}</small></span>`;
 function englishStation(set, i) {
@@ -460,3 +460,6 @@ export const WORLDS = [
   { id: 'animals', title: 'מַסַּע הַחַיּוֹת', icon: '🦁', bg: 'jungle', friend: 'img/friends/alef.webp', sub: 'חַיּוֹת, בָּתִּים וְשִׁיר',
     story: [{ clip: UI('anStory1'), text: ANIMALS.ui.anStory1, pose: 'talk' }, { clip: UI('anStory2'), text: ANIMALS.ui.anStory2, pose: 'jump' }], stations: ANIMAL_STATIONS },
 ];
+
+// ערכת המשחקים, לשימוש עולמות נוספים
+export const K = { intro, cards, choose, sortBins, order, tapAll, echo, song, celebrate, pic, dotsAt, englishStation, enHTML, OWL, CAT };
