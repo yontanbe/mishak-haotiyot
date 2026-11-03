@@ -223,7 +223,7 @@ canvas.trace.glow { box-shadow: 0 0 0 10px var(--yellow), var(--shadow); }
 /* זיכרון */
 .memory { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; width: 100%; max-width: min(640px, 66vh); }
 .mcard { aspect-ratio: 3 / 3.4; position: relative; perspective: 800px; }
-.mcard span { position: absolute; inset: 0; display: grid; place-items: center; border-radius: 24px; box-shadow: var(--shadow); backface-visibility: hidden; transition: transform .45s; }
+.mcard > span { position: absolute; inset: 0; display: grid; place-items: center; border-radius: 24px; box-shadow: var(--shadow); backface-visibility: hidden; transition: transform .45s; }
 .mcard .back { background: linear-gradient(135deg, var(--purple), var(--pink)); font-size: 2.6rem; }
 .mcard .front { background: #fff; transform: rotateY(180deg); font-size: clamp(2.6rem, 10vw, 4.4rem); }
 .mcard .front.word { font-family: var(--heb); font-weight: 800; font-size: clamp(1.4rem, 5vw, 2.2rem); }
