@@ -620,3 +620,6 @@ canvas.trace { width: min(66vh, 60vw); height: min(66vh, 60vw); }
   .big-tiles { display: grid; grid-template-columns: repeat(2, auto); gap: 3vmin; }
   .big-tiles .tile { width: min(30vw, 15vh); height: min(30vw, 15vh); }
 }
+/* בזמן שלולה נכנסת למסך הבועה מחכה שתגיע */
+.side-hero.walk-in .bubble-anchor { animation: bubble-wait 2.4s steps(1, end) both; }
+@keyframes bubble-wait { from { opacity: 0; } to { opacity: 1; } }
