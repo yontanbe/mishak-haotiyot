@@ -46,6 +46,7 @@ function bubbleText(ctx, text) {
 }
 
 async function good(ctx) {
+  ctx.right?.();
   ctx.lulaReact('happy');
   sfx.ding();
   ctx.confettiSmall();
@@ -442,12 +443,13 @@ async function celebrate(ctx) {
       <div class="stars">${[1, 2, 3].map((s) => `<span class="${s <= stars ? 'on' : ''}" style="--i:${s}">⭐</span>`).join('')}</div>
       <div class="sticker">${ctx.friendHTML('sticker-pic')}<span>${l.friend.name} הִצְטָרֵף לָאַלְבּוֹם!</span></div>
     </div>`;
+  ctx.complete(stars);
+  ctx.body.querySelector('.celebrate .stars').insertAdjacentHTML('beforebegin', ctx.scoreHTML?.() || '');
   ctx.base('jump');
   ctx.confettiBig();
   sfx.tada();
   bubbleText(ctx, lines.done);
   await ctx.talk(`L/${l.id}/done`);
-  ctx.complete(stars);
   await continueBtn(ctx, 'חוֹזְרִים לַמַּפָּה');
 }
 

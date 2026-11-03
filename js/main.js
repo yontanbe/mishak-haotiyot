@@ -2,16 +2,15 @@ import { LETTERS, REGIONS, UI, letterLines } from './data.js';
 import { STAGES } from './stages.js';
 import { say, stop, sfx, settings, textOf, unlockAudio } from './audio.js';
 import { heroHTML, pose, setBase, friendHTML } from './hero.js';
+import * as P from './progress.js';
 
 const app = document.getElementById('app');
-const KEY = 'alefbet-quest-v1';
 const DEV = new URLSearchParams(location.search).has('dev');
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ---------- התקדמות (נשמרת בדפדפן) ----------
-const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
-let prog = { done: {}, ...load() };
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(prog)); } catch {} };
+let prog = P.loadProgress();
+const save = () => P.saveProgress(prog);
 const firstUndone = () => { const i = LETTERS.findIndex((l) => !prog.done[l.id]); return i === -1 ? LETTERS.length - 1 : i; };
 const unlockedIndex = () => (DEV || prog.all ? LETTERS.length - 1 : firstUndone());
 const doneCount = () => Object.keys(prog.done).length;
@@ -57,6 +56,7 @@ function home() {
       <h1><span>מִשְׂחַק</span> <span>הָאוֹתִיּוֹת</span> <span class="ab">א-ב</span></h1>
       <p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>
     </div>
+    ${scorePanel()}
     <div class="home-stage">
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
@@ -282,6 +282,10 @@ async function level(l) {
   setBase(hero, 'wave');
   let mistakes = 0;
   let aborted = false;
+  let curStage = 'story';
+  const since = P.startLetter(prog, l.id);
+  save();
+  const starsBefore = P.totalStars(prog);
   const ctx = {
     l,
     lines: letterLines(l),
@@ -299,12 +303,14 @@ async function level(l) {
     lulaReact: (kind) => (kind === 'dance' ? setBase(hero, 'jump') : pose(hero, kind === 'happy' ? 'jump' : kind, 1300)),
     confettiSmall: () => confetti(24),
     confettiBig: () => confetti(140),
-    mistake: () => mistakes++,
+    mistake: () => { mistakes++; P.recordWrong(prog, l.id, curStage); save(); },
+    right: () => { P.recordRight(prog, l.id); save(); },
     stars: () => (mistakes <= 2 ? 3 : mistakes <= 6 ? 2 : 1),
-    complete: (stars) => { prog.done[l.id] = Math.max(prog.done[l.id] || 0, stars); save(); },
+    complete: (stars) => { P.completeLetter(prog, l.id, stars); P.recordTime(prog, l.id, since); save(); },
+    scoreHTML: () => celebrateScore(starsBefore),
     friendHTML: (cls) => friendHTML(l, cls),
   };
-  scr.querySelector('.home').onclick = () => { aborted = true; stop(); map(); };
+  scr.querySelector('.home').onclick = () => { aborted = true; stop(); P.recordTime(prog, l.id, since); save(); map(); };
   let skip = null;
   if (DEV) scr.querySelector('.skip').onclick = () => skip && skip();
   let vi = 0;
@@ -314,6 +320,7 @@ async function level(l) {
     showBubble(bubble, '');
     ctx.foot.replaceChildren();
     scr.dataset.stage = st.key;
+    curStage = st.key.startsWith('word') ? 'word' : st.key;
     ctx.body.className = `stage-body st-${st.key}`;
     ctx.body.innerHTML = '';
     setBase(hero, st.pose || 'wave');
@@ -326,7 +333,32 @@ async function level(l) {
   map(Math.min(LETTERS.length - 1, idx + 1));
 }
 
-// ---------- פינת הורים ----------
+// ---------- ציון לילד ----------
+function scorePanel() {
+  const stars = P.totalStars(prog);
+  const r = P.rankOf(stars);
+  const pct = Math.round((P.lettersDone(prog) / LETTERS.length) * 100);
+  return `
+    <div class="score-panel">
+      <div class="rank"><span class="rank-ico">${r.icon}</span><span class="rank-name">${r.name}</span></div>
+      <div class="score-stars">⭐ <b>${stars}</b><small>/${P.maxStars}</small></div>
+      <div class="score-bar" title="${pct}%"><i style="width:${pct}%"></i><span>${P.lettersDone(prog)}/${LETTERS.length} אוֹתִיּוֹת</span></div>
+      ${r.next ? `<div class="score-next">עוֹד ${r.toNext} ⭐ לְ${r.next.icon}</div>` : ''}
+    </div>`;
+}
+
+function celebrateScore(before) {
+  const now = P.totalStars(prog);
+  const r0 = P.rankOf(before);
+  const r1 = P.rankOf(now);
+  const up = r1.name !== r0.name;
+  return `<div class="cele-score ${up ? 'rank-up' : ''}">
+    <span>⭐ ${now}/${P.maxStars}</span>
+    <span class="rank-chip">${r1.icon} ${r1.name}${up ? ' 🎉' : ''}</span>
+  </div>`;
+}
+
+// ---------- פינת הורים: שער חשבון ואז דוח התקדמות ----------
 function parents() {
   const a = Math.floor(2 + Math.random() * 7); const b = Math.floor(2 + Math.random() * 7);
   const d = document.createElement('dialog');
@@ -341,26 +373,91 @@ function parents() {
   d.onclose = () => {
     const ok = d.returnValue === 'ok' && +d.querySelector('input').value === a * b;
     d.remove();
-    if (!ok) return;
-    const p = document.createElement('dialog');
-    p.className = 'parents';
-    p.innerHTML = `<form method="dialog">
-      <h3>פינת הורים</h3>
-      <p>נמצאו ${doneCount()} אותיות מתוך 27.</p>
-      <label class="check"><input type="checkbox" name="mute" ${settings.muted ? 'checked' : ''}> השתקת קול</label>
-      <label class="check"><input type="checkbox" name="all" ${prog.all ? 'checked' : ''}> פתיחת כל האותיות</label>
-      <div class="row"><button value="save" class="btn small">שמירה</button><button value="reset" class="btn small ghost">איפוס התקדמות</button></div>
-    </form>`;
-    document.body.append(p);
-    p.showModal();
-    p.onclose = () => {
-      if (p.returnValue === 'reset') prog = { done: {} };
-      else if (p.returnValue === 'save') {
-        settings.muted = p.querySelector('[name=mute]').checked;
-        prog.all = p.querySelector('[name=all]').checked;
-      }
-      save(); p.remove(); home();
-    };
+    if (ok) report();
+  };
+}
+
+const STAGE_NAMES = {
+  story: 'סיפור', letter: 'הכרות עם האות', syl: 'הברות', trace: 'ציור האות', word: 'מילים חדשות',
+  bubbles: 'זיהוי האות בבועות', which: 'צליל פותח (איזו תמונה מתחילה באות)', listen: 'הבנת מילה שומעים',
+  hidden: 'חיפוש האות', memory: 'התאמת תמונה ומילה', build: 'השלמת אות חסרה', yesno: 'האם המילה מתחילה באות',
+  party: 'מסיבת מילים', celebrate: 'חגיגה',
+};
+const fmtDate = (t) => (t ? new Date(t).toLocaleDateString('he-IL', { day: 'numeric', month: 'numeric', year: '2-digit' }) : '');
+
+function report() {
+  stop();
+  const o = P.overall(prog);
+  const r = P.rankOf(o.stars);
+  const practice = P.needsPractice(prog);
+  const weak = P.weakStages(prog).slice(0, 3);
+  const cell = (l) => {
+    const s = prog.stats[l.id];
+    const st = prog.done[l.id] || 0;
+    const acc = P.accuracy(s);
+    const cls = !st ? (s ? 'started' : 'none') : st === 3 && (acc == null || acc >= 80) ? 'great' : st >= 2 && (acc == null || acc >= 65) ? 'ok' : 'weak';
+    return `<div class="rep-cell ${cls}">
+      <b>${l.ch}</b>
+      <span class="rep-stars">${st ? '⭐'.repeat(st) : s ? 'התחיל' : ''}</span>
+      ${acc != null ? `<span class="rep-acc">${acc}%</span>` : ''}
+      ${s && s.secs ? `<span class="rep-time">${Math.max(1, Math.round(s.secs / 60))} ד׳</span>` : ''}
+    </div>`;
+  };
+  app.innerHTML = `
+  <section class="screen report-screen">
+    <header class="map-head">
+      <button class="btn round home" aria-label="בית">🏠</button>
+      <h2>דוח התקדמות</h2>
+    </header>
+    <div class="report-body">
+      <div class="rep-cards">
+        <div class="rep-card"><small>אותיות שהושלמו</small><b>${o.letters}/${LETTERS.length}</b><div class="score-bar"><i style="width:${o.percent}%"></i></div></div>
+        <div class="rep-card"><small>כוכבים</small><b>⭐ ${o.stars}/${P.maxStars}</b><span>${r.icon} ${r.name}</span></div>
+        <div class="rep-card"><small>דיוק בתשובות</small><b>${o.accuracy == null ? '–' : o.accuracy + '%'}</b><span>תשובות נכונות מכלל הניסיונות</span></div>
+        <div class="rep-card"><small>זמן משחק</small><b>${o.minutes} דק׳</b><span>${prog.lastPlayed ? 'שוחק לאחרונה ' + fmtDate(prog.lastPlayed) : 'עוד לא שוחק'}</span></div>
+      </div>
+
+      <h3>כל האותיות</h3>
+      <div class="rep-legend"><span class="great">מצוין</span><span class="ok">טוב</span><span class="weak">כדאי לחזור</span><span class="started">התחיל</span><span class="none">עוד לא</span></div>
+      <div class="rep-grid">${LETTERS.map(cell).join('')}</div>
+
+      <h3>מה כדאי לתרגל</h3>
+      ${practice.length ? `<p>האותיות: <b class="rep-letters">${practice.map((l) => l.ch).join(' ')}</b>. אפשר לחזור אליהן מהמפה, כל אות פתוחה לשחק שוב, והכוכבים נשמרים לפי התוצאה הטובה ביותר.</p>` : '<p>אין כרגע אותיות שדורשות חזרה. כל הכבוד!</p>'}
+      ${weak.length ? `<p>סוגי המשחקים עם הכי הרבה טעויות: ${weak.map(([k, n]) => `${STAGE_NAMES[k] || k} (${n})`).join(', ')}.</p>` : ''}
+      <p class="rep-note">איך מחושב הציון: בכל אות 3 כוכבים עד 2 טעויות, 2 כוכבים עד 6 טעויות, וכוכב אחד מעבר לזה. הדיוק הוא אחוז התשובות הנכונות מכל הניסיונות במשחקי הבחירה.</p>
+
+      <h3>גיבוי והעברה למכשיר אחר</h3>
+      <p>ההתקדמות נשמרת בדפדפן הזה. כדי להמשיך במכשיר אחר, מעתיקים את הקוד ומדביקים אותו שם בפינת ההורים.</p>
+      <textarea class="rep-code" readonly>${P.exportCode(prog)}</textarea>
+      <div class="row"><button class="btn small copy">העתקת קוד</button></div>
+      <textarea class="rep-import" placeholder="הדביקו כאן קוד גיבוי"></textarea>
+      <div class="row"><button class="btn small ghost load">טעינת קוד</button><span class="rep-msg"></span></div>
+
+      <h3>הגדרות</h3>
+      <label class="check"><input type="checkbox" class="mute" ${settings.muted ? 'checked' : ''}> השתקת קול</label>
+      <label class="check"><input type="checkbox" class="all" ${prog.all ? 'checked' : ''}> פתיחת כל האותיות (לבחירה חופשית)</label>
+      <div class="row"><button class="btn small ghost reset">איפוס כל ההתקדמות</button></div>
+    </div>
+  </section>`;
+  const $ = (s) => app.querySelector(s);
+  const msg = (t) => ($('.rep-msg').textContent = t);
+  $('.home').onclick = home;
+  $('.mute').onchange = (e) => { settings.muted = e.target.checked; };
+  $('.all').onchange = (e) => { prog.all = e.target.checked; save(); };
+  $('.copy').onclick = async () => {
+    const t = $('.rep-code');
+    try { await navigator.clipboard.writeText(t.value); msg('הקוד הועתק'); } catch { t.select(); document.execCommand('copy'); msg('הקוד הועתק'); }
+  };
+  $('.load').onclick = () => {
+    try {
+      const p = P.importCode($('.rep-import').value);
+      if (!confirm('לטעון את ההתקדמות מהקוד? ההתקדמות הנוכחית בדפדפן הזה תוחלף.')) return;
+      prog = p; save(); report();
+    } catch { msg('הקוד לא תקין'); }
+  };
+  $('.reset').onclick = () => {
+    if (!confirm('למחוק את כל ההתקדמות? אי אפשר לבטל את זה.')) return;
+    prog = P.resetProgress(); save(); report();
   };
 }
 
