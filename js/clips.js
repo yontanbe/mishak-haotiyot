@@ -1,5 +1,5 @@
 // רשימת כל קטעי השמע. משותף לדפדפן (טקסט גיבוי לדיבור) ולמחולל השמע (tools/build-clips.mjs).
-import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, regionLine, parseWord, ttsText } from './data.js';
+import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, wordSentence, regionLine, parseWord, ttsText } from './data.js';
 
 const TEACHER = 'Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text';
 const FRIEND = 'Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text';
@@ -9,7 +9,8 @@ const SYL = 'Read these Hebrew syllables aloud slowly with a short pause between
 
 export function buildClips() {
   const clips = [];
-  const add = (id, text, voice = HERO.voice, style = TEACHER) => clips.push({ id, text: ttsText(text), voice, style });
+  // alt: נוסח חלופי אם מנוע הקול מסרב לנוסח הראשון
+  const add = (id, text, voice = HERO.voice, style = TEACHER, alt) => clips.push({ id, text: ttsText(text), voice, style, ...(alt ? { alt: ttsText(alt) } : {}) });
   for (const [k, t] of Object.entries(UI)) add(`ui/${k}`, t);
   for (const r of REGIONS) add(`region/${r.id}`, regionLine(r));
   for (const l of LETTERS) {
@@ -18,13 +19,13 @@ export function buildClips() {
     add(`L/${l.id}/friend1`, lines.friend1, l.friend.voice, FRIEND);
     add(`L/${l.id}/friend2`, lines.friend2, l.friend.voice, FRIEND);
     add(`L/${l.id}/intro`, lines.intro);
-    add(`L/${l.id}/syl`, lines.syl, HERO.voice, SYL);
+    add(`L/${l.id}/syl`, lines.syl, HERO.voice, SYL, l.syl.map((x) => (/[\u05B8\u05B6]/.test(x) && !/[וי]/.test(x) && !l.final ? `${x}ה` : x)).join(', ') + '.');
     add(`L/${l.id}/yesno`, lines.yesno);
     add(`L/${l.id}/done`, lines.done);
     l.words.forEach((s, i) => {
       const { w } = parseWord(s);
       add(`L/${l.id}/w${i}`, w, HERO.voice, WORD);
-      add(`L/${l.id}/s${i}`, wordChant(l, w), HERO.voice, CHANT);
+      add(`L/${l.id}/s${i}`, wordChant(l, w), HERO.voice, CHANT, wordSentence(l, w));
     });
   }
   return clips;

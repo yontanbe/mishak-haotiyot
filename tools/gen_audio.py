@@ -30,14 +30,19 @@ def to_mp3(pcm):
 
 
 def tts(c):
-    for _ in range(2):
-        r, err = run_composio_tool("GEMINI_GENERATE_CONTENT", {  # noqa: F821 (workbench helper)
-            "model": "gemini-2.5-flash-preview-tts", "voice_name": c["voice"],
-            "prompt": f"{c['style']}: {c['text']}"})
-        a = (r or {}).get("data", {}).get("audio_data")
-        if a:
-            return to_mp3(base64.b64decode(a))
-        time.sleep(1)
+    # קודם הנוסח הרגיל, ואם המנוע מסרב (finishReason OTHER) הנוסח החלופי
+    variants = [(c["style"], c["text"])]
+    if c.get("alt"):
+        variants.append(("Read aloud in Hebrew, warmly and clearly, for a young child learning to read. Read only this text", c["alt"]))
+    for style, text in variants:
+        for _ in range(2):
+            r, err = run_composio_tool("GEMINI_GENERATE_CONTENT", {  # noqa: F821 (workbench helper)
+                "model": "gemini-2.5-flash-preview-tts", "voice_name": c["voice"],
+                "prompt": f"{style}: {text}"})
+            a = (r or {}).get("data", {}).get("audio_data")
+            if a:
+                return to_mp3(base64.b64decode(a))
+            time.sleep(1)
     FAILS[c["id"]] = FAILS.get(c["id"], 0) + 1
     return None
 

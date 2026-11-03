@@ -351,7 +351,8 @@
   "id": "L/alef/syl",
   "text": "אָ... אִי... אוּ... אוֹ... אֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אָה, אִי, אוּ, אוֹ, אֶה."
  },
  {
   "id": "L/alef/yesno",
@@ -375,7 +376,8 @@
   "id": "L/alef/s0",
   "text": "אַ... אַ... אַרְיֵה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אַרְיֵה. הַמִּלָּה אַרְיֵה מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w1",
@@ -387,7 +389,8 @@
   "id": "L/alef/s1",
   "text": "אֲ... אֲ... אֲבַטִּיח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֲבַטִּיח. הַמִּלָּה אֲבַטִּיח מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w2",
@@ -399,7 +402,8 @@
   "id": "L/alef/s2",
   "text": "אַ... אַ... אַגָּס!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אַגָּס. הַמִּלָּה אַגָּס מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w3",
@@ -411,7 +415,8 @@
   "id": "L/alef/s3",
   "text": "אֳ... אֳ... אֳנִיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֳנִיָּה. הַמִּלָּה אֳנִיָּה מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w4",
@@ -423,7 +428,8 @@
   "id": "L/alef/s4",
   "text": "אוֹ... אוֹ... אוֹפַנַּיִם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אוֹפַנַּיִם. הַמִּלָּה אוֹפַנַּיִם מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w5",
@@ -435,7 +441,8 @@
   "id": "L/alef/s5",
   "text": "אֹ... אֹ... אֹזֶן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֹזֶן. הַמִּלָּה אֹזֶן מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w6",
@@ -447,7 +454,8 @@
   "id": "L/alef/s6",
   "text": "אִ... אִ... אִמָּא!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אִמָּא. הַמִּלָּה אִמָּא מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/alef/w7",
@@ -459,7 +467,8 @@
   "id": "L/alef/s7",
   "text": "אֶ... אֶ... אֶצְבַּע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֶצְבַּע. הַמִּלָּה אֶצְבַּע מַתְחִילָה בָּאוֹת אָלֶף."
  },
  {
   "id": "L/bet/name",
@@ -489,7 +498,8 @@
   "id": "L/bet/syl",
   "text": "בָּ... בִּי... בּוּ... בּוֹ... בֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "בָּה, בִּי, בּוּ, בּוֹ, בֶּה."
  },
  {
   "id": "L/bet/yesno",
@@ -513,7 +523,8 @@
   "id": "L/bet/s0",
   "text": "בַּ... בַּ... בַּיִת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בַּיִת. הַמִּלָּה בַּיִת מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w1",
@@ -525,7 +536,8 @@
   "id": "L/bet/s1",
   "text": "בָּ... בָּ... בָּנָנָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בָּנָנָה. הַמִּלָּה בָּנָנָה מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w2",
@@ -537,7 +549,8 @@
   "id": "L/bet/s2",
   "text": "בַּ... בַּ... בַּלּוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בַּלּוֹן. הַמִּלָּה בַּלּוֹן מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w3",
@@ -549,7 +562,8 @@
   "id": "L/bet/s3",
   "text": "בַּ... בַּ... בַּרְוָז!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בַּרְוָז. הַמִּלָּה בַּרְוָז מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w4",
@@ -561,7 +575,8 @@
   "id": "L/bet/s4",
   "text": "בֵּי... בֵּי... בֵּיצָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בֵּיצָה. הַמִּלָּה בֵּיצָה מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w5",
@@ -573,7 +588,8 @@
   "id": "L/bet/s5",
   "text": "בַּ... בַּ... בַּקְבּוּק!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בַּקְבּוּק. הַמִּלָּה בַּקְבּוּק מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w6",
@@ -585,7 +601,8 @@
   "id": "L/bet/s6",
   "text": "בֻּ... בֻּ... בֻּבָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בֻּבָּה. הַמִּלָּה בֻּבָּה מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/bet/w7",
@@ -597,7 +614,8 @@
   "id": "L/bet/s7",
   "text": "בְּרוֹ... בְּרוֹ... בְּרוֹקוֹלִי!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בְּרוֹקוֹלִי. הַמִּלָּה בְּרוֹקוֹלִי מַתְחִילָה בָּאוֹת בֵּית."
  },
  {
   "id": "L/gimel/name",
@@ -627,7 +645,8 @@
   "id": "L/gimel/syl",
   "text": "גָּ... גִּי... גּוּ... גּוֹ... גֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "גָּה, גִּי, גּוּ, גּוֹ, גֶּה."
  },
  {
   "id": "L/gimel/yesno",
@@ -651,7 +670,8 @@
   "id": "L/gimel/s0",
   "text": "גָּ... גָּ... גָּמָל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גָּמָל. הַמִּלָּה גָּמָל מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w1",
@@ -663,7 +683,8 @@
   "id": "L/gimel/s1",
   "text": "גְּלִי... גְּלִי... גְּלִידָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גְּלִידָה. הַמִּלָּה גְּלִידָה מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w2",
@@ -675,7 +696,8 @@
   "id": "L/gimel/s2",
   "text": "גֶּ... גֶּ... גֶּזֶר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גֶּזֶר. הַמִּלָּה גֶּזֶר מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w3",
@@ -687,7 +709,8 @@
   "id": "L/gimel/s3",
   "text": "גִּי... גִּי... גִּיטָרָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גִּיטָרָה. הַמִּלָּה גִּיטָרָה מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w4",
@@ -699,7 +722,8 @@
   "id": "L/gimel/s4",
   "text": "גֶּ... גֶּ... גֶּשֶׁם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גֶּשֶׁם. הַמִּלָּה גֶּשֶׁם מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w5",
@@ -711,7 +735,8 @@
   "id": "L/gimel/s5",
   "text": "גְּבִי... גְּבִי... גְּבִינָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גְּבִינָה. הַמִּלָּה גְּבִינָה מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w6",
@@ -723,7 +748,8 @@
   "id": "L/gimel/s6",
   "text": "גּוֹ... גּוֹ... גּוֹרִילָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גּוֹרִילָה. הַמִּלָּה גּוֹרִילָה מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/gimel/w7",
@@ -735,7 +761,8 @@
   "id": "L/gimel/s7",
   "text": "גַּ... גַּ... גַּלְגַּל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גַּלְגַּל. הַמִּלָּה גַּלְגַּל מַתְחִילָה בָּאוֹת גִּימֶל."
  },
  {
   "id": "L/dalet/name",
@@ -765,7 +792,8 @@
   "id": "L/dalet/syl",
   "text": "דָּ... דִּי... דּוּ... דּוֹ... דֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "דָּה, דִּי, דּוּ, דּוֹ, דֶּה."
  },
  {
   "id": "L/dalet/yesno",
@@ -789,7 +817,8 @@
   "id": "L/dalet/s0",
   "text": "דָּ... דָּ... דָּג!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דָּג. הַמִּלָּה דָּג מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w1",
@@ -801,7 +830,8 @@
   "id": "L/dalet/s1",
   "text": "דֹּ... דֹּ... דֹּב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דֹּב. הַמִּלָּה דֹּב מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w2",
@@ -813,7 +843,8 @@
   "id": "L/dalet/s2",
   "text": "דְּבוֹ... דְּבוֹ... דְּבוֹרָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דְּבוֹרָה. הַמִּלָּה דְּבוֹרָה מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w3",
@@ -825,7 +856,8 @@
   "id": "L/dalet/s3",
   "text": "דֶּ... דֶּ... דֶּלֶת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דֶּלֶת. הַמִּלָּה דֶּלֶת מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w4",
@@ -837,7 +869,8 @@
   "id": "L/dalet/s4",
   "text": "דְּלַ... דְּלַ... דְּלַעַת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דְּלַעַת. הַמִּלָּה דְּלַעַת מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w5",
@@ -849,7 +882,8 @@
   "id": "L/dalet/s5",
   "text": "דִּי... דִּי... דִּינוֹזָאוּר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דִּינוֹזָאוּר. הַמִּלָּה דִּינוֹזָאוּר מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w6",
@@ -861,7 +895,8 @@
   "id": "L/dalet/s6",
   "text": "דֶּ... דֶּ... דֶּגֶל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דֶּגֶל. הַמִּלָּה דֶּגֶל מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/dalet/w7",
@@ -873,7 +908,8 @@
   "id": "L/dalet/s7",
   "text": "דֻּ... דֻּ... דֻּבְדְּבָן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דֻּבְדְּבָן. הַמִּלָּה דֻּבְדְּבָן מַתְחִילָה בָּאוֹת דָּלֶת."
  },
  {
   "id": "L/he/name",
@@ -903,7 +939,8 @@
   "id": "L/he/syl",
   "text": "הָ... הִי... הוּ... הוֹ... הֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "הָה, הִי, הוּ, הוֹ, הֶה."
  },
  {
   "id": "L/he/yesno",
@@ -927,7 +964,8 @@
   "id": "L/he/s0",
   "text": "הִי... הִי... הִיפּוֹפּוֹטָם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הִיפּוֹפּוֹטָם. הַמִּלָּה הִיפּוֹפּוֹטָם מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/he/w1",
@@ -939,7 +977,8 @@
   "id": "L/he/s1",
   "text": "ה... ה... הַר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הַר. הַמִּלָּה הַר מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/he/w2",
@@ -951,7 +990,8 @@
   "id": "L/he/s2",
   "text": "הֶ... הֶ... הֶלִיקוֹפְּטֶר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הֶלִיקוֹפְּטֶר. הַמִּלָּה הֶלִיקוֹפְּטֶר מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/he/w3",
@@ -963,7 +1003,8 @@
   "id": "L/he/s3",
   "text": "ה... ה... הַמְבּוּרְגֶר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הַמְבּוּרְגֶר. הַמִּלָּה הַמְבּוּרְגֶר מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/he/w4",
@@ -975,7 +1016,8 @@
   "id": "L/he/s4",
   "text": "ה... ה... הַפְתָּעָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הַפְתָּעָה. הַמִּלָּה הַפְתָּעָה מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/he/w5",
@@ -987,7 +1029,8 @@
   "id": "L/he/s5",
   "text": "הוֹ... הוֹ... הוֹדוּ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "הוֹדוּ. הַמִּלָּה הוֹדוּ מַתְחִילָה בָּאוֹת הֵא."
  },
  {
   "id": "L/vav/name",
@@ -1017,7 +1060,8 @@
   "id": "L/vav/syl",
   "text": "וָ... וִי... וֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "וָ, וִי, וֶ."
  },
  {
   "id": "L/vav/yesno",
@@ -1041,7 +1085,8 @@
   "id": "L/vav/s0",
   "text": "וֶ... וֶ... וֶרֶד!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וֶרֶד. הַמִּלָּה וֶרֶד מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/vav/w1",
@@ -1053,7 +1098,8 @@
   "id": "L/vav/s1",
   "text": "וָ... וָ... וָפֶל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וָפֶל. הַמִּלָּה וָפֶל מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/vav/w2",
@@ -1065,7 +1111,8 @@
   "id": "L/vav/s2",
   "text": "וֶ... וֶ... וֶסְט!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וֶסְט. הַמִּלָּה וֶסְט מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/vav/w3",
@@ -1077,7 +1124,8 @@
   "id": "L/vav/s3",
   "text": "וָ... וָ... וָו!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וָו. הַמִּלָּה וָו מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/vav/w4",
@@ -1089,7 +1137,8 @@
   "id": "L/vav/s4",
   "text": "וָ... וָ... וָן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וָן. הַמִּלָּה וָן מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/vav/w5",
@@ -1101,7 +1150,8 @@
   "id": "L/vav/s5",
   "text": "וַ... וַ... וַנִּיל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "וַנִּיל. הַמִּלָּה וַנִּיל מַתְחִילָה בָּאוֹת וָו."
  },
  {
   "id": "L/zayin/name",
@@ -1131,7 +1181,8 @@
   "id": "L/zayin/syl",
   "text": "זָ... זִי... זוּ... זוֹ... זֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "זָה, זִי, זוּ, זוֹ, זֶה."
  },
  {
   "id": "L/zayin/yesno",
@@ -1155,7 +1206,8 @@
   "id": "L/zayin/s0",
   "text": "זֶ... זֶ... זֶבְּרָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זֶבְּרָה. הַמִּלָּה זֶבְּרָה מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w1",
@@ -1167,7 +1219,8 @@
   "id": "L/zayin/s1",
   "text": "זְאֵ... זְאֵ... זְאֵב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זְאֵב. הַמִּלָּה זְאֵב מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w2",
@@ -1179,7 +1232,8 @@
   "id": "L/zayin/s2",
   "text": "זַ... זַ... זַיִת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זַיִת. הַמִּלָּה זַיִת מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w3",
@@ -1191,7 +1245,8 @@
   "id": "L/zayin/s3",
   "text": "זְבוּ... זְבוּ... זְבוּב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זְבוּב. הַמִּלָּה זְבוּב מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w4",
@@ -1203,7 +1258,8 @@
   "id": "L/zayin/s4",
   "text": "זָ... זָ... זָהָב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זָהָב. הַמִּלָּה זָהָב מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w5",
@@ -1215,7 +1271,8 @@
   "id": "L/zayin/s5",
   "text": "זִ... זִ... זִקּוּקִים!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זִקּוּקִים. הַמִּלָּה זִקּוּקִים מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w6",
@@ -1227,7 +1284,8 @@
   "id": "L/zayin/s6",
   "text": "זַ... זַ... זַחַל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זַחַל. הַמִּלָּה זַחַל מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/zayin/w7",
@@ -1239,7 +1297,8 @@
   "id": "L/zayin/s7",
   "text": "זֵ... זֵ... זֵר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "זֵר. הַמִּלָּה זֵר מַתְחִילָה בָּאוֹת זַיִן."
  },
  {
   "id": "L/het/name",
@@ -1269,7 +1328,8 @@
   "id": "L/het/syl",
   "text": "חָ... חִי... חוּ... חוֹ... חֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "חָה, חִי, חוּ, חוֹ, חֶה."
  },
  {
   "id": "L/het/yesno",
@@ -1293,7 +1353,8 @@
   "id": "L/het/s0",
   "text": "חָ... חָ... חָתוּל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חָתוּל. הַמִּלָּה חָתוּל מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w1",
@@ -1305,7 +1366,8 @@
   "id": "L/het/s1",
   "text": "חֲ... חֲ... חֲמוֹר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חֲמוֹר. הַמִּלָּה חֲמוֹר מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w2",
@@ -1317,7 +1379,8 @@
   "id": "L/het/s2",
   "text": "חָ... חָ... חָלָב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חָלָב. הַמִּלָּה חָלָב מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w3",
@@ -1329,7 +1392,8 @@
   "id": "L/het/s3",
   "text": "חִ... חִ... חִלָּזוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חִלָּזוֹן. הַמִּלָּה חִלָּזוֹן מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w4",
@@ -1341,7 +1405,8 @@
   "id": "L/het/s4",
   "text": "חֲ... חֲ... חֲנֻכִּיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חֲנֻכִּיָּה. הַמִּלָּה חֲנֻכִּיָּה מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w5",
@@ -1353,7 +1418,8 @@
   "id": "L/het/s5",
   "text": "ח... ח... חַלּוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חַלּוֹן. הַמִּלָּה חַלּוֹן מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/het/w6",
@@ -1365,7 +1431,8 @@
   "id": "L/het/s6",
   "text": "ח... ח... חַלָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חַלָּה. הַמִּלָּה חַלָּה מַתְחִילָה בָּאוֹת חֵית."
  },
  {
   "id": "L/tet/name",
@@ -1395,7 +1462,8 @@
   "id": "L/tet/syl",
   "text": "טָ... טִי... טוּ... טוֹ... טֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "טָה, טִי, טוּ, טוֹ, טֶה."
  },
  {
   "id": "L/tet/yesno",
@@ -1419,7 +1487,8 @@
   "id": "L/tet/s0",
   "text": "טַ... טַ... טַוָּס!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טַוָּס. הַמִּלָּה טַוָּס מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w1",
@@ -1431,7 +1500,8 @@
   "id": "L/tet/s1",
   "text": "טִי... טִי... טִיל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טִיל. הַמִּלָּה טִיל מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w2",
@@ -1443,7 +1513,8 @@
   "id": "L/tet/s2",
   "text": "טֶ... טֶ... טֶלֶפוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טֶלֶפוֹן. הַמִּלָּה טֶלֶפוֹן מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w3",
@@ -1455,7 +1526,8 @@
   "id": "L/tet/s3",
   "text": "טְרַ... טְרַ... טְרַקְטוֹר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טְרַקְטוֹר. הַמִּלָּה טְרַקְטוֹר מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w4",
@@ -1467,7 +1539,8 @@
   "id": "L/tet/s4",
   "text": "טַ... טַ... טַבַּעַת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טַבַּעַת. הַמִּלָּה טַבַּעַת מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w5",
@@ -1479,7 +1552,8 @@
   "id": "L/tet/s5",
   "text": "טֶ... טֶ... טֶלֶוִיזְיָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טֶלֶוִיזְיָה. הַמִּלָּה טֶלֶוִיזְיָה מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/tet/w6",
@@ -1491,7 +1565,8 @@
   "id": "L/tet/s6",
   "text": "טִ... טִ... טִפָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "טִפָּה. הַמִּלָּה טִפָּה מַתְחִילָה בָּאוֹת טֵית."
  },
  {
   "id": "L/yod/name",
@@ -1521,7 +1596,8 @@
   "id": "L/yod/syl",
   "text": "יָ... יוּ... יוֹ... יֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "יָ, יוּ, יוֹ, יֶ."
  },
  {
   "id": "L/yod/yesno",
@@ -1545,7 +1621,8 @@
   "id": "L/yod/s0",
   "text": "יַ... יַ... יַנְשׁוּף!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יַנְשׁוּף. הַמִּלָּה יַנְשׁוּף מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w1",
@@ -1557,7 +1634,8 @@
   "id": "L/yod/s1",
   "text": "יָ... יָ... יָרֵח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יָרֵח. הַמִּלָּה יָרֵח מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w2",
@@ -1569,7 +1647,8 @@
   "id": "L/yod/s2",
   "text": "יֶ... יֶ... יֶלֶד!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יֶלֶד. הַמִּלָּה יֶלֶד מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w3",
@@ -1581,7 +1660,8 @@
   "id": "L/yod/s3",
   "text": "יַ... יַ... יַלְדָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יַלְדָּה. הַמִּלָּה יַלְדָּה מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w4",
@@ -1593,7 +1673,8 @@
   "id": "L/yod/s4",
   "text": "יָ... יָ... יָד!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יָד. הַמִּלָּה יָד מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w5",
@@ -1605,7 +1686,8 @@
   "id": "L/yod/s5",
   "text": "יוֹ... יוֹ... יוֹנָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יוֹנָה. הַמִּלָּה יוֹנָה מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w6",
@@ -1617,7 +1699,8 @@
   "id": "L/yod/s6",
   "text": "יַ... יַ... יַהֲלוֹם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יַהֲלוֹם. הַמִּלָּה יַהֲלוֹם מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/yod/w7",
@@ -1629,7 +1712,8 @@
   "id": "L/yod/s7",
   "text": "יַ... יַ... יַעַר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יַעַר. הַמִּלָּה יַעַר מַתְחִילָה בָּאוֹת יוֹד."
  },
  {
   "id": "L/kaf/name",
@@ -1659,7 +1743,8 @@
   "id": "L/kaf/syl",
   "text": "כָּ... כִּי... כּוּ... כּוֹ... כֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "כָּה, כִּי, כּוּ, כּוֹ, כֶּה."
  },
  {
   "id": "L/kaf/yesno",
@@ -1683,7 +1768,8 @@
   "id": "L/kaf/s0",
   "text": "כֶּ... כֶּ... כֶּלֶב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כֶּלֶב. הַמִּלָּה כֶּלֶב מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w1",
@@ -1695,7 +1781,8 @@
   "id": "L/kaf/s1",
   "text": "כַּ... כַּ... כַּדּוּר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כַּדּוּר. הַמִּלָּה כַּדּוּר מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w2",
@@ -1707,7 +1794,8 @@
   "id": "L/kaf/s2",
   "text": "כּוֹ... כּוֹ... כּוֹבַע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כּוֹבַע. הַמִּלָּה כּוֹבַע מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w3",
@@ -1719,7 +1807,8 @@
   "id": "L/kaf/s3",
   "text": "כּוֹ... כּוֹ... כּוֹכָב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כּוֹכָב. הַמִּלָּה כּוֹכָב מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w4",
@@ -1731,7 +1820,8 @@
   "id": "L/kaf/s4",
   "text": "כִּ... כִּ... כִּסֵּא!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כִּסֵּא. הַמִּלָּה כִּסֵּא מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w5",
@@ -1743,7 +1833,8 @@
   "id": "L/kaf/s5",
   "text": "כֶּ... כֶּ... כֶּתֶר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כֶּתֶר. הַמִּלָּה כֶּתֶר מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w6",
@@ -1755,7 +1846,8 @@
   "id": "L/kaf/s6",
   "text": "כַּ... כַּ... כַּפִּית!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כַּפִּית. הַמִּלָּה כַּפִּית מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/kaf/w7",
@@ -1767,7 +1859,8 @@
   "id": "L/kaf/s7",
   "text": "כָּ... כָּ... כָּרִישׁ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כָּרִישׁ. הַמִּלָּה כָּרִישׁ מַתְחִילָה בָּאוֹת כַּף."
  },
  {
   "id": "L/lamed/name",
@@ -1797,7 +1890,8 @@
   "id": "L/lamed/syl",
   "text": "לָ... לִי... לוּ... לוֹ... לֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "לָה, לִי, לוּ, לוֹ, לֶה."
  },
  {
   "id": "L/lamed/yesno",
@@ -1821,7 +1915,8 @@
   "id": "L/lamed/s0",
   "text": "לְטָ... לְטָ... לְטָאָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לְטָאָה. הַמִּלָּה לְטָאָה מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w1",
@@ -1833,7 +1928,8 @@
   "id": "L/lamed/s1",
   "text": "לִי... לִי... לִימוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לִימוֹן. הַמִּלָּה לִימוֹן מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w2",
@@ -1845,7 +1941,8 @@
   "id": "L/lamed/s2",
   "text": "לֵ... לֵ... לֵב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לֵב. הַמִּלָּה לֵב מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w3",
@@ -1857,7 +1954,8 @@
   "id": "L/lamed/s3",
   "text": "לֶ... לֶ... לֶחֶם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לֶחֶם. הַמִּלָּה לֶחֶם מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w4",
@@ -1869,7 +1967,8 @@
   "id": "L/lamed/s4",
   "text": "לַ... לַ... לַיְלָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לַיְלָה. הַמִּלָּה לַיְלָה מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w5",
@@ -1881,7 +1980,8 @@
   "id": "L/lamed/s5",
   "text": "לִ... לִ... לִוְיָתָן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לִוְיָתָן. הַמִּלָּה לִוְיָתָן מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/lamed/w6",
@@ -1893,7 +1993,8 @@
   "id": "L/lamed/s6",
   "text": "לֶ... לֶ... לֶגוֹ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "לֶגוֹ. הַמִּלָּה לֶגוֹ מַתְחִילָה בָּאוֹת לָמֶד."
  },
  {
   "id": "L/mem/name",
@@ -1923,7 +2024,8 @@
   "id": "L/mem/syl",
   "text": "מָ... מִי... מוּ... מוֹ... מֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "מָה, מִי, מוּ, מוֹ, מֶה."
  },
  {
   "id": "L/mem/yesno",
@@ -1947,7 +2049,8 @@
   "id": "L/mem/s0",
   "text": "מְדוּ... מְדוּ... מְדוּזָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מְדוּזָה. הַמִּלָּה מְדוּזָה מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w1",
@@ -1959,7 +2062,8 @@
   "id": "L/mem/s1",
   "text": "מִ... מִ... מִטְרִיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מִטְרִיָּה. הַמִּלָּה מִטְרִיָּה מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w2",
@@ -1971,7 +2075,8 @@
   "id": "L/mem/s2",
   "text": "מְכוֹ... מְכוֹ... מְכוֹנִית!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מְכוֹנִית. הַמִּלָּה מְכוֹנִית מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w3",
@@ -1983,7 +2088,8 @@
   "id": "L/mem/s3",
   "text": "מַ... מַ... מַפְתֵּח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַפְתֵּח. הַמִּלָּה מַפְתֵּח מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w4",
@@ -1995,7 +2101,8 @@
   "id": "L/mem/s4",
   "text": "מִ... מִ... מִטָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מִטָּה. הַמִּלָּה מִטָּה מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w5",
@@ -2007,7 +2114,8 @@
   "id": "L/mem/s5",
   "text": "מַ... מַ... מַחְשֵׁב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַחְשֵׁב. הַמִּלָּה מַחְשֵׁב מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w6",
@@ -2019,7 +2127,8 @@
   "id": "L/mem/s6",
   "text": "מַ... מַ... מַזְלֵג!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַזְלֵג. הַמִּלָּה מַזְלֵג מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/mem/w7",
@@ -2031,7 +2140,8 @@
   "id": "L/mem/s7",
   "text": "מַ... מַ... מַמְתָּק!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַמְתָּק. הַמִּלָּה מַמְתָּק מַתְחִילָה בָּאוֹת מֵם."
  },
  {
   "id": "L/nun/name",
@@ -2061,7 +2171,8 @@
   "id": "L/nun/syl",
   "text": "נָ... נִי... נוּ... נוֹ... נֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "נָה, נִי, נוּ, נוֹ, נֶה."
  },
  {
   "id": "L/nun/yesno",
@@ -2085,7 +2196,8 @@
   "id": "L/nun/s0",
   "text": "נְמָ... נְמָ... נְמָלָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נְמָלָה. הַמִּלָּה נְמָלָה מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w1",
@@ -2097,7 +2209,8 @@
   "id": "L/nun/s1",
   "text": "נָ... נָ... נָמֵר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נָמֵר. הַמִּלָּה נָמֵר מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w2",
@@ -2109,7 +2222,8 @@
   "id": "L/nun/s2",
   "text": "נָ... נָ... נָחָשׁ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נָחָשׁ. הַמִּלָּה נָחָשׁ מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w3",
@@ -2121,7 +2235,8 @@
   "id": "L/nun/s3",
   "text": "נֵ... נֵ... נֵר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נֵר. הַמִּלָּה נֵר מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w4",
@@ -2133,7 +2248,8 @@
   "id": "L/nun/s4",
   "text": "נַ... נַ... נַעַל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נַעַל. הַמִּלָּה נַעַל מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w5",
@@ -2145,7 +2261,8 @@
   "id": "L/nun/s5",
   "text": "נוֹ... נוֹ... נוֹצָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נוֹצָה. הַמִּלָּה נוֹצָה מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/nun/w6",
@@ -2157,7 +2274,8 @@
   "id": "L/nun/s6",
   "text": "נְסִי... נְסִי... נְסִיכָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "נְסִיכָה. הַמִּלָּה נְסִיכָה מַתְחִילָה בָּאוֹת נוּן."
  },
  {
   "id": "L/samekh/name",
@@ -2187,7 +2305,8 @@
   "id": "L/samekh/syl",
   "text": "סָ... סִי... סוּ... סוֹ... סֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "סָה, סִי, סוּ, סוֹ, סֶה."
  },
  {
   "id": "L/samekh/yesno",
@@ -2211,7 +2330,8 @@
   "id": "L/samekh/s0",
   "text": "סְנַ... סְנַ... סְנַאִי!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סְנַאִי. הַמִּלָּה סְנַאִי מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w1",
@@ -2223,7 +2343,8 @@
   "id": "L/samekh/s1",
   "text": "סוּ... סוּ... סוּס!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סוּס. הַמִּלָּה סוּס מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w2",
@@ -2235,7 +2356,8 @@
   "id": "L/samekh/s2",
   "text": "סֵ... סֵ... סֵפֶר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סֵפֶר. הַמִּלָּה סֵפֶר מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w3",
@@ -2247,7 +2369,8 @@
   "id": "L/samekh/s3",
   "text": "סַ... סַ... סַל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סַל. הַמִּלָּה סַל מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w4",
@@ -2259,7 +2382,8 @@
   "id": "L/samekh/s4",
   "text": "סֻ... סֻ... סֻכָּרִיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סֻכָּרִיָּה. הַמִּלָּה סֻכָּרִיָּה מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w5",
@@ -2271,7 +2395,8 @@
   "id": "L/samekh/s5",
   "text": "סִי... סִי... סִירָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סִירָה. הַמִּלָּה סִירָה מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w6",
@@ -2283,7 +2408,8 @@
   "id": "L/samekh/s6",
   "text": "סַ... סַ... סַבְתָּא!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סַבְתָּא. הַמִּלָּה סַבְתָּא מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/samekh/w7",
@@ -2295,7 +2421,8 @@
   "id": "L/samekh/s7",
   "text": "סַ... סַ... סַבָּא!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סַבָּא. הַמִּלָּה סַבָּא מַתְחִילָה בָּאוֹת סָמֶךְ."
  },
  {
   "id": "L/ayin/name",
@@ -2325,7 +2452,8 @@
   "id": "L/ayin/syl",
   "text": "עָ... עִי... עוּ... עוֹ... עֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "עָה, עִי, עוּ, עוֹ, עֶה."
  },
  {
   "id": "L/ayin/yesno",
@@ -2349,7 +2477,8 @@
   "id": "L/ayin/s0",
   "text": "ע... ע... עַכְבָּר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עַכְבָּר. הַמִּלָּה עַכְבָּר מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w1",
@@ -2361,7 +2490,8 @@
   "id": "L/ayin/s1",
   "text": "עוּ... עוּ... עוּגָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עוּגָה. הַמִּלָּה עוּגָה מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w2",
@@ -2373,7 +2503,8 @@
   "id": "L/ayin/s2",
   "text": "עָ... עָ... עָנָן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עָנָן. הַמִּלָּה עָנָן מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w3",
@@ -2385,7 +2516,8 @@
   "id": "L/ayin/s3",
   "text": "ע... ע... עַיִן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עַיִן. הַמִּלָּה עַיִן מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w4",
@@ -2397,7 +2529,8 @@
   "id": "L/ayin/s4",
   "text": "עֵ... עֵ... עֵז!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עֵז. הַמִּלָּה עֵז מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w5",
@@ -2409,7 +2542,8 @@
   "id": "L/ayin/s5",
   "text": "ע... ע... עַגְבָנִיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עַגְבָנִיָּה. הַמִּלָּה עַגְבָנִיָּה מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w6",
@@ -2421,7 +2555,8 @@
   "id": "L/ayin/s6",
   "text": "עִ... עִ... עִפָּרוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עִפָּרוֹן. הַמִּלָּה עִפָּרוֹן מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/ayin/w7",
@@ -2433,7 +2568,8 @@
   "id": "L/ayin/s7",
   "text": "עֲ... עֲ... עֲפִיפוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עֲפִיפוֹן. הַמִּלָּה עֲפִיפוֹן מַתְחִילָה בָּאוֹת עַיִן."
  },
  {
   "id": "L/pe/name",
@@ -2463,7 +2599,8 @@
   "id": "L/pe/syl",
   "text": "פָּ... פִּי... פּוּ... פּוֹ... פֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "פָּה, פִּי, פּוּ, פּוֹ, פֶּה."
  },
  {
   "id": "L/pe/yesno",
@@ -2487,7 +2624,8 @@
   "id": "L/pe/s0",
   "text": "פִּי... פִּי... פִּיל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פִּיל. הַמִּלָּה פִּיל מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w1",
@@ -2499,7 +2637,8 @@
   "id": "L/pe/s1",
   "text": "פֶּ... פֶּ... פֶּרַח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פֶּרַח. הַמִּלָּה פֶּרַח מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w2",
@@ -2511,7 +2650,8 @@
   "id": "L/pe/s2",
   "text": "פַּ... פַּ... פַּרְפַּר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פַּרְפַּר. הַמִּלָּה פַּרְפַּר מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w3",
@@ -2523,7 +2663,8 @@
   "id": "L/pe/s3",
   "text": "פָּ... פָּ... פָּרָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פָּרָה. הַמִּלָּה פָּרָה מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w4",
@@ -2535,7 +2676,8 @@
   "id": "L/pe/s4",
   "text": "פִּי... פִּי... פִּיצָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פִּיצָה. הַמִּלָּה פִּיצָה מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w5",
@@ -2547,7 +2689,8 @@
   "id": "L/pe/s5",
   "text": "פַּ... פַּ... פַּנְדָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פַּנְדָּה. הַמִּלָּה פַּנְדָּה מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w6",
@@ -2559,7 +2702,8 @@
   "id": "L/pe/s6",
   "text": "פִּי... פִּי... פִּינְגְּוִין!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פִּינְגְּוִין. הַמִּלָּה פִּינְגְּוִין מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/pe/w7",
@@ -2571,7 +2715,8 @@
   "id": "L/pe/s7",
   "text": "פֶּ... פֶּ... פֶּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פֶּה. הַמִּלָּה פֶּה מַתְחִילָה בָּאוֹת פֵּא."
  },
  {
   "id": "L/tsadi/name",
@@ -2601,7 +2746,8 @@
   "id": "L/tsadi/syl",
   "text": "צָ... צִי... צוּ... צוֹ... צֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "צָה, צִי, צוּ, צוֹ, צֶה."
  },
  {
   "id": "L/tsadi/yesno",
@@ -2625,7 +2771,8 @@
   "id": "L/tsadi/s0",
   "text": "צָ... צָ... צָב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צָב. הַמִּלָּה צָב מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w1",
@@ -2637,7 +2784,8 @@
   "id": "L/tsadi/s1",
   "text": "צִ... צִ... צִפּוֹר!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צִפּוֹר. הַמִּלָּה צִפּוֹר מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w2",
@@ -2649,7 +2797,8 @@
   "id": "L/tsadi/s2",
   "text": "צְפַ... צְפַ... צְפַרְדֵּע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צְפַרְדֵּע. הַמִּלָּה צְפַרְדֵּע מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w3",
@@ -2661,7 +2810,8 @@
   "id": "L/tsadi/s3",
   "text": "צַ... צַ... צַלַּחַת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צַלַּחַת. הַמִּלָּה צַלַּחַת מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w4",
@@ -2673,7 +2823,8 @@
   "id": "L/tsadi/s4",
   "text": "צֶ... צֶ... צֶבַע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צֶבַע. הַמִּלָּה צֶבַע מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w5",
@@ -2685,7 +2836,8 @@
   "id": "L/tsadi/s5",
   "text": "צַ... צַ... צַעֲצוּע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צַעֲצוּע. הַמִּלָּה צַעֲצוּע מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/tsadi/w6",
@@ -2697,7 +2849,8 @@
   "id": "L/tsadi/s6",
   "text": "צָ... צָ... צָהֹב!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "צָהֹב. הַמִּלָּה צָהֹב מַתְחִילָה בָּאוֹת צָדִי."
  },
  {
   "id": "L/qof/name",
@@ -2727,7 +2880,8 @@
   "id": "L/qof/syl",
   "text": "קָ... קִי... קוּ... קוֹ... קֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "קָה, קִי, קוּ, קוֹ, קֶה."
  },
  {
   "id": "L/qof/yesno",
@@ -2751,7 +2905,8 @@
   "id": "L/qof/s0",
   "text": "קִ... קִ... קִפּוֹד!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קִפּוֹד. הַמִּלָּה קִפּוֹד מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w1",
@@ -2763,7 +2918,8 @@
   "id": "L/qof/s1",
   "text": "קוֹ... קוֹ... קוֹף!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קוֹף. הַמִּלָּה קוֹף מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w2",
@@ -2775,7 +2931,8 @@
   "id": "L/qof/s2",
   "text": "קַ... קַ... קַקְטוּס!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קַקְטוּס. הַמִּלָּה קַקְטוּס מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w3",
@@ -2787,7 +2944,8 @@
   "id": "L/qof/s3",
   "text": "קֶ... קֶ... קֶשֶׁת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קֶשֶׁת. הַמִּלָּה קֶשֶׁת מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w4",
@@ -2799,7 +2957,8 @@
   "id": "L/qof/s4",
   "text": "קֻ... קֻ... קֻבִּיָּה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קֻבִּיָּה. הַמִּלָּה קֻבִּיָּה מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w5",
@@ -2811,7 +2970,8 @@
   "id": "L/qof/s5",
   "text": "קֶ... קֶ... קֶרַח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קֶרַח. הַמִּלָּה קֶרַח מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/qof/w6",
@@ -2823,7 +2983,8 @@
   "id": "L/qof/s6",
   "text": "קַ... קַ... קַרְנַף!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קַרְנַף. הַמִּלָּה קַרְנַף מַתְחִילָה בָּאוֹת קוֹף."
  },
  {
   "id": "L/resh/name",
@@ -2853,7 +3014,8 @@
   "id": "L/resh/syl",
   "text": "רָ... רִי... רוּ... רוֹ... רֶ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "רָה, רִי, רוּ, רוֹ, רֶה."
  },
  {
   "id": "L/resh/yesno",
@@ -2877,7 +3039,8 @@
   "id": "L/resh/s0",
   "text": "רוֹ... רוֹ... רוֹבּוֹט!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רוֹבּוֹט. הַמִּלָּה רוֹבּוֹט מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w1",
@@ -2889,7 +3052,8 @@
   "id": "L/resh/s1",
   "text": "רַ... רַ... רַכֶּבֶת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רַכֶּבֶת. הַמִּלָּה רַכֶּבֶת מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w2",
@@ -2901,7 +3065,8 @@
   "id": "L/resh/s2",
   "text": "רֶ... רֶ... רֶגֶל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רֶגֶל. הַמִּלָּה רֶגֶל מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w3",
@@ -2913,7 +3078,8 @@
   "id": "L/resh/s3",
   "text": "רוּ... רוּ... רוּח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רוּח. הַמִּלָּה רוּח מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w4",
@@ -2925,7 +3091,8 @@
   "id": "L/resh/s4",
   "text": "רַ... רַ... רַדְיוֹ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רַדְיוֹ. הַמִּלָּה רַדְיוֹ מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w5",
@@ -2937,7 +3104,8 @@
   "id": "L/resh/s5",
   "text": "רוֹ... רוֹ... רוֹפֵא!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רוֹפֵא. הַמִּלָּה רוֹפֵא מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/resh/w6",
@@ -2949,7 +3117,8 @@
   "id": "L/resh/s6",
   "text": "רִ... רִ... רִבּוּע!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "רִבּוּע. הַמִּלָּה רִבּוּע מַתְחִילָה בָּאוֹת רֵישׁ."
  },
  {
   "id": "L/shin/name",
@@ -2979,7 +3148,8 @@
   "id": "L/shin/syl",
   "text": "שָׁ... שִׁי... שׁוּ... שׁוֹ... שֶׁ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "שָׁה, שִׁי, שׁוּ, שׁוֹ, שֶׁה."
  },
  {
   "id": "L/shin/yesno",
@@ -3003,7 +3173,8 @@
   "id": "L/shin/s0",
   "text": "שׁוּ... שׁוּ... שׁוּעָל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שׁוּעָל. הַמִּלָּה שׁוּעָל מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w1",
@@ -3015,7 +3186,8 @@
   "id": "L/shin/s1",
   "text": "שֶׁ... שֶׁ... שֶׁמֶשׁ!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שֶׁמֶשׁ. הַמִּלָּה שֶׁמֶשׁ מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w2",
@@ -3027,7 +3199,8 @@
   "id": "L/shin/s2",
   "text": "שָׁ... שָׁ... שָׁעוֹן!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שָׁעוֹן. הַמִּלָּה שָׁעוֹן מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w3",
@@ -3039,7 +3212,8 @@
   "id": "L/shin/s3",
   "text": "שׁוֹ... שׁוֹ... שׁוֹקוֹלָד!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שׁוֹקוֹלָד. הַמִּלָּה שׁוֹקוֹלָד מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w4",
@@ -3051,7 +3225,8 @@
   "id": "L/shin/s4",
   "text": "שִׁ... שִׁ... שִׁנַּיִם!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שִׁנַּיִם. הַמִּלָּה שִׁנַּיִם מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w5",
@@ -3063,7 +3238,8 @@
   "id": "L/shin/s5",
   "text": "שֶׁ... שֶׁ... שֶׁלֶג!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שֶׁלֶג. הַמִּלָּה שֶׁלֶג מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/shin/w6",
@@ -3075,7 +3251,8 @@
   "id": "L/shin/s6",
   "text": "שִׂ... שִׂ... שִׂמְלָה!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שִׂמְלָה. הַמִּלָּה שִׂמְלָה מַתְחִילָה בָּאוֹת שִׁין."
  },
  {
   "id": "L/tav/name",
@@ -3105,7 +3282,8 @@
   "id": "L/tav/syl",
   "text": "תָּ... תִּי... תּוּ... תּוֹ... תֶּ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "תָּה, תִּי, תּוּ, תּוֹ, תֶּה."
  },
  {
   "id": "L/tav/yesno",
@@ -3129,7 +3307,8 @@
   "id": "L/tav/s0",
   "text": "תַּ... תַּ... תַּנִּין!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תַּנִּין. הַמִּלָּה תַּנִּין מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w1",
@@ -3141,7 +3320,8 @@
   "id": "L/tav/s1",
   "text": "תַּ... תַּ... תַּפּוּח!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תַּפּוּח. הַמִּלָּה תַּפּוּח מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w2",
@@ -3153,7 +3333,8 @@
   "id": "L/tav/s2",
   "text": "תּוּ... תּוּ... תּוּת!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תּוּת. הַמִּלָּה תּוּת מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w3",
@@ -3165,7 +3346,8 @@
   "id": "L/tav/s3",
   "text": "תֻּ... תֻּ... תֻּכִּי!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תֻּכִּי. הַמִּלָּה תֻּכִּי מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w4",
@@ -3177,7 +3359,8 @@
   "id": "L/tav/s4",
   "text": "תַּ... תַּ... תַּרְנְגוֹל!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תַּרְנְגוֹל. הַמִּלָּה תַּרְנְגוֹל מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w5",
@@ -3189,7 +3372,8 @@
   "id": "L/tav/s5",
   "text": "תִּי... תִּי... תִּינוֹק!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תִּינוֹק. הַמִּלָּה תִּינוֹק מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w6",
@@ -3201,7 +3385,8 @@
   "id": "L/tav/s6",
   "text": "תִּי... תִּי... תִּיק!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תִּיק. הַמִּלָּה תִּיק מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/tav/w7",
@@ -3213,7 +3398,8 @@
   "id": "L/tav/s7",
   "text": "תֹּ... תֹּ... תֹּף!",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "תֹּף. הַמִּלָּה תֹּף מַתְחִילָה בָּאוֹת תָּו."
  },
  {
   "id": "L/kaf-sofit/name",
@@ -3243,7 +3429,8 @@
   "id": "L/kaf-sofit/syl",
   "text": "אַךְ... אוֹךְ... אִיךְ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אַךְ, אוֹךְ, אִיךְ."
  },
  {
   "id": "L/kaf-sofit/yesno",
@@ -3267,7 +3454,8 @@
   "id": "L/kaf-sofit/s0",
   "text": "מֶלֶךְ! לֶךְ... לֶךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מֶלֶךְ. הַמִּלָּה מֶלֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/kaf-sofit/w1",
@@ -3279,7 +3467,8 @@
   "id": "L/kaf-sofit/s1",
   "text": "דֶּרֶךְ! רֶךְ... רֶךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דֶּרֶךְ. הַמִּלָּה דֶּרֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/kaf-sofit/w2",
@@ -3291,7 +3480,8 @@
   "id": "L/kaf-sofit/s2",
   "text": "בֶּרֶךְ! רֶךְ... רֶךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בֶּרֶךְ. הַמִּלָּה בֶּרֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/kaf-sofit/w3",
@@ -3303,7 +3493,8 @@
   "id": "L/kaf-sofit/s3",
   "text": "חִיּוּךְ! יּוּךְ... יּוּךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חִיּוּךְ. הַמִּלָּה חִיּוּךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/kaf-sofit/w4",
@@ -3315,7 +3506,8 @@
   "id": "L/kaf-sofit/s4",
   "text": "מַלְאָךְ! אָךְ... אָךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַלְאָךְ. הַמִּלָּה מַלְאָךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/kaf-sofit/w5",
@@ -3327,7 +3519,8 @@
   "id": "L/kaf-sofit/s5",
   "text": "כָּרִיךְ! רִיךְ... רִיךְ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כָּרִיךְ. הַמִּלָּה כָּרִיךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית."
  },
  {
   "id": "L/mem-sofit/name",
@@ -3357,7 +3550,8 @@
   "id": "L/mem-sofit/syl",
   "text": "אַם... אוֹם... אִים.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אַם, אוֹם, אִים."
  },
  {
   "id": "L/mem-sofit/yesno",
@@ -3381,7 +3575,8 @@
   "id": "L/mem-sofit/s0",
   "text": "יָם! יָם... יָם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "יָם. הַמִּלָּה יָם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/mem-sofit/w1",
@@ -3393,7 +3588,8 @@
   "id": "L/mem-sofit/s1",
   "text": "שָׁלוֹם! לוֹם... לוֹם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שָׁלוֹם. הַמִּלָּה שָׁלוֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/mem-sofit/w2",
@@ -3405,7 +3601,8 @@
   "id": "L/mem-sofit/s2",
   "text": "חֲלוֹם! לוֹם... לוֹם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חֲלוֹם. הַמִּלָּה חֲלוֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/mem-sofit/w3",
@@ -3417,7 +3614,8 @@
   "id": "L/mem-sofit/s3",
   "text": "אָדֹם! דֹם... דֹם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אָדֹם. הַמִּלָּה אָדֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/mem-sofit/w4",
@@ -3429,7 +3627,8 @@
   "id": "L/mem-sofit/s4",
   "text": "שָׁמַיִם! יִם... יִם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "שָׁמַיִם. הַמִּלָּה שָׁמַיִם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/mem-sofit/w5",
@@ -3441,7 +3640,8 @@
   "id": "L/mem-sofit/s5",
   "text": "מַיִם! יִם... יִם.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מַיִם. הַמִּלָּה מַיִם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית."
  },
  {
   "id": "L/nun-sofit/name",
@@ -3471,7 +3671,8 @@
   "id": "L/nun-sofit/syl",
   "text": "אַן... אוֹן... אִין.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אַן, אוֹן, אִין."
  },
  {
   "id": "L/nun-sofit/yesno",
@@ -3495,7 +3696,8 @@
   "id": "L/nun-sofit/s0",
   "text": "אֲוִירוֹן! רוֹן... רוֹן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֲוִירוֹן. הַמִּלָּה אֲוִירוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w1",
@@ -3507,7 +3709,8 @@
   "id": "L/nun-sofit/s1",
   "text": "דּוֹלְפִין! פִין... פִין.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "דּוֹלְפִין. הַמִּלָּה דּוֹלְפִין נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w2",
@@ -3519,7 +3722,8 @@
   "id": "L/nun-sofit/s2",
   "text": "אַרְמוֹן! מוֹן... מוֹן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אַרְמוֹן. הַמִּלָּה אַרְמוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w3",
@@ -3531,7 +3735,8 @@
   "id": "L/nun-sofit/s3",
   "text": "פַּעֲמוֹן! מוֹן... מוֹן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "פַּעֲמוֹן. הַמִּלָּה פַּעֲמוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w4",
@@ -3543,7 +3748,8 @@
   "id": "L/nun-sofit/s4",
   "text": "עִתּוֹן! תּוֹן... תּוֹן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עִתּוֹן. הַמִּלָּה עִתּוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w5",
@@ -3555,7 +3761,8 @@
   "id": "L/nun-sofit/s5",
   "text": "גַּן! גַּן... גַּן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "גַּן. הַמִּלָּה גַּן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/nun-sofit/w6",
@@ -3567,7 +3774,8 @@
   "id": "L/nun-sofit/s6",
   "text": "בַּלּוֹן! לּוֹן... לּוֹן.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בַּלּוֹן. הַמִּלָּה בַּלּוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית."
  },
  {
   "id": "L/pe-sofit/name",
@@ -3597,7 +3805,8 @@
   "id": "L/pe-sofit/syl",
   "text": "אַף... אוֹף... אִיף.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אַף, אוֹף, אִיף."
  },
  {
   "id": "L/pe-sofit/yesno",
@@ -3621,7 +3830,8 @@
   "id": "L/pe-sofit/s0",
   "text": "חוֹף! חוֹף... חוֹף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חוֹף. הַמִּלָּה חוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/pe-sofit/w1",
@@ -3633,7 +3843,8 @@
   "id": "L/pe-sofit/s1",
   "text": "אַף! אַף... אַף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אַף. הַמִּלָּה אַף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/pe-sofit/w2",
@@ -3645,7 +3856,8 @@
   "id": "L/pe-sofit/s2",
   "text": "כָּנָף! נָף... נָף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "כָּנָף. הַמִּלָּה כָּנָף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/pe-sofit/w3",
@@ -3657,7 +3869,8 @@
   "id": "L/pe-sofit/s3",
   "text": "עוֹף! עוֹף... עוֹף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עוֹף. הַמִּלָּה עוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/pe-sofit/w4",
@@ -3669,7 +3882,8 @@
   "id": "L/pe-sofit/s4",
   "text": "סוֹף! סוֹף... סוֹף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "סוֹף. הַמִּלָּה סוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/pe-sofit/w5",
@@ -3681,7 +3895,8 @@
   "id": "L/pe-sofit/s5",
   "text": "קוֹף! קוֹף... קוֹף.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קוֹף. הַמִּלָּה קוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/name",
@@ -3711,7 +3926,8 @@
   "id": "L/tsadi-sofit/syl",
   "text": "אַץ... אוֹץ... אִיץ.",
   "voice": "Leda",
-  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text",
+  "alt": "אַץ, אוֹץ, אִיץ."
  },
  {
   "id": "L/tsadi-sofit/yesno",
@@ -3735,7 +3951,8 @@
   "id": "L/tsadi-sofit/s0",
   "text": "עֵץ! עֵץ... עֵץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "עֵץ. הַמִּלָּה עֵץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/w1",
@@ -3747,7 +3964,8 @@
   "id": "L/tsadi-sofit/s1",
   "text": "מִיץ! מִיץ... מִיץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "מִיץ. הַמִּלָּה מִיץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/w2",
@@ -3759,7 +3977,8 @@
   "id": "L/tsadi-sofit/s2",
   "text": "חֵץ! חֵץ... חֵץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "חֵץ. הַמִּלָּה חֵץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/w3",
@@ -3771,7 +3990,8 @@
   "id": "L/tsadi-sofit/s3",
   "text": "אֶרֶץ! רֶץ... רֶץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "אֶרֶץ. הַמִּלָּה אֶרֶץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/w4",
@@ -3783,7 +4003,8 @@
   "id": "L/tsadi-sofit/s4",
   "text": "קַיִץ! יִץ... יִץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "קַיִץ. הַמִּלָּה קַיִץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  },
  {
   "id": "L/tsadi-sofit/w5",
@@ -3795,6 +4016,7 @@
   "id": "L/tsadi-sofit/s5",
   "text": "בֹּץ! בֹּץ... בֹּץ.",
   "voice": "Leda",
-  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text"
+  "style": "You are a warm kindergarten teacher teaching Hebrew phonics. Say the short opening sound twice, quickly and crisply, then say the whole word clearly with a happy voice. Pronounce exactly as the niqqud shows and do not add any sound after the last letter. Read only this text",
+  "alt": "בֹּץ. הַמִּלָּה בֹּץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית."
  }
 ]
