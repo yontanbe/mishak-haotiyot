@@ -64,7 +64,7 @@ async function cStory(ctx) {
 async function cMix(ctx) {
   const { color: c, clines } = ctx;
   const [a, b] = c.mix.map((id) => COLOR_BY_ID[id]);
-  const opts = shuffle([c, ...others(c, 2).filter((x) => x !== a && x !== b).slice(0, 2)]);
+  const opts = shuffle([c, ...others(c, 8).filter((x) => x !== a && x !== b).slice(0, 2)]);
   ctx.body.innerHTML = `
     <div class="mix-lab">
       <div class="mix-row">${splashSVG(a.hex, 'mix-a')}<span class="mix-plus">+</span>${splashSVG(b.hex, 'mix-b')}<span class="mix-plus">=</span>

@@ -6,6 +6,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 
 const MODE = process.argv[2] || 'desktop';
+const WORLD = process.argv[4] || 'letters'; // letters | colors
 const LIMIT = +(process.argv[3] || 999);
 const VIEW = MODE === 'phone' ? { width: 390, height: 844 } : { width: 1280, height: 800 };
 const BASE = process.env.QA_URL || 'http://localhost:8080/';
@@ -65,6 +66,9 @@ async function playStage(page, key, where) {
     if (!inspected) { await page.waitForTimeout(400); await inspect(page, where); inspected = true; }
     if (await page.$('.foot .btn.go')) { await click(page, '.foot .btn.go'); await page.waitForTimeout(250); continue; }
     if (key === 'letter') { await click(page, '.giant-letter'); }
+    else if (key === 'cMeet') { await click(page, '.big-splash'); }
+    else if (key === 'cMix') { if (!(await click(page, '.bowl.pulse'))) await click(page, '.guess-row [data-ok="1"]'); }
+    else if (key === 'cPaint') { await click(page, '.paint-item:not(.done)'); }
     else if (key === 'trace') {
       const box = await (await page.$('canvas.trace'))?.boundingBox();
       if (box) {
@@ -89,7 +93,7 @@ async function playStage(page, key, where) {
       await click(page, '.balloon:not(.done)');
     } else {
       // בחירה: choice, tile, כן/לא
-      if (!(await click(page, '[data-ok="1"]:not(.right)'))) { /* מחכים לקול או לאנימציה */ }
+      if (!(await click(page, '[data-ok="1"]:not(.right):not(.done):not(.popped)'))) { /* מחכים לקול או לאנימציה */ }
     }
     await page.waitForTimeout(350);
   }
@@ -105,7 +109,7 @@ async function playStage(page, key, where) {
   page.on('console', (m) => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) note('page', 'console', m.text()); });
   page.on('response', (r) => { if (r.status() >= 400 && !/fonts\.g/.test(r.url())) note('net', String(r.status()), r.url().replace(BASE, '')); });
   await page.goto(`${BASE}?qa=1`);
-  await page.evaluate(() => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true })));
+  await page.evaluate(() => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true } })));
   await page.goto(`${BASE}?qa=1`);
   await page.waitForTimeout(800);
   await inspect(page, 'home');
@@ -113,13 +117,13 @@ async function playStage(page, key, where) {
   let stations = 0;
   while (stations < LIMIT) {
     // מהבית: ממשיכים במסע
-    if (await page.$('.home-screen')) await click(page, '.play');
-    else if (await page.$('.map-screen')) await click(page, '.node.current') || (await click(page, '.home'));
-    await page.waitForTimeout(600);
+    if (await page.$('.home-screen')) await click(page, WORLD === 'colors' ? '.play-colors' : '.play');
+    await page.waitForTimeout(1200);
+    if (await page.$('.map-screen')) { await click(page, '.node.current'); await page.waitForTimeout(1500); }
     if (await page.$('.travel-screen')) { await page.waitForTimeout(800); await inspect(page, `travel-${stations}`); await click(page, '.travel-screen .skip'); }
     await page.waitForSelector('.level-screen', { timeout: 15000 }).catch(() => {});
     if (!(await page.$('.level-screen'))) break;
-    const chip = await page.evaluate(() => document.querySelector('.letter-chip').textContent.trim());
+    const chip = await page.evaluate(() => { const c = document.querySelector('.letter-chip'); const d = c.querySelector('.chip-dot'); return d ? d.style.background : c.textContent.trim(); });
     const isReview = await page.evaluate(() => !!document.querySelector('.level-screen.is-review'));
     const name = isReview ? `review${stations}` : `letter-${chip}`;
     console.log(`▶ ${name}`);
@@ -144,7 +148,7 @@ async function playStage(page, key, where) {
   await inspect(page, 'home-end');
   await click(page, '.album'); await page.waitForTimeout(800); await inspect(page, 'album');
   const prog = await page.evaluate(() => JSON.parse(localStorage.getItem('alefbet-quest-v1')));
-  fs.writeFileSync('qa-report.json', JSON.stringify({ mode: MODE, stations, letters: Object.keys(prog.done).length, reviews: Object.keys(prog.reviews || {}).length, issues }, null, 1));
-  console.log(`\nstations ${stations}, letters done ${Object.keys(prog.done).length}, reviews ${Object.keys(prog.reviews || {}).length}, issues ${issues.length}`);
+  fs.writeFileSync(`qa-report-${WORLD}.json`, JSON.stringify({ mode: MODE, world: WORLD, stations, letters: Object.keys(prog.done).length, reviews: Object.keys(prog.reviews || {}).length, issues }, null, 1));
+  console.log(`\nstations ${stations}, letters done ${Object.keys(prog.done).length}, reviews ${Object.keys(prog.reviews || {}).length}, colors done ${Object.keys(prog.colors?.done || {}).length}, color reviews ${Object.keys(prog.colors?.reviews || {}).length}, issues ${issues.length}`);
   await browser.close();
 })();

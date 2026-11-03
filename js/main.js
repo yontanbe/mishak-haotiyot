@@ -1,5 +1,7 @@
 import { LETTERS, REGIONS, UI, letterLines } from './data.js';
 import { STAGES, REVIEW_STAGES } from './stages.js';
+import { COLORS, COLOR_BY_ID, CUI, colorLines, COLOR_REVIEW_AFTER } from './colors-data.js';
+import { colorStages, COLOR_REVIEW_STAGES, splashSVG } from './colors-stages.js';
 import { say, stop, sfx, settings, textOf, unlockAudio } from './audio.js';
 import { heroHTML, pose, setBase, friendHTML } from './hero.js';
 import * as P from './progress.js';
@@ -75,12 +77,16 @@ function home() {
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
         <div class="bubble-anchor home-bubble"></div>
-        <button class="mega play">
-          <span class="mega-ico">▶</span>
-          <span class="mega-txt">${started ? 'מַמְשִׁיכִים בַּמַּסָּע' : 'יוֹצְאִים לַמַּסָּע'}<small>${started ? nextLabel : 'לוּלָה מְחַכָּה לָכֶם'}</small></span>
+        <button class="mega play world-letters">
+          <span class="mega-ico">א</span>
+          <span class="mega-txt">${started ? 'מַמְשִׁיכִים בָּאוֹתִיּוֹת' : 'עוֹלַם הָאוֹתִיּוֹת'}<small>${started ? nextLabel : 'מַסָּע אֶל 27 אוֹתִיּוֹת'}</small></span>
+        </button>
+        <button class="mega play-colors world-colors">
+          <span class="mega-ico">🎨</span>
+          <span class="mega-txt">עוֹלַם הַצְּבָעִים<small>${colorsDone() ? `הֶחְזַרְנוּ ${colorsDone()} מִתּוֹךְ ${COLORS.length} צְבָעִים` : 'עֲנַן הָאָפֹר לָקַח אֶת הַצְּבָעִים!'}</small></span>
         </button>
         <div class="home-row">
-          <button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">הַמַּפָּה</span></button>
+          <button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>
           <button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>${doneCount()}/27</small></span></button>
         </div>
       </nav>
@@ -107,6 +113,7 @@ function home() {
     if (!prog.seenStory) storyIntro(); else go(PATH[nextIndex()]);
   };
   app.querySelector('.map').onclick = () => { unlockAudio(); sfx.pop(); map(); };
+  app.querySelector('.play-colors').onclick = () => { unlockAudio(); sfx.pop(); colorsMap(); };
   app.querySelector('.album').onclick = () => { unlockAudio(); sfx.pop(); album(); };
   app.querySelector('.gear').onclick = parents;
 }
@@ -259,11 +266,19 @@ function album() {
       <div class="bag-count">🎒 ${doneCount()}/27</div>
     </header>
     <div class="album-grid">
+      <h3 class="album-title">חַבְרֵי הָאוֹתִיּוֹת</h3>
       ${LETTERS.map((l) => `
         <button class="album-card ${prog.done[l.id] ? 'got' : 'missing'}" data-id="${l.id}">
           ${friendHTML(l, 'album-pic')}
           <span class="album-letter">${l.ch}</span>
           <span class="album-name">${prog.done[l.id] ? l.friend.name : '?'}</span>
+        </button>`).join('')}
+      <h3 class="album-title">טִפּוֹת הַצֶּבַע</h3>
+      ${COLORS.map((c) => `
+        <button class="album-card ${cprog().done[c.id] ? 'got' : 'missing'}" data-cid="${c.id}">
+          ${dropHTML(c, 'album-pic')}
+          <span class="album-letter" style="color:${c.hex === '#ffffff' ? '#999' : c.hex}">●</span>
+          <span class="album-name">${cprog().done[c.id] ? `טִפָּה ${c.f}` : '?'}</span>
         </button>`).join('')}
     </div>
   </section>`;
@@ -271,6 +286,11 @@ function album() {
   app.querySelector('.home').onclick = home;
   say('ui/album');
   app.querySelectorAll('.album-card').forEach((b) => (b.onclick = () => {
+    if (b.dataset.cid) {
+      if (!cprog().done[b.dataset.cid]) { sfx.boop(); return; }
+      sfx.pop(); b.classList.remove('boing'); void b.offsetWidth; b.classList.add('boing');
+      say(`C/${b.dataset.cid}/friend1`); return;
+    }
     const l = LETTERS.find((x) => x.id === b.dataset.id);
     if (!prog.done[l.id]) { sfx.boop(); return; }
     sfx.pop(); b.classList.remove('boing'); void b.offsetWidth; b.classList.add('boing');
@@ -279,17 +299,16 @@ function album() {
 }
 
 // ---------- שלב של אות ----------
-async function level(l, review = null) {
+// ---------- מנוע השלבים: משותף לאותיות ולצבעים ----------
+async function runStages(o) {
   stop();
-  const region = regionOf(l);
-  const stages = review ? REVIEW_STAGES : STAGES;
+  const stages = o.stages;
   const visible = stages.filter((s) => !s.interlude);
-  const pathIndex = PATH.findIndex((it) => it.id === (review ? review.id : l.id));
   app.innerHTML = `
-  <section class="screen level-screen ${review ? 'is-review' : ''}" style="${regionBG(region.id, region.sky)}">
+  <section class="screen level-screen ${o.cls || ''}" style="${o.bg}">
     <header class="level-head">
       <button class="btn round home" aria-label="למפה">🗺️</button>
-      <div class="letter-chip">${review ? '🔁' : l.ch}</div>
+      <div class="letter-chip">${o.chip}</div>
       <button class="btn round back" aria-label="לשלב הקודם">➡️</button>
       <div class="steps">${visible.map((s, i) => `<i data-i="${i}"></i>`).join('')}</div>
       ${DEV ? '<button class="btn round skip" aria-label="דלג">⏭</button>' : ''}
@@ -309,14 +328,8 @@ async function level(l, review = null) {
   let mistakes = 0;
   let aborted = false;
   let curStage = 'story';
-  const statId = review ? review.id : l.id;
-  const since = review ? Date.now() : P.startLetter(prog, l.id);
-  save();
-  const starsBefore = P.totalStars(prog);
   const ctx = {
-    l,
-    letters: review ? review.letters : [l],
-    lines: letterLines(l),
+    ...o.extra,
     screen: scr,
     hero,
     body: scr.querySelector('.stage-body'),
@@ -331,18 +344,12 @@ async function level(l, review = null) {
     lulaReact: (kind) => (kind === 'dance' ? setBase(hero, 'jump') : pose(hero, kind === 'happy' ? 'jump' : kind, 1300)),
     confettiSmall: () => confetti(24),
     confettiBig: () => confetti(140),
-    mistake: () => { mistakes++; P.recordWrong(prog, statId, curStage); save(); },
-    right: () => { P.recordRight(prog, statId); save(); },
+    mistake: () => { mistakes++; P.recordWrong(prog, o.statId, curStage); save(); },
+    right: () => { P.recordRight(prog, o.statId); save(); },
     stars: () => (mistakes <= 2 ? 3 : mistakes <= 6 ? 2 : 1),
-    complete: (stars) => {
-      if (review) { prog.reviews ||= {}; prog.reviews[review.id] = Math.max(prog.reviews[review.id] || 0, stars); }
-      else { P.completeLetter(prog, l.id, stars); P.recordTime(prog, l.id, since); }
-      save();
-    },
-    scoreHTML: () => celebrateScore(starsBefore),
-    friendHTML: (cls) => friendHTML(l, cls),
+    complete: (stars) => { o.complete(stars); save(); },
   };
-  scr.querySelector('.home').onclick = () => { aborted = true; stop(); if (!review) P.recordTime(prog, l.id, since); save(); map(); };
+  scr.querySelector('.home').onclick = () => { aborted = true; stop(); o.exit(); };
   let skip = null;
   let back = null;
   if (DEV) scr.querySelector('.skip').onclick = () => skip && skip();
@@ -357,7 +364,7 @@ async function level(l, review = null) {
     showBubble(bubble, '');
     ctx.foot.replaceChildren();
     scr.dataset.stage = st.key;
-    curStage = st.key.startsWith('word') ? 'word' : st.key;
+    curStage = st.key.startsWith('word') ? 'word' : st.key.startsWith('cThing') ? 'cThing' : st.key;
     ctx.body.className = `stage-body st-${st.key}`;
     ctx.body.innerHTML = '';
     setBase(hero, st.pose || 'wave');
@@ -370,7 +377,170 @@ async function level(l, review = null) {
     if (nav === 'back') { let j = i - 1; while (j > 0 && stages[j].interlude) j--; i = Math.max(0, j); }
     else i++;
   }
-  map(Math.min(PATH.length - 1, pathIndex + 1));
+  o.finish();
+}
+
+// ---------- שלב של אות ----------
+function level(l, review = null) {
+  const region = regionOf(l);
+  const pathIndex = PATH.findIndex((it) => it.id === (review ? review.id : l.id));
+  const since = review ? Date.now() : P.startLetter(prog, l.id);
+  save();
+  const starsBefore = P.totalStars(prog);
+  return runStages({
+    bg: regionBG(region.id, region.sky),
+    chip: review ? '🔁' : l.ch,
+    cls: review ? 'is-review' : '',
+    stages: review ? REVIEW_STAGES : STAGES,
+    statId: review ? review.id : l.id,
+    extra: {
+      l,
+      letters: review ? review.letters : [l],
+      lines: letterLines(l),
+      scoreHTML: () => celebrateScore(starsBefore),
+      friendHTML: (cls) => friendHTML(l, cls),
+    },
+    complete: (stars) => {
+      if (review) { prog.reviews ||= {}; prog.reviews[review.id] = Math.max(prog.reviews[review.id] || 0, stars); }
+      else { P.completeLetter(prog, l.id, stars); P.recordTime(prog, l.id, since); }
+    },
+    exit: () => { if (!review) P.recordTime(prog, l.id, since); save(); map(); },
+    finish: () => map(Math.min(PATH.length - 1, pathIndex + 1)),
+  });
+}
+
+// =====================================================================
+// עולם הצבעים
+// =====================================================================
+const CPATH = [];
+COLORS.forEach((c, i) => {
+  CPATH.push({ type: 'color', id: `c-${c.id}`, c });
+  if (COLOR_REVIEW_AFTER.includes(c.id)) {
+    const done = COLORS.slice(0, i + 1);
+    CPATH.push({ type: 'review', id: `c-review-${c.id}`, c, colors: done.slice(-4) });
+  }
+});
+const cprog = () => (prog.colors ||= { done: {}, reviews: {} });
+const cIsDone = (it) => (it.type === 'color' ? !!cprog().done[it.c.id] : !!cprog().reviews[it.id]);
+const cNext = () => { const i = CPATH.findIndex((it) => !cIsDone(it)); return i === -1 ? CPATH.length - 1 : i; };
+const colorsDone = () => Object.keys(cprog().done).length;
+const colorStars = () => Object.values(cprog().done).reduce((a, b) => a + b, 0);
+const dropHTML = (c, cls = '') => `<span class="fpic ${cls}"><img src="img/colors/${c.id}.webp" alt="" draggable="false" onerror="this.parentNode.classList.add('noimg')"><span class="emo">🎨</span></span>`;
+// העולם אפור בהתחלה, ומקבל צבע עם כל צבע שחוזר
+const worldBG = () => `background-image:url(img/regions/colors.webp), linear-gradient(180deg,#d9c8ff,#fbefff);filter:grayscale(${Math.max(0, 1 - colorsDone() / COLORS.length).toFixed(2)})`;
+
+function colorLevel(it) {
+  const c = it.c;
+  const review = it.type === 'review';
+  const idx = CPATH.indexOf(it);
+  return runStages({
+    bg: 'background-image:url(img/regions/colors.webp), linear-gradient(180deg,#d9c8ff,#fbefff)',
+    chip: review ? '🔁' : `<span class="chip-dot" style="background:${c.hex}"></span>`,
+    cls: `colors-level ${review ? 'is-review' : ''}`,
+    stages: review ? COLOR_REVIEW_STAGES : colorStages(c),
+    statId: it.id,
+    extra: {
+      color: c,
+      colors: review ? it.colors : [c],
+      clines: colorLines(c),
+      friendHTML: (cls) => dropHTML(c, cls),
+      scoreHTML: () => `<div class="cele-score"><span>🎨 ${colorsDone() + (cprog().done[c.id] ? 0 : 1)}/${COLORS.length}</span></div>`,
+    },
+    complete: (stars) => {
+      const p = cprog();
+      if (review) p.reviews[it.id] = Math.max(p.reviews[it.id] || 0, stars);
+      else p.done[c.id] = Math.max(p.done[c.id] || 0, stars);
+    },
+    exit: () => { save(); colorsMap(); },
+    finish: () => colorsMap(Math.min(CPATH.length - 1, idx + 1)),
+  });
+}
+
+async function colorsStory() {
+  app.innerHTML = `
+  <section class="screen story-screen colors-story">
+    <div class="cworld" style="${worldBG().replace(/filter:[^;]*$/, 'filter:grayscale(0)')}"></div>
+    <img class="story-cloud" src="img/colors/cloud.webp" alt="">
+    <div class="story-stage">
+      <div class="story-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
+    </div>
+    <button class="btn small skip">דַּלְּגוּ ⏭</button>
+  </section>`;
+  const scr = app.querySelector('.colors-story');
+  const hero = app.querySelector('.hero');
+  const bubble = app.querySelector('.bubble-anchor');
+  let skipped = false;
+  const end = () => { cprog().seenStory = true; save(); colorsMap(); };
+  app.querySelector('.skip').onclick = () => { skipped = true; stop(); end(); };
+  const slides = [['cStory1', 'wave'], ['cStory2', 'oops'], ['cStory3', 'think'], ['cStory4', 'jump']];
+  for (const [k, p] of slides) {
+    if (skipped) return;
+    scr.dataset.slide = k;
+    setBase(hero, p);
+    if (k === 'cStory2') sfx.whoosh();
+    await talk(hero, bubble, [`ui/${k}`], CUI[k]);
+    await wait(400);
+  }
+  if (!skipped) end();
+}
+
+function colorsMap(walkTo = null) {
+  stop();
+  if (!cprog().seenStory && walkTo == null) return colorsStory();
+  const here = cNext();
+  const unlocked = DEV || prog.all ? CPATH.length - 1 : here;
+  app.innerHTML = `
+  <section class="screen map-screen colors-map">
+    <header class="map-head">
+      <button class="btn round home" aria-label="בית">🏠</button>
+      <div class="bag-count">🎨 ${colorsDone()}/${COLORS.length}</div>
+      <div class="rainbow-meter">${COLORS.map((c) => `<i style="background:${cprog().done[c.id] ? c.hex : '#ccc'}"></i>`).join('')}</div>
+    </header>
+    <div class="map-scroll">
+      <div class="cworld-bg" style="${worldBG()}"></div>
+      <div class="path cpath">
+        ${CPATH.map((it, i) => {
+          const st = cIsDone(it) ? 'done' : i <= unlocked ? 'open' : 'locked';
+          const x = it.type === 'review' ? 50 : 50 + Math.sin(i * 0.9) * 24;
+          const stars = it.type === 'color' ? cprog().done[it.c.id] || 0 : cprog().reviews[it.id] || 0;
+          if (it.type === 'review') return `<button class="node review ${st} ${i === here && st !== 'done' ? 'current' : ''}" data-i="${i}" style="--x:${x}%"><span class="ch">${st === 'locked' ? '🔒' : '🔁'}</span><span class="review-letters">${it.colors.map((c) => `<b style="background:${c.hex}"></b>`).join('')}</span>${st === 'done' ? `<span class="node-stars">${'⭐'.repeat(stars)}</span>` : ''}</button>`;
+          return `<button class="node cnode ${st} ${i === here && st !== 'done' ? 'current' : ''}" data-i="${i}" style="--x:${x}%;--c:${st === 'locked' ? '#bbb' : it.c.hex}">
+            <span class="ch">${st === 'locked' ? '🔒' : ''}</span>
+            ${st === 'done' ? `<span class="node-stars">${'⭐'.repeat(stars)}</span>` : ''}
+            ${st !== 'locked' ? dropHTML(it.c, 'node-friend') : ''}</button>`;
+        }).join('')}
+      </div>
+      <div class="map-end">${colorsDone() === COLORS.length ? `${dropHTML({ id: 'rainbow' }, 'end-drop')} הַקֶּשֶׁת חָזְרָה!` : '🌈 הַקֶּשֶׁת מְחַכָּה'}</div>
+      <div class="map-lula">${heroHTML('wave', 'sm')}</div>
+    </div>
+  </section>`;
+  app.querySelector('.home').onclick = home;
+  const scroller = app.querySelector('.map-scroll');
+  const lulaBox = app.querySelector('.map-lula');
+  const hero = lulaBox.querySelector('.hero');
+  const place = (i, smooth) => {
+    const node = app.querySelector(`.node[data-i="${i}"]`);
+    if (!node) return;
+    const nr = node.getBoundingClientRect(); const sr = scroller.getBoundingClientRect();
+    const side = nr.left - sr.left > sr.width / 2 ? -1 : 1;
+    lulaBox.style.transition = smooth ? 'left 1.1s ease-in-out, top 1.1s ease-in-out' : 'none';
+    lulaBox.style.left = `${nr.left - sr.left + nr.width / 2 + side * (nr.width * 0.9)}px`;
+    lulaBox.style.top = `${nr.top - sr.top + scroller.scrollTop + nr.height}px`;
+  };
+  const start = walkTo != null ? Math.max(0, walkTo - 1) : here;
+  requestAnimationFrame(() => {
+    app.querySelector(`.node[data-i="${start}"]`)?.scrollIntoView({ block: 'center' });
+    place(start, false);
+    if (walkTo != null && walkTo !== start) setTimeout(() => { pose(hero, 'walk'); place(walkTo, true); setTimeout(() => pose(hero, 'wave'), 1300); }, 500);
+  });
+  if (colorsDone() === COLORS.length && walkTo === CPATH.length - 1) { confetti(150); say('ui/cTheEnd'); }
+  else say(walkTo == null ? 'ui/cWelcome' : 'ui/cMap');
+  app.querySelectorAll('.node').forEach((b) => (b.onclick = () => {
+    if (b.classList.contains('locked')) { sfx.boop(); b.classList.add('nope'); setTimeout(() => b.classList.remove('nope'), 400); return; }
+    sfx.pop(); stop(); const i = +b.dataset.i;
+    pose(hero, 'walk'); place(i, true);
+    setTimeout(() => colorLevel(CPATH[i]), 900);
+  }));
 }
 
 // ---------- ציון לילד ----------
@@ -461,6 +631,11 @@ function report() {
       <h3>כל האותיות</h3>
       <div class="rep-legend"><span class="great">מצוין</span><span class="ok">טוב</span><span class="weak">כדאי לחזור</span><span class="started">התחיל</span><span class="none">עוד לא</span></div>
       <div class="rep-grid">${LETTERS.map(cell).join('')}</div>
+
+      <h3>עולם הצבעים</h3>
+      <div class="rep-grid">${COLORS.map((c) => { const st = cprog().done[c.id] || 0; const s = prog.stats[`c-${c.id}`]; const acc = P.accuracy(s);
+        return `<div class="rep-cell ${!st ? (s ? 'started' : 'none') : st === 3 ? 'great' : st === 2 ? 'ok' : 'weak'}"><b><i class="rep-dot" style="background:${c.hex}"></i></b><span>${c.m}</span><span class="rep-stars">${st ? '⭐'.repeat(st) : ''}</span>${acc != null ? `<span class="rep-acc">${acc}%</span>` : ''}</div>`; }).join('')}</div>
+      <p>צבעים שהוחזרו: ${colorsDone()}/${COLORS.length}, כוכבים בצבעים: ${colorStars()}/${COLORS.length * 3}.</p>
 
       <h3>מה כדאי לתרגל</h3>
       ${practice.length ? `<p>האותיות: <b class="rep-letters">${practice.map((l) => l.ch).join(' ')}</b>. אפשר לחזור אליהן מהמפה, כל אות פתוחה לשחק שוב, והכוכבים נשמרים לפי התוצאה הטובה ביותר.</p>` : '<p>אין כרגע אותיות שדורשות חזרה. כל הכבוד!</p>'}
