@@ -1,4 +1,5 @@
 // רשימת כל קטעי השמע. משותף לדפדפן (טקסט גיבוי לדיבור) ולמחולל השמע (tools/build-clips.mjs).
+import { COLORS, CUI, colorLines, parseThing } from './colors-data.js';
 import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, wordSentence, regionLine, parseWord, ttsText } from './data.js';
 
 const TEACHER = 'Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text';
@@ -28,5 +29,17 @@ export function buildClips() {
       add(`L/${l.id}/s${i}`, wordChant(l, w), HERO.voice, CHANT, wordSentence(l, w));
     });
   }
+  // עולם הצבעים
+  for (const [k, t] of Object.entries(CUI)) add(`ui/${k}`, t);
+  const DROP_VOICES = ['Aoede', 'Callirrhoe', 'Despina', 'Laomedeia', 'Autonoe'];
+  COLORS.forEach((c, n) => {
+    const lines = colorLines(c);
+    const v = DROP_VOICES[n % DROP_VOICES.length];
+    add(`C/${c.id}/name`, lines.name, HERO.voice, WORD);
+    add(`C/${c.id}/friend1`, lines.friend1, v, FRIEND);
+    add(`C/${c.id}/friend2`, lines.friend2, v, FRIEND);
+    for (const k of ['intro', 'where', 'which', 'pick', 'bubbles', 'done', 'mixQ', 'mixA']) if (lines[k]) add(`C/${c.id}/${k}`, lines[k]);
+    c.things.forEach((t, i) => add(`C/${c.id}/t${i}`, parseThing(t).w, HERO.voice, WORD));
+  });
   return clips;
 }
