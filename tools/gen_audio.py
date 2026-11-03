@@ -20,6 +20,14 @@ def fp(c):
 
 
 def fetch(path):
+    # דרך ה-API ולא raw.githubusercontent, שמחזיר עותק שמור של כמה דקות
+    owner, repo = REPO.split("/")
+    r, e = run_composio_tool("GITHUB_GET_REPOSITORY_CONTENT", {"owner": owner, "repo": repo, "path": path, "ref": "main"})  # noqa: F821
+    d = (r or {}).get("data", {})
+    d = d.get("content", d) if isinstance(d, dict) else d
+    b64 = d.get("content") if isinstance(d, dict) else None
+    if b64:
+        return json.loads(base64.b64decode(b64.replace("\n", "")).decode())
     return json.loads(urllib.request.urlopen(RAW + path + f"?t={time.time()}").read())
 
 
