@@ -495,3 +495,36 @@ canvas.trace { width: min(66vh, 60vw); height: min(66vh, 60vw); }
 }
 /* בעברית הולכים קדימה שמאלה */
 .hero .p-walk { transform: scaleX(-1); }
+/* תיקוני בועות */
+.home-bubble { position: relative; left: auto; top: auto; transform: none; max-width: 100%; }
+.home-bubble .speech::after { left: auto; right: -26px; bottom: auto; top: 50%; transform: translateY(-50%); border: 14px solid transparent; border-left: 22px solid #fffdf5; }
+.side-hero .bubble-anchor { left: auto; right: 62%; top: 3%; transform: none; }
+.side-hero .speech::after { left: auto; right: -26px; bottom: auto; top: 30%; transform: none; border: 14px solid transparent; border-left: 22px solid #fffdf5; }
+.travel-sign { left: auto; right: 16px; transform: none; }
+.level-screen[data-stage^=talk] .side-hero .bubble-anchor { right: auto; left: 50%; transform: translate(-50%, 0); }
+.level-screen[data-stage^=talk] .side-hero .speech::after { left: 50%; right: auto; top: auto; bottom: -22px; transform: translateX(-50%); border: 14px solid transparent; border-top: 18px solid #fffdf5; }
+@media (orientation: portrait) {
+  .side-hero .bubble-anchor { right: auto; }
+  .home-bubble .speech::after { display: none; }
+}
+.travel-screen .pan { inset: 0 0 0 -35%; }
+.st-story .lost-letter { left: 6%; top: 34%; transform: scale(0); }
+.st-story .lost-letter.show { transform: scale(1); }
+.level-main { grid-template-rows: minmax(0, 1fr); overflow: hidden; }
+.stage-body { min-height: 0; overflow: hidden; }
+@media (orientation: portrait) {
+  .side-hero { bottom: 0; height: auto; }
+  .side-hero .bubble-anchor { position: fixed; left: 50% !important; right: auto !important; top: auto; bottom: 28vh; transform: translateX(-50%) !important; }
+  .level-screen[data-stage^=talk] .side-hero .bubble-anchor { position: absolute; top: 2vh; bottom: auto; }
+  .level-screen[data-stage^=talk] .side-hero { height: 100%; }
+}
+@media (orientation: portrait) {
+  .side-hero .bubble-anchor { position: absolute !important; bottom: 96% !important; top: auto !important; right: 2vw !important; left: auto !important; transform: none !important; max-width: 92vw; }
+  .hide-field { max-width: min(100%, 44vh); }
+  .memory { max-width: min(100%, 50vh); }
+}
+@media (orientation: portrait) {
+  .level-screen[data-stage^=talk] .side-hero .bubble-anchor { bottom: auto !important; top: 1vh !important; left: 50% !important; right: auto !important; transform: translateX(-50%) !important; }
+  .level-screen[data-stage^=talk] .side-hero .hero.lg { --hh: 56vh; }
+  .hide-field { max-width: min(100%, 38vh); }
+}

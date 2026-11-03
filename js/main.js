@@ -58,8 +58,9 @@ function home() {
       <p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>
     </div>
     <div class="home-stage">
-      <div class="home-hero">${heroHTML('wave', 'xl tappable')}<div class="bubble-anchor"></div></div>
+      <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
+        <div class="bubble-anchor home-bubble"></div>
         <button class="mega play">
           <span class="mega-ico">▶</span>
           <span class="mega-txt">${started ? 'מַמְשִׁיכִים בַּמַּסָּע' : 'יוֹצְאִים לַמַּסָּע'}<small>${started ? `הַתַּחֲנָה הַבָּאָה: הָאוֹת ${next.ch}` : 'לוּלָה מְחַכָּה לָכֶם'}</small></span>
