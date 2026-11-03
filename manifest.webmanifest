@@ -1,0 +1,12 @@
+{
+  "name": "משחק האותיות א-ב",
+  "short_name": "אותיות א-ב",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff6e0",
+  "theme_color": "#8f5cf0",
+  "icons": []
+}
