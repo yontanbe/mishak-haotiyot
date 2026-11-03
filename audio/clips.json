@@ -1,0 +1,3698 @@
+[
+ {
+  "id": "ui/story1",
+  "text": "פַּעַם, בְּאֶרֶץ רְחוֹקָה וִירֻקָּה, גָּרָה יַלְדָּה סַקְרָנִית בְּשֵׁם לוּלָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/story2",
+  "text": "לְלוּלָה הָיָה תִּיק קָסוּם, מָלֵא בְּאוֹתִיּוֹת צִבְעוֹנִיּוֹת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/story3",
+  "text": "יוֹם אֶחָד נָשְׁבָה רוּחַ שׁוֹבָבָה. פּוּף! כָּל הָאוֹתִיּוֹת עָפוּ מֵהַתִּיק.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/story4",
+  "text": "בּוֹאוּ נֵצֵא יַחַד לְמַסָּע, נִפְגֹּשׁ חֲבֵרִים, וְנַחְזִיר אֶת כָּל הָאוֹתִיּוֹת הַבַּיְתָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/hello",
+  "text": "שָׁלוֹם! אֲנִי לוּלָה הַמְּגַלָּה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/map",
+  "text": "לְאָן הוֹלְכִים עַכְשָׁו? גְּעוּ בָּאֶבֶן הַזּוֹהֶרֶת!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/letsLearn",
+  "text": "בּוֹאוּ נִלְמַד אֶת הָאוֹת, כְּדֵי שֶׁהִיא תַּחְזֹר לַתִּיק!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insLetter",
+  "text": "גְּעוּ בָּאוֹת כְּדֵי לִשְׁמֹעַ אֶת שְׁמָהּ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insSyl",
+  "text": "בּוֹאוּ נַגִּיד יַחַד אֶת הַצְּלִילִים. גְּעוּ בְּכָל צְלִיל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insTrace",
+  "text": "בּוֹאוּ נְצַיֵּר אֶת הָאוֹת עִם הָאֶצְבַּע.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insWord",
+  "text": "מִלָּה חֲדָשָׁה! גְּעוּ בַּתְּמוּנָה כְּדֵי לִשְׁמֹעַ שׁוּב.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insBubbles",
+  "text": "פּוֹצְצוּ אֶת הַבּוּעוֹת שֶׁיֵּשׁ בָּהֶן אֶת הָאוֹת",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insWhich",
+  "text": "אֵיזוֹ תְּמוּנָה מַתְחִילָה בָּאוֹת",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insWhichEnd",
+  "text": "אֵיזוֹ תְּמוּנָה נִגְמֶרֶת בָּאוֹת",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insListen",
+  "text": "הַקְשִׁיבוּ לַמִּלָּה, וּבַחֲרוּ אֶת הַתְּמוּנָה הַנְּכוֹנָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insHidden",
+  "text": "הָאוֹתִיּוֹת הִתְחַבְּאוּ! מִצְאוּ אֶת כָּל הָאוֹתִיּוֹת",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insMemory",
+  "text": "מִצְאוּ זוּגוֹת: תְּמוּנָה וּמִלָּה שֶׁמַּתְאִימוֹת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insBuild",
+  "text": "אֵיזוֹ אוֹת חֲסֵרָה בַּמִּלָּה?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/insParty",
+  "text": "מְסִבַּת מִלִּים! גְּעוּ בְּכָל מִלָּה וְנַגִּיד אוֹתָהּ יַחַד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/finalsIntro",
+  "text": "הִגַּעְנוּ לָאוֹתִיּוֹת הַסּוֹפִיּוֹת. הֵן בָּאוֹת רַק בְּסוֹף הַמִּלָּה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/theEnd",
+  "text": "הִצְלַחְנוּ! כָּל הָאוֹתִיּוֹת חָזְרוּ הַבַּיְתָה. אַתֶּם גִּבּוֹרֵי הָאוֹתִיּוֹת!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise1",
+  "text": "כָּל הַכָּבוֹד!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise2",
+  "text": "יֹפִי!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise3",
+  "text": "מְצֻיָּן!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise4",
+  "text": "וָאוּ, אֵיזֶה יֹפִי!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise5",
+  "text": "נָכוֹן מְאוֹד!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/praise6",
+  "text": "אַלּוּפִים!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/try1",
+  "text": "כִּמְעַט! נְנַסֶּה שׁוּב.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/try2",
+  "text": "אוּפְּס, נְנַסֶּה עוֹד פַּעַם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/try3",
+  "text": "לֹא נוֹרָא, בּוֹאוּ נְנַסֶּה שׁוּב.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/forest",
+  "text": "הִגַּעְנוּ לְיַעַר הָאַלּוֹנִים!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/farm",
+  "text": "הִגַּעְנוּ לִכְפַר הַחַוָּה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/beach",
+  "text": "הִגַּעְנוּ לְחוֹף הַצְּדָפִים!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/desert",
+  "text": "הִגַּעְנוּ לְמִדְבַּר הַחוֹל הַזָּהֹב!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/mountain",
+  "text": "הִגַּעְנוּ לְהָרֵי הַשֶּׁלֶג!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/sky",
+  "text": "הִגַּעְנוּ לְטִירַת הָעֲנָנִים!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "region/finals",
+  "text": "הִגַּעְנוּ לְעֵמֶק הַסּוֹפִיּוֹת!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/name",
+  "text": "אָלֶף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי אָרִי הָאַרְיֵה.",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּיַּעַר. זוֹ הָאוֹת אָלֶף!",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/intro",
+  "text": "זוֹ הָאוֹת אָלֶף. לְאָלֶף יֵשׁ קַו אֲלַכְסוֹנִי בָּאֶמְצַע, וּשְׁתֵּי יָדַיִם קְטַנּוֹת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/syl",
+  "text": "אָ... אִי... אוּ... אוֹ... אֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/alef/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת אָלֶף?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת אָלֶף חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w0",
+  "text": "אַרְיֵה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s0",
+  "text": "אַרְיֵה. הַמִּלָּה אַרְיֵה מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w1",
+  "text": "אֲבַטִּיחַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s1",
+  "text": "אֲבַטִּיחַ. הַמִּלָּה אֲבַטִּיחַ מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w2",
+  "text": "אַגָּס",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s2",
+  "text": "אַגָּס. הַמִּלָּה אַגָּס מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w3",
+  "text": "אֳנִיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s3",
+  "text": "אֳנִיָּה. הַמִּלָּה אֳנִיָּה מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w4",
+  "text": "אוֹפַנַּיִם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s4",
+  "text": "אוֹפַנַּיִם. הַמִּלָּה אוֹפַנַּיִם מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w5",
+  "text": "אֹזֶן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s5",
+  "text": "אֹזֶן. הַמִּלָּה אֹזֶן מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w6",
+  "text": "אִמָּא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s6",
+  "text": "אִמָּא. הַמִּלָּה אִמָּא מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/alef/w7",
+  "text": "אֶצְבַּע",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/alef/s7",
+  "text": "אֶצְבַּע. הַמִּלָּה אֶצְבַּע מַתְחִילָה בָּאוֹת אָלֶף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/name",
+  "text": "בֵּית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי בּוֹבּוֹ הַבַּרְוָז.",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּיַּעַר. זוֹ הָאוֹת בֵּית!",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/intro",
+  "text": "זוֹ הָאוֹת בֵּית. בֵּית נִרְאֵית כְּמוֹ בַּיִת קָטָן שֶׁפָּתוּחַ לְצַד שְׂמֹאל. כְּשֶׁיֵּשׁ נְקֻדָּה בְּתוֹכָהּ אוֹמְרִים בּ, וּבְלִי נְקֻדָּה אוֹמְרִים ב.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/syl",
+  "text": "בָּ... בִּי... בּוּ... בּוֹ... בֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/bet/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת בֵּית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת בֵּית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w0",
+  "text": "בַּיִת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s0",
+  "text": "בַּיִת. הַמִּלָּה בַּיִת מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w1",
+  "text": "בָּנָנָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s1",
+  "text": "בָּנָנָה. הַמִּלָּה בָּנָנָה מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w2",
+  "text": "בַּלּוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s2",
+  "text": "בַּלּוֹן. הַמִּלָּה בַּלּוֹן מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w3",
+  "text": "בַּרְוָז",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s3",
+  "text": "בַּרְוָז. הַמִּלָּה בַּרְוָז מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w4",
+  "text": "בֵּיצָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s4",
+  "text": "בֵּיצָה. הַמִּלָּה בֵּיצָה מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w5",
+  "text": "בַּקְבּוּק",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s5",
+  "text": "בַּקְבּוּק. הַמִּלָּה בַּקְבּוּק מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w6",
+  "text": "בֻּבָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s6",
+  "text": "בֻּבָּה. הַמִּלָּה בֻּבָּה מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/bet/w7",
+  "text": "בְּרוֹקוֹלִי",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/bet/s7",
+  "text": "בְּרוֹקוֹלִי. הַמִּלָּה בְּרוֹקוֹלִי מַתְחִילָה בָּאוֹת בֵּית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/name",
+  "text": "גִּימֶל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי גּוּלִי הַגָּמָל.",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּיַּעַר. זוֹ הָאוֹת גִּימֶל!",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/intro",
+  "text": "זוֹ הָאוֹת גִּימֶל. גִּימֶל עוֹמֶדֶת עַל רֶגֶל אַחַת, וּמְרִימָה רֶגֶל קְטַנָּה לְרִקּוּד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/syl",
+  "text": "גָּ... גִּי... גּוּ... גּוֹ... גֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/gimel/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת גִּימֶל?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת גִּימֶל חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w0",
+  "text": "גָּמָל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s0",
+  "text": "גָּמָל. הַמִּלָּה גָּמָל מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w1",
+  "text": "גְּלִידָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s1",
+  "text": "גְּלִידָה. הַמִּלָּה גְּלִידָה מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w2",
+  "text": "גֶּזֶר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s2",
+  "text": "גֶּזֶר. הַמִּלָּה גֶּזֶר מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w3",
+  "text": "גִּיטָרָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s3",
+  "text": "גִּיטָרָה. הַמִּלָּה גִּיטָרָה מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w4",
+  "text": "גֶּשֶׁם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s4",
+  "text": "גֶּשֶׁם. הַמִּלָּה גֶּשֶׁם מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w5",
+  "text": "גְּבִינָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s5",
+  "text": "גְּבִינָה. הַמִּלָּה גְּבִינָה מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w6",
+  "text": "גּוֹרִילָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s6",
+  "text": "גּוֹרִילָה. הַמִּלָּה גּוֹרִילָה מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/gimel/w7",
+  "text": "גַּלְגַּל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/gimel/s7",
+  "text": "גַּלְגַּל. הַמִּלָּה גַּלְגַּל מַתְחִילָה בָּאוֹת גִּימֶל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/name",
+  "text": "דָּלֶת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי דּוּדוּ הַדֹּב.",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּיַּעַר. זוֹ הָאוֹת דָּלֶת!",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/intro",
+  "text": "זוֹ הָאוֹת דָּלֶת. דָּלֶת נִרְאֵית כְּמוֹ גַּג עִם עַמּוּד אֶחָד, וְיֵשׁ לָהּ פִּנָּה חַדָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/syl",
+  "text": "דָּ... דִּי... דּוּ... דּוֹ... דֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/dalet/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת דָּלֶת?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת דָּלֶת חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w0",
+  "text": "דָּג",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s0",
+  "text": "דָּג. הַמִּלָּה דָּג מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w1",
+  "text": "דֹּב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s1",
+  "text": "דֹּב. הַמִּלָּה דֹּב מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w2",
+  "text": "דְּבוֹרָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s2",
+  "text": "דְּבוֹרָה. הַמִּלָּה דְּבוֹרָה מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w3",
+  "text": "דֶּלֶת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s3",
+  "text": "דֶּלֶת. הַמִּלָּה דֶּלֶת מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w4",
+  "text": "דְּלַעַת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s4",
+  "text": "דְּלַעַת. הַמִּלָּה דְּלַעַת מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w5",
+  "text": "דִּינוֹזָאוּר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s5",
+  "text": "דִּינוֹזָאוּר. הַמִּלָּה דִּינוֹזָאוּר מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w6",
+  "text": "דֶּגֶל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s6",
+  "text": "דֶּגֶל. הַמִּלָּה דֶּגֶל מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/dalet/w7",
+  "text": "דֻּבְדְּבָן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/dalet/s7",
+  "text": "דֻּבְדְּבָן. הַמִּלָּה דֻּבְדְּבָן מַתְחִילָה בָּאוֹת דָּלֶת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/name",
+  "text": "הֵא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי הִילָה הַהִיפּוֹפּוֹטָמִית.",
+  "voice": "Aoede",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּחַוָּה. זוֹ הָאוֹת הֵא!",
+  "voice": "Aoede",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/intro",
+  "text": "זוֹ הָאוֹת הֵא. הֵא נִרְאֵית כְּמוֹ דָּלֶת, עִם רֶגֶל קְטַנָּה שֶׁלֹּא נוֹגַעַת בַּגַּג.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/syl",
+  "text": "הָ... הִי... הוּ... הוֹ... הֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/he/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת הֵא?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת הֵא חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w0",
+  "text": "הִיפּוֹפּוֹטָם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s0",
+  "text": "הִיפּוֹפּוֹטָם. הַמִּלָּה הִיפּוֹפּוֹטָם מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w1",
+  "text": "הַר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s1",
+  "text": "הַר. הַמִּלָּה הַר מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w2",
+  "text": "הֶלִיקוֹפְּטֶר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s2",
+  "text": "הֶלִיקוֹפְּטֶר. הַמִּלָּה הֶלִיקוֹפְּטֶר מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w3",
+  "text": "הַמְבּוּרְגֶר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s3",
+  "text": "הַמְבּוּרְגֶר. הַמִּלָּה הַמְבּוּרְגֶר מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w4",
+  "text": "הַפְתָּעָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s4",
+  "text": "הַפְתָּעָה. הַמִּלָּה הַפְתָּעָה מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/he/w5",
+  "text": "הוֹדוּ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/he/s5",
+  "text": "הוֹדוּ. הַמִּלָּה הוֹדוּ מַתְחִילָה בָּאוֹת הֵא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/name",
+  "text": "וָו",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי וַרְדִּינָה הַוֶּרֶד.",
+  "voice": "Autonoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּחַוָּה. זוֹ הָאוֹת וָו!",
+  "voice": "Autonoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/intro",
+  "text": "זוֹ הָאוֹת וָו. וָו הִיא קַו יָשָׁר וְגָבוֹהַּ, עִם כּוֹבַע קָטָן לְמַעְלָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/syl",
+  "text": "וָ... וִי... וֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/vav/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת וָו?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת וָו חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w0",
+  "text": "וֶרֶד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s0",
+  "text": "וֶרֶד. הַמִּלָּה וֶרֶד מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w1",
+  "text": "וָפֶל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s1",
+  "text": "וָפֶל. הַמִּלָּה וָפֶל מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w2",
+  "text": "וֶסְט",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s2",
+  "text": "וֶסְט. הַמִּלָּה וֶסְט מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w3",
+  "text": "וָו",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s3",
+  "text": "וָו. הַמִּלָּה וָו מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w4",
+  "text": "וָן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s4",
+  "text": "וָן. הַמִּלָּה וָן מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/vav/w5",
+  "text": "וַנִּיל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/vav/s5",
+  "text": "וַנִּיל. הַמִּלָּה וַנִּיל מַתְחִילָה בָּאוֹת וָו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/name",
+  "text": "זַיִן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי זִיוָה הַזֶּבְּרָה.",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּחַוָּה. זוֹ הָאוֹת זַיִן!",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/intro",
+  "text": "זוֹ הָאוֹת זַיִן. זַיִן הִיא קַו יָשָׁר, עִם כּוֹבַע רָחָב מִשְּׁנֵי הַצְּדָדִים.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/syl",
+  "text": "זָ... זִי... זוּ... זוֹ... זֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/zayin/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת זַיִן?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת זַיִן חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w0",
+  "text": "זֶבְּרָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s0",
+  "text": "זֶבְּרָה. הַמִּלָּה זֶבְּרָה מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w1",
+  "text": "זְאֵב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s1",
+  "text": "זְאֵב. הַמִּלָּה זְאֵב מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w2",
+  "text": "זַיִת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s2",
+  "text": "זַיִת. הַמִּלָּה זַיִת מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w3",
+  "text": "זְבוּב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s3",
+  "text": "זְבוּב. הַמִּלָּה זְבוּב מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w4",
+  "text": "זָהָב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s4",
+  "text": "זָהָב. הַמִּלָּה זָהָב מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w5",
+  "text": "זִקּוּקִים",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s5",
+  "text": "זִקּוּקִים. הַמִּלָּה זִקּוּקִים מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w6",
+  "text": "זַחַל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s6",
+  "text": "זַחַל. הַמִּלָּה זַחַל מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/zayin/w7",
+  "text": "זֵר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/zayin/s7",
+  "text": "זֵר. הַמִּלָּה זֵר מַתְחִילָה בָּאוֹת זַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/name",
+  "text": "חֵית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי חֻמִּי הֶחָתוּל.",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּחַוָּה. זוֹ הָאוֹת חֵית!",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/intro",
+  "text": "זוֹ הָאוֹת חֵית. חֵית נִרְאֵית כְּמוֹ שַׁעַר: שְׁתֵּי רַגְלַיִם וְגַג מֵעֲלֵיהֶן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/syl",
+  "text": "חָ... חִי... חוּ... חוֹ... חֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/het/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת חֵית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת חֵית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w0",
+  "text": "חָתוּל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s0",
+  "text": "חָתוּל. הַמִּלָּה חָתוּל מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w1",
+  "text": "חֲמוֹר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s1",
+  "text": "חֲמוֹר. הַמִּלָּה חֲמוֹר מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w2",
+  "text": "חָלָב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s2",
+  "text": "חָלָב. הַמִּלָּה חָלָב מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w3",
+  "text": "חִלָּזוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s3",
+  "text": "חִלָּזוֹן. הַמִּלָּה חִלָּזוֹן מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w4",
+  "text": "חֲנֻכִּיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s4",
+  "text": "חֲנֻכִּיָּה. הַמִּלָּה חֲנֻכִּיָּה מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w5",
+  "text": "חַלּוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s5",
+  "text": "חַלּוֹן. הַמִּלָּה חַלּוֹן מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/het/w6",
+  "text": "חַלָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/het/s6",
+  "text": "חַלָּה. הַמִּלָּה חַלָּה מַתְחִילָה בָּאוֹת חֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/name",
+  "text": "טֵית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי טוּבִי הַטַּוָּס.",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי עַל הַחוֹף. זוֹ הָאוֹת טֵית!",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/intro",
+  "text": "זוֹ הָאוֹת טֵית. טֵית עֲגֻלָּה כְּמוֹ סַל, וְיֵשׁ לָהּ זָנָב קָטָן שֶׁנִּכְנָס פְּנִימָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/syl",
+  "text": "טָ... טִי... טוּ... טוֹ... טֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/tet/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת טֵית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת טֵית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w0",
+  "text": "טַוָּס",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s0",
+  "text": "טַוָּס. הַמִּלָּה טַוָּס מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w1",
+  "text": "טִיל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s1",
+  "text": "טִיל. הַמִּלָּה טִיל מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w2",
+  "text": "טֶלֶפוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s2",
+  "text": "טֶלֶפוֹן. הַמִּלָּה טֶלֶפוֹן מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w3",
+  "text": "טְרַקְטוֹר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s3",
+  "text": "טְרַקְטוֹר. הַמִּלָּה טְרַקְטוֹר מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w4",
+  "text": "טַבַּעַת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s4",
+  "text": "טַבַּעַת. הַמִּלָּה טַבַּעַת מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w5",
+  "text": "טֶלֶוִיזְיָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s5",
+  "text": "טֶלֶוִיזְיָה. הַמִּלָּה טֶלֶוִיזְיָה מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tet/w6",
+  "text": "טִפָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tet/s6",
+  "text": "טִפָּה. הַמִּלָּה טִפָּה מַתְחִילָה בָּאוֹת טֵית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/name",
+  "text": "יוֹד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי יוֹגִי הַיַּנְשׁוּף.",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי עַל הַחוֹף. זוֹ הָאוֹת יוֹד!",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/intro",
+  "text": "זוֹ הָאוֹת יוֹד. יוֹד הִיא הָאוֹת הֲכִי קְטַנָּה, כְּמוֹ טִפָּה קְטַנָּה שֶׁתְּלוּיָה בָּאֲוִיר.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/syl",
+  "text": "יָ... יוּ... יוֹ... יֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/yod/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת יוֹד?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת יוֹד חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w0",
+  "text": "יַנְשׁוּף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s0",
+  "text": "יַנְשׁוּף. הַמִּלָּה יַנְשׁוּף מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w1",
+  "text": "יָרֵחַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s1",
+  "text": "יָרֵחַ. הַמִּלָּה יָרֵחַ מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w2",
+  "text": "יֶלֶד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s2",
+  "text": "יֶלֶד. הַמִּלָּה יֶלֶד מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w3",
+  "text": "יַלְדָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s3",
+  "text": "יַלְדָּה. הַמִּלָּה יַלְדָּה מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w4",
+  "text": "יָד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s4",
+  "text": "יָד. הַמִּלָּה יָד מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w5",
+  "text": "יוֹנָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s5",
+  "text": "יוֹנָה. הַמִּלָּה יוֹנָה מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w6",
+  "text": "יַהֲלוֹם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s6",
+  "text": "יַהֲלוֹם. הַמִּלָּה יַהֲלוֹם מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/yod/w7",
+  "text": "יַעַר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/yod/s7",
+  "text": "יַעַר. הַמִּלָּה יַעַר מַתְחִילָה בָּאוֹת יוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/name",
+  "text": "כַּף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי כִּפִּי הַכֶּלֶב.",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי עַל הַחוֹף. זוֹ הָאוֹת כַּף!",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/intro",
+  "text": "זוֹ הָאוֹת כַּף. כַּף עֲגֻלָּה, כְּמוֹ כַּף יָד פְּתוּחָה. עִם נְקֻדָּה אוֹמְרִים כּ, וּבְלִי נְקֻדָּה אוֹמְרִים כ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/syl",
+  "text": "כָּ... כִּי... כּוּ... כּוֹ... כֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/kaf/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת כַּף?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת כַּף חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w0",
+  "text": "כֶּלֶב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s0",
+  "text": "כֶּלֶב. הַמִּלָּה כֶּלֶב מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w1",
+  "text": "כַּדּוּר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s1",
+  "text": "כַּדּוּר. הַמִּלָּה כַּדּוּר מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w2",
+  "text": "כּוֹבַע",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s2",
+  "text": "כּוֹבַע. הַמִּלָּה כּוֹבַע מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w3",
+  "text": "כּוֹכָב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s3",
+  "text": "כּוֹכָב. הַמִּלָּה כּוֹכָב מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w4",
+  "text": "כִּסֵּא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s4",
+  "text": "כִּסֵּא. הַמִּלָּה כִּסֵּא מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w5",
+  "text": "כֶּתֶר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s5",
+  "text": "כֶּתֶר. הַמִּלָּה כֶּתֶר מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w6",
+  "text": "כַּפִּית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s6",
+  "text": "כַּפִּית. הַמִּלָּה כַּפִּית מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf/w7",
+  "text": "כָּרִישׁ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf/s7",
+  "text": "כָּרִישׁ. הַמִּלָּה כָּרִישׁ מַתְחִילָה בָּאוֹת כַּף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/name",
+  "text": "לָמֶד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי לִילִי הַלְּטָאָה.",
+  "voice": "Despina",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי עַל הַחוֹף. זוֹ הָאוֹת לָמֶד!",
+  "voice": "Despina",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/intro",
+  "text": "זוֹ הָאוֹת לָמֶד. לָמֶד הִיא הָאוֹת הֲכִי גְּבוֹהָה. הִיא מְצִיצָה מֵעַל כָּל הָאוֹתִיּוֹת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/syl",
+  "text": "לָ... לִי... לוּ... לוֹ... לֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/lamed/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת לָמֶד?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת לָמֶד חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w0",
+  "text": "לְטָאָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s0",
+  "text": "לְטָאָה. הַמִּלָּה לְטָאָה מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w1",
+  "text": "לִימוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s1",
+  "text": "לִימוֹן. הַמִּלָּה לִימוֹן מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w2",
+  "text": "לֵב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s2",
+  "text": "לֵב. הַמִּלָּה לֵב מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w3",
+  "text": "לֶחֶם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s3",
+  "text": "לֶחֶם. הַמִּלָּה לֶחֶם מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w4",
+  "text": "לַיְלָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s4",
+  "text": "לַיְלָה. הַמִּלָּה לַיְלָה מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w5",
+  "text": "לִוְיָתָן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s5",
+  "text": "לִוְיָתָן. הַמִּלָּה לִוְיָתָן מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/lamed/w6",
+  "text": "לֶגוֹ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/lamed/s6",
+  "text": "לֶגוֹ. הַמִּלָּה לֶגוֹ מַתְחִילָה בָּאוֹת לָמֶד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/name",
+  "text": "מֵם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי מִירִי הַמְּדוּזָה.",
+  "voice": "Aoede",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּמִּדְבָּר. זוֹ הָאוֹת מֵם!",
+  "voice": "Aoede",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/intro",
+  "text": "זוֹ הָאוֹת מֵם. מֵם כִּמְעַט סְגוּרָה, וְיֵשׁ לָהּ פֶּתַח קָטָן לְמַטָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/syl",
+  "text": "מָ... מִי... מוּ... מוֹ... מֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/mem/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת מֵם?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת מֵם חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w0",
+  "text": "מְדוּזָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s0",
+  "text": "מְדוּזָה. הַמִּלָּה מְדוּזָה מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w1",
+  "text": "מִטְרִיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s1",
+  "text": "מִטְרִיָּה. הַמִּלָּה מִטְרִיָּה מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w2",
+  "text": "מְכוֹנִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s2",
+  "text": "מְכוֹנִית. הַמִּלָּה מְכוֹנִית מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w3",
+  "text": "מַפְתֵּחַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s3",
+  "text": "מַפְתֵּחַ. הַמִּלָּה מַפְתֵּחַ מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w4",
+  "text": "מִטָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s4",
+  "text": "מִטָּה. הַמִּלָּה מִטָּה מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w5",
+  "text": "מַחְשֵׁב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s5",
+  "text": "מַחְשֵׁב. הַמִּלָּה מַחְשֵׁב מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w6",
+  "text": "מַזְלֵג",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s6",
+  "text": "מַזְלֵג. הַמִּלָּה מַזְלֵג מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem/w7",
+  "text": "מַמְתָּק",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem/s7",
+  "text": "מַמְתָּק. הַמִּלָּה מַמְתָּק מַתְחִילָה בָּאוֹת מֵם.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/name",
+  "text": "נוּן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי נוֹגָה הַנְּמָלָה.",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּמִּדְבָּר. זוֹ הָאוֹת נוּן!",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/intro",
+  "text": "זוֹ הָאוֹת נוּן. נוּן צָרָה וּקְטַנָּה, כְּמוֹ בֵּית רָזָה מְאוֹד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/syl",
+  "text": "נָ... נִי... נוּ... נוֹ... נֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/nun/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת נוּן?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת נוּן חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w0",
+  "text": "נְמָלָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s0",
+  "text": "נְמָלָה. הַמִּלָּה נְמָלָה מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w1",
+  "text": "נָמֵר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s1",
+  "text": "נָמֵר. הַמִּלָּה נָמֵר מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w2",
+  "text": "נָחָשׁ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s2",
+  "text": "נָחָשׁ. הַמִּלָּה נָחָשׁ מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w3",
+  "text": "נֵר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s3",
+  "text": "נֵר. הַמִּלָּה נֵר מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w4",
+  "text": "נַעַל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s4",
+  "text": "נַעַל. הַמִּלָּה נַעַל מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w5",
+  "text": "נוֹצָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s5",
+  "text": "נוֹצָה. הַמִּלָּה נוֹצָה מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun/w6",
+  "text": "נְסִיכָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun/s6",
+  "text": "נְסִיכָה. הַמִּלָּה נְסִיכָה מַתְחִילָה בָּאוֹת נוּן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/name",
+  "text": "סָמֶךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי סָמִי הַסְּנַאִי.",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בַּמִּדְבָּר. זוֹ הָאוֹת סָמֶךְ!",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/intro",
+  "text": "זוֹ הָאוֹת סָמֶךְ. סָמֶךְ עֲגֻלָּה וּסְגוּרָה מִכָּל הַצְּדָדִים, כְּמוֹ גַּלְגַּל.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/syl",
+  "text": "סָ... סִי... סוּ... סוֹ... סֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/samekh/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת סָמֶךְ?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת סָמֶךְ חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w0",
+  "text": "סְנַאִי",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s0",
+  "text": "סְנַאִי. הַמִּלָּה סְנַאִי מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w1",
+  "text": "סוּס",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s1",
+  "text": "סוּס. הַמִּלָּה סוּס מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w2",
+  "text": "סֵפֶר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s2",
+  "text": "סֵפֶר. הַמִּלָּה סֵפֶר מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w3",
+  "text": "סַל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s3",
+  "text": "סַל. הַמִּלָּה סַל מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w4",
+  "text": "סֻכָּרִיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s4",
+  "text": "סֻכָּרִיָּה. הַמִּלָּה סֻכָּרִיָּה מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w5",
+  "text": "סִירָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s5",
+  "text": "סִירָה. הַמִּלָּה סִירָה מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w6",
+  "text": "סַבְתָּא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s6",
+  "text": "סַבְתָּא. הַמִּלָּה סַבְתָּא מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/samekh/w7",
+  "text": "סַבָּא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/samekh/s7",
+  "text": "סַבָּא. הַמִּלָּה סַבָּא מַתְחִילָה בָּאוֹת סָמֶךְ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/name",
+  "text": "עַיִן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי עוֹפְרִי הָעַכְבָּר.",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בֶּהָרִים. זוֹ הָאוֹת עַיִן!",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/intro",
+  "text": "זוֹ הָאוֹת עַיִן. עַיִן נִרְאֵית כְּמוֹ שְׁתֵּי יָדַיִם שֶׁמְּרִימוֹת לְמַעְלָה וְאוֹמְרוֹת הֵידָד.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/syl",
+  "text": "עָ... עִי... עוּ... עוֹ... עֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/ayin/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת עַיִן?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת עַיִן חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w0",
+  "text": "עַכְבָּר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s0",
+  "text": "עַכְבָּר. הַמִּלָּה עַכְבָּר מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w1",
+  "text": "עוּגָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s1",
+  "text": "עוּגָה. הַמִּלָּה עוּגָה מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w2",
+  "text": "עָנָן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s2",
+  "text": "עָנָן. הַמִּלָּה עָנָן מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w3",
+  "text": "עַיִן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s3",
+  "text": "עַיִן. הַמִּלָּה עַיִן מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w4",
+  "text": "עֵז",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s4",
+  "text": "עֵז. הַמִּלָּה עֵז מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w5",
+  "text": "עַגְבָנִיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s5",
+  "text": "עַגְבָנִיָּה. הַמִּלָּה עַגְבָנִיָּה מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w6",
+  "text": "עִפָּרוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s6",
+  "text": "עִפָּרוֹן. הַמִּלָּה עִפָּרוֹן מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/ayin/w7",
+  "text": "עֲפִיפוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/ayin/s7",
+  "text": "עֲפִיפוֹן. הַמִּלָּה עֲפִיפוֹן מַתְחִילָה בָּאוֹת עַיִן.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/name",
+  "text": "פֵּא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי פְּנִינָה הַפִּילָה.",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בֶּהָרִים. זוֹ הָאוֹת פֵּא!",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/intro",
+  "text": "זוֹ הָאוֹת פֵּא. פֵּא נִרְאֵית כְּמוֹ פֶּה פָּתוּחַ עִם לָשׁוֹן קְטַנָּה. עִם נְקֻדָּה אוֹמְרִים פּ, וּבְלִי נְקֻדָּה אוֹמְרִים פ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/syl",
+  "text": "פָּ... פִּי... פּוּ... פּוֹ... פֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/pe/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת פֵּא?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת פֵּא חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w0",
+  "text": "פִּיל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s0",
+  "text": "פִּיל. הַמִּלָּה פִּיל מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w1",
+  "text": "פֶּרַח",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s1",
+  "text": "פֶּרַח. הַמִּלָּה פֶּרַח מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w2",
+  "text": "פַּרְפַּר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s2",
+  "text": "פַּרְפַּר. הַמִּלָּה פַּרְפַּר מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w3",
+  "text": "פָּרָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s3",
+  "text": "פָּרָה. הַמִּלָּה פָּרָה מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w4",
+  "text": "פִּיצָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s4",
+  "text": "פִּיצָה. הַמִּלָּה פִּיצָה מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w5",
+  "text": "פַּנְדָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s5",
+  "text": "פַּנְדָּה. הַמִּלָּה פַּנְדָּה מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w6",
+  "text": "פִּינְגְּוִין",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s6",
+  "text": "פִּינְגְּוִין. הַמִּלָּה פִּינְגְּוִין מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe/w7",
+  "text": "פֶּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe/s7",
+  "text": "פֶּה. הַמִּלָּה פֶּה מַתְחִילָה בָּאוֹת פֵּא.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/name",
+  "text": "צָדִי",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי צוּקִי הַצָּב.",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בֶּהָרִים. זוֹ הָאוֹת צָדִי!",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/intro",
+  "text": "זוֹ הָאוֹת צָדִי. צָדִי נִרְאֵית כְּמוֹ צִפּוֹר שֶׁיּוֹשֶׁבֶת וּמְרִימָה כָּנָף אַחַת.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/syl",
+  "text": "צָ... צִי... צוּ... צוֹ... צֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/tsadi/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת צָדִי?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת צָדִי חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w0",
+  "text": "צָב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s0",
+  "text": "צָב. הַמִּלָּה צָב מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w1",
+  "text": "צִפּוֹר",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s1",
+  "text": "צִפּוֹר. הַמִּלָּה צִפּוֹר מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w2",
+  "text": "צְפַרְדֵּעַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s2",
+  "text": "צְפַרְדֵּעַ. הַמִּלָּה צְפַרְדֵּעַ מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w3",
+  "text": "צַלַּחַת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s3",
+  "text": "צַלַּחַת. הַמִּלָּה צַלַּחַת מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w4",
+  "text": "צֶבַע",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s4",
+  "text": "צֶבַע. הַמִּלָּה צֶבַע מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w5",
+  "text": "צַעֲצוּעַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s5",
+  "text": "צַעֲצוּעַ. הַמִּלָּה צַעֲצוּעַ מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi/w6",
+  "text": "צָהֹב",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi/s6",
+  "text": "צָהֹב. הַמִּלָּה צָהֹב מַתְחִילָה בָּאוֹת צָדִי.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/name",
+  "text": "קוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי קוּצִי הַקִּפּוֹד.",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֲנָנִים. זוֹ הָאוֹת קוֹף!",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/intro",
+  "text": "זוֹ הָאוֹת קוֹף. לְקוֹף יֵשׁ גַּג, וְרֶגֶל אֲרֻכָּה שֶׁיּוֹרֶדֶת מִתַּחַת לַשּׁוּרָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/syl",
+  "text": "קָ... קִי... קוּ... קוֹ... קֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/qof/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת קוֹף?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת קוֹף חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w0",
+  "text": "קִפּוֹד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s0",
+  "text": "קִפּוֹד. הַמִּלָּה קִפּוֹד מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w1",
+  "text": "קוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s1",
+  "text": "קוֹף. הַמִּלָּה קוֹף מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w2",
+  "text": "קַקְטוּס",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s2",
+  "text": "קַקְטוּס. הַמִּלָּה קַקְטוּס מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w3",
+  "text": "קֶשֶׁת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s3",
+  "text": "קֶשֶׁת. הַמִּלָּה קֶשֶׁת מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w4",
+  "text": "קֻבִּיָּה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s4",
+  "text": "קֻבִּיָּה. הַמִּלָּה קֻבִּיָּה מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w5",
+  "text": "קֶרַח",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s5",
+  "text": "קֶרַח. הַמִּלָּה קֶרַח מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/qof/w6",
+  "text": "קַרְנַף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/qof/s6",
+  "text": "קַרְנַף. הַמִּלָּה קַרְנַף מַתְחִילָה בָּאוֹת קוֹף.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/name",
+  "text": "רֵישׁ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי רוֹבִּי הָרוֹבּוֹט.",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֲנָנִים. זוֹ הָאוֹת רֵישׁ!",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/intro",
+  "text": "זוֹ הָאוֹת רֵישׁ. רֵישׁ דּוֹמָה לְדָלֶת, אֲבָל הַפִּנָּה שֶׁלָּהּ עֲגֻלָּה וְרַכָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/syl",
+  "text": "רָ... רִי... רוּ... רוֹ... רֶ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/resh/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת רֵישׁ?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת רֵישׁ חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w0",
+  "text": "רוֹבּוֹט",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s0",
+  "text": "רוֹבּוֹט. הַמִּלָּה רוֹבּוֹט מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w1",
+  "text": "רַכֶּבֶת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s1",
+  "text": "רַכֶּבֶת. הַמִּלָּה רַכֶּבֶת מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w2",
+  "text": "רֶגֶל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s2",
+  "text": "רֶגֶל. הַמִּלָּה רֶגֶל מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w3",
+  "text": "רוּחַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s3",
+  "text": "רוּחַ. הַמִּלָּה רוּחַ מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w4",
+  "text": "רַדְיוֹ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s4",
+  "text": "רַדְיוֹ. הַמִּלָּה רַדְיוֹ מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w5",
+  "text": "רוֹפֵא",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s5",
+  "text": "רוֹפֵא. הַמִּלָּה רוֹפֵא מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/resh/w6",
+  "text": "רִבּוּעַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/resh/s6",
+  "text": "רִבּוּעַ. הַמִּלָּה רִבּוּעַ מַתְחִילָה בָּאוֹת רֵישׁ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/name",
+  "text": "שִׁין",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי שׁוּקִי הַשּׁוּעָל.",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֲנָנִים. זוֹ הָאוֹת שִׁין!",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/intro",
+  "text": "זוֹ הָאוֹת שִׁין. לְשִׁין יֵשׁ שָׁלוֹשׁ זְרוֹעוֹת, כְּמוֹ כֶּתֶר. נְקֻדָּה מִיָּמִין: שׁ. נְקֻדָּה מִשְּׂמֹאל: שׂ.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/syl",
+  "text": "שָׁ... שִׁי... שׁוּ... שׁוֹ... שֶׁ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/shin/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת שִׁין?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת שִׁין חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w0",
+  "text": "שׁוּעָל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s0",
+  "text": "שׁוּעָל. הַמִּלָּה שׁוּעָל מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w1",
+  "text": "שֶׁמֶשׁ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s1",
+  "text": "שֶׁמֶשׁ. הַמִּלָּה שֶׁמֶשׁ מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w2",
+  "text": "שָׁעוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s2",
+  "text": "שָׁעוֹן. הַמִּלָּה שָׁעוֹן מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w3",
+  "text": "שׁוֹקוֹלָד",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s3",
+  "text": "שׁוֹקוֹלָד. הַמִּלָּה שׁוֹקוֹלָד מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w4",
+  "text": "שִׁנַּיִם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s4",
+  "text": "שִׁנַּיִם. הַמִּלָּה שִׁנַּיִם מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w5",
+  "text": "שֶׁלֶג",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s5",
+  "text": "שֶׁלֶג. הַמִּלָּה שֶׁלֶג מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/shin/w6",
+  "text": "שִׂמְלָה",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/shin/s6",
+  "text": "שִׂמְלָה. הַמִּלָּה שִׂמְלָה מַתְחִילָה בָּאוֹת שִׁין.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/name",
+  "text": "תָּו",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי תַּמִּי הַתַּנִּינָה.",
+  "voice": "Despina",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֲנָנִים. זוֹ הָאוֹת תָּו!",
+  "voice": "Despina",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/intro",
+  "text": "זוֹ הָאוֹת תָּו. תָּו הִיא כְּמוֹ גֶּשֶׁר עִם שְׁתֵּי רַגְלַיִם, וּלְרֶגֶל אַחַת יֵשׁ נַעַל קְטַנָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/syl",
+  "text": "תָּ... תִּי... תּוּ... תּוֹ... תֶּ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/tav/yesno",
+  "text": "הַאִם הַמִּלָּה מַתְחִילָה בָּאוֹת תָּו?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת תָּו חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w0",
+  "text": "תַּנִּין",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s0",
+  "text": "תַּנִּין. הַמִּלָּה תַּנִּין מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w1",
+  "text": "תַּפּוּחַ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s1",
+  "text": "תַּפּוּחַ. הַמִּלָּה תַּפּוּחַ מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w2",
+  "text": "תּוּת",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s2",
+  "text": "תּוּת. הַמִּלָּה תּוּת מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w3",
+  "text": "תֻּכִּי",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s3",
+  "text": "תֻּכִּי. הַמִּלָּה תֻּכִּי מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w4",
+  "text": "תַּרְנְגוֹל",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s4",
+  "text": "תַּרְנְגוֹל. הַמִּלָּה תַּרְנְגוֹל מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w5",
+  "text": "תִּינוֹק",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s5",
+  "text": "תִּינוֹק. הַמִּלָּה תִּינוֹק מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w6",
+  "text": "תִּיק",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s6",
+  "text": "תִּיק. הַמִּלָּה תִּיק מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tav/w7",
+  "text": "תֹּף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tav/s7",
+  "text": "תֹּף. הַמִּלָּה תֹּף מַתְחִילָה בָּאוֹת תָּו.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/name",
+  "text": "כַּף סוֹפִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי הַמֶּלֶךְ.",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֵמֶק. זוֹ הָאוֹת כַּף סוֹפִית!",
+  "voice": "Charon",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/intro",
+  "text": "זוֹ הָאוֹת כַּף סוֹפִית. כַּף סוֹפִית הִיא קַו אָרֹךְ שֶׁיּוֹרֵד לְמַטָּה, מִתַּחַת לַשּׁוּרָה. הִיא בָּאָה רַק בְּסוֹף הַמִּלָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/syl",
+  "text": "אַךְ... אוֹךְ... אִיךְ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/yesno",
+  "text": "הַאִם הַמִּלָּה נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת כַּף סוֹפִית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w0",
+  "text": "מֶלֶךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s0",
+  "text": "מֶלֶךְ. הַמִּלָּה מֶלֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w1",
+  "text": "דֶּרֶךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s1",
+  "text": "דֶּרֶךְ. הַמִּלָּה דֶּרֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w2",
+  "text": "בֶּרֶךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s2",
+  "text": "בֶּרֶךְ. הַמִּלָּה בֶּרֶךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w3",
+  "text": "חִיּוּךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s3",
+  "text": "חִיּוּךְ. הַמִּלָּה חִיּוּךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w4",
+  "text": "מַלְאָךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s4",
+  "text": "מַלְאָךְ. הַמִּלָּה מַלְאָךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/kaf-sofit/w5",
+  "text": "כָּרִיךְ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/kaf-sofit/s5",
+  "text": "כָּרִיךְ. הַמִּלָּה כָּרִיךְ נִגְמֶרֶת בָּאוֹת כַּף סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/name",
+  "text": "מֵם סוֹפִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי נֹעַם הַדָּג.",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֵמֶק. זוֹ הָאוֹת מֵם סוֹפִית!",
+  "voice": "Puck",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/intro",
+  "text": "זוֹ הָאוֹת מֵם סוֹפִית. מֵם סוֹפִית הִיא רִבּוּעַ סָגוּר לְגַמְרֵי, כְּמוֹ קֻפְסָה. הִיא בָּאָה רַק בְּסוֹף הַמִּלָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/syl",
+  "text": "אַם... אוֹם... אִים.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/yesno",
+  "text": "הַאִם הַמִּלָּה נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת מֵם סוֹפִית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w0",
+  "text": "יָם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s0",
+  "text": "יָם. הַמִּלָּה יָם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w1",
+  "text": "שָׁלוֹם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s1",
+  "text": "שָׁלוֹם. הַמִּלָּה שָׁלוֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w2",
+  "text": "חֲלוֹם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s2",
+  "text": "חֲלוֹם. הַמִּלָּה חֲלוֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w3",
+  "text": "אָדֹם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s3",
+  "text": "אָדֹם. הַמִּלָּה אָדֹם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w4",
+  "text": "שָׁמַיִם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s4",
+  "text": "שָׁמַיִם. הַמִּלָּה שָׁמַיִם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/mem-sofit/w5",
+  "text": "מַיִם",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/mem-sofit/s5",
+  "text": "מַיִם. הַמִּלָּה מַיִם נִגְמֶרֶת בָּאוֹת מֵם סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/name",
+  "text": "נוּן סוֹפִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי דָּן הַדּוֹלְפִין.",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֵמֶק. זוֹ הָאוֹת נוּן סוֹפִית!",
+  "voice": "Achird",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/intro",
+  "text": "זוֹ הָאוֹת נוּן סוֹפִית. נוּן סוֹפִית הִיא קַו יָשָׁר וְאָרֹךְ שֶׁיּוֹרֵד לְמַטָּה. הִיא בָּאָה רַק בְּסוֹף הַמִּלָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/syl",
+  "text": "אַן... אוֹן... אִין.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/yesno",
+  "text": "הַאִם הַמִּלָּה נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת נוּן סוֹפִית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w0",
+  "text": "אֲוִירוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s0",
+  "text": "אֲוִירוֹן. הַמִּלָּה אֲוִירוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w1",
+  "text": "דּוֹלְפִין",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s1",
+  "text": "דּוֹלְפִין. הַמִּלָּה דּוֹלְפִין נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w2",
+  "text": "אַרְמוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s2",
+  "text": "אַרְמוֹן. הַמִּלָּה אַרְמוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w3",
+  "text": "פַּעֲמוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s3",
+  "text": "פַּעֲמוֹן. הַמִּלָּה פַּעֲמוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w4",
+  "text": "עִתּוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s4",
+  "text": "עִתּוֹן. הַמִּלָּה עִתּוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w5",
+  "text": "גַּן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s5",
+  "text": "גַּן. הַמִּלָּה גַּן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/nun-sofit/w6",
+  "text": "בַּלּוֹן",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/nun-sofit/s6",
+  "text": "בַּלּוֹן. הַמִּלָּה בַּלּוֹן נִגְמֶרֶת בָּאוֹת נוּן סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/name",
+  "text": "פֵּא סוֹפִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי יוֹסֵף הַקּוֹף.",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֵמֶק. זוֹ הָאוֹת פֵּא סוֹפִית!",
+  "voice": "Fenrir",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/intro",
+  "text": "זוֹ הָאוֹת פֵּא סוֹפִית. פֵּא סוֹפִית יוֹרֶדֶת לְמַטָּה כְּמוֹ מַגְלֵשָׁה, וְאוֹמְרִים אוֹתָהּ פ. הִיא בָּאָה רַק בְּסוֹף הַמִּלָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/syl",
+  "text": "אַף... אוֹף... אִיף.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/yesno",
+  "text": "הַאִם הַמִּלָּה נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת פֵּא סוֹפִית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w0",
+  "text": "חוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s0",
+  "text": "חוֹף. הַמִּלָּה חוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w1",
+  "text": "אַף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s1",
+  "text": "אַף. הַמִּלָּה אַף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w2",
+  "text": "כָּנָף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s2",
+  "text": "כָּנָף. הַמִּלָּה כָּנָף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w3",
+  "text": "עוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s3",
+  "text": "עוֹף. הַמִּלָּה עוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w4",
+  "text": "סוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s4",
+  "text": "סוֹף. הַמִּלָּה סוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/pe-sofit/w5",
+  "text": "קוֹף",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/pe-sofit/s5",
+  "text": "קוֹף. הַמִּלָּה קוֹף נִגְמֶרֶת בָּאוֹת פֵּא סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/name",
+  "text": "צָדִי סוֹפִית",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/friend1",
+  "text": "שָׁלוֹם, לוּלָה! אֲנִי הָעֵץ הֶחָכָם.",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/friend2",
+  "text": "מָצָאתִי אוֹת קְטַנָּה שֶׁהִתְחַבְּאָה אֶצְלִי בָּעֵמֶק. זוֹ הָאוֹת צָדִי סוֹפִית!",
+  "voice": "Algenib",
+  "style": "Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/intro",
+  "text": "זוֹ הָאוֹת צָדִי סוֹפִית. צָדִי סוֹפִית יוֹרֶדֶת לְמַטָּה, כְּמוֹ זָנָב אָרֹךְ. הִיא בָּאָה רַק בְּסוֹף הַמִּלָּה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/syl",
+  "text": "אַץ... אוֹץ... אִיץ.",
+  "voice": "Leda",
+  "style": "Read these Hebrew syllables aloud slowly with a short pause between them, for a child learning to read, exactly as the niqqud shows. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/yesno",
+  "text": "הַאִם הַמִּלָּה נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/done",
+  "text": "הַצְלָחָה גְּדוֹלָה! הָאוֹת צָדִי סוֹפִית חָזְרָה לַתִּיק שֶׁל לוּלָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w0",
+  "text": "עֵץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s0",
+  "text": "עֵץ. הַמִּלָּה עֵץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w1",
+  "text": "מִיץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s1",
+  "text": "מִיץ. הַמִּלָּה מִיץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w2",
+  "text": "חֵץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s2",
+  "text": "חֵץ. הַמִּלָּה חֵץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w3",
+  "text": "אֶרֶץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s3",
+  "text": "אֶרֶץ. הַמִּלָּה אֶרֶץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w4",
+  "text": "קַיִץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s4",
+  "text": "קַיִץ. הַמִּלָּה קַיִץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "L/tsadi-sofit/w5",
+  "text": "בֹּץ",
+  "voice": "Leda",
+  "style": "Say this single Hebrew word slowly and very clearly for a 5 year old learning to read, exactly as the niqqud shows. Say only the word"
+ },
+ {
+  "id": "L/tsadi-sofit/s5",
+  "text": "בֹּץ. הַמִּלָּה בֹּץ נִגְמֶרֶת בָּאוֹת צָדִי סוֹפִית.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ }
+]
