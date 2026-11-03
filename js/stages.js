@@ -1,7 +1,6 @@
 // 19 השלבים של כל אות. כל שלב הוא פונקציה אסינכרונית שמסתיימת כשהילד סיים אותו.
 import { LETTERS, REGIONS, letterLines, parseWord } from './data.js';
-import { say, sfx, stop } from './audio.js';
-import { lulaSVG } from './lula.js';
+import { sfx, stop } from './audio.js';
 
 const $ = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -42,21 +41,21 @@ function continueBtn(ctx, label = 'מַמְשִׁיכִים') {
   });
 }
 
-function bubbleText(ctx, text, who = 'lula') {
-  ctx.caption.innerHTML = `<div class="speech ${who}">${text}</div>`;
+function bubbleText(ctx, text) {
+  ctx.bubble(text);
 }
 
 async function good(ctx) {
   ctx.lulaReact('happy');
   sfx.ding();
   ctx.confettiSmall();
-  await say(`ui/praise${1 + Math.floor(Math.random() * 6)}`);
+  await ctx.talk(`ui/praise${1 + Math.floor(Math.random() * 6)}`);
 }
 async function bad(ctx) {
   ctx.mistake();
   ctx.lulaReact('oops');
   sfx.boop();
-  await say(`ui/try${1 + Math.floor(Math.random() * 3)}`);
+  await ctx.talk(`ui/try${1 + Math.floor(Math.random() * 3)}`);
 }
 
 // ---------- 1. סיפור: פוגשים חבר ----------
@@ -65,26 +64,25 @@ async function story(ctx) {
   const region = REGIONS.find((r) => r.id === l.region);
   ctx.body.innerHTML = `
     <div class="story-scene">
-      <div class="walker walk-in">${lulaSVG('walking')}</div>
-      <div class="friend pop-in">${l.friend.e}</div>
+      <div class="friend-wrap pop-in">${ctx.friendHTML('friend-big')}<div class="friend-bubble"></div></div>
       <div class="lost-letter">${l.ch}</div>
     </div>`;
-  ctx.setTitle(region.name);
-  const lulaEl = ctx.body.querySelector('.lula');
+  ctx.screen.querySelector('.side-hero').classList.add('walk-in');
+  ctx.base('walk');
   bubbleText(ctx, region.arrive);
-  await say(`region/${region.id}`);
-  lulaEl.classList.remove('walking');
-  if (l.final && l.id === 'kaf-sofit') { bubbleText(ctx, ctx.textOf('ui/finalsIntro')); await say('ui/finalsIntro'); }
-  ctx.body.querySelector('.friend').classList.add('talking');
-  bubbleText(ctx, lines.friend1, 'friend');
-  await say(`L/${l.id}/friend1`);
-  bubbleText(ctx, lines.friend2, 'friend');
+  await ctx.talk(`region/${region.id}`);
+  ctx.base('wave');
+  if (l.final && l.id === 'kaf-sofit') { bubbleText(ctx, ctx.textOf('ui/finalsIntro')); await ctx.talk('ui/finalsIntro'); }
+  const fw = ctx.body.querySelector('.friend-wrap'); const fb = ctx.body.querySelector('.friend-bubble'); fw.classList.add('talking'); ctx.bubble('');
+  fb.innerHTML = `<div class="speech friend">${lines.friend1}</div>`;
+  await ctx.say(`L/${l.id}/friend1`);
+  fb.innerHTML = `<div class="speech friend">${lines.friend2}</div>`;
   ctx.body.querySelector('.lost-letter').classList.add('show');
   sfx.whoosh();
-  await say(`L/${l.id}/friend2`);
-  ctx.body.querySelector('.friend').classList.remove('talking');
+  await ctx.say(`L/${l.id}/friend2`);
+  fw.classList.remove('talking'); fb.innerHTML = '';
   bubbleText(ctx, ctx.textOf('ui/letsLearn'));
-  say('ui/letsLearn');
+  ctx.talk('ui/letsLearn');
   await continueBtn(ctx, 'בּוֹאוּ נִלְמַד!');
 }
 
@@ -95,12 +93,12 @@ async function meetLetter(ctx) {
     <div class="letter-name">${l.name}</div>`;
   const b = ctx.body.querySelector('.giant-letter');
   bubbleText(ctx, ctx.textOf('ui/insLetter'));
-  await say('ui/insLetter');
+  await ctx.talk('ui/insLetter');
   let heard = false;
   const play = async () => {
     b.classList.remove('boing'); void b.offsetWidth; b.classList.add('boing');
     bubbleText(ctx, lines.intro);
-    await say(`L/${l.id}/name`, `L/${l.id}/intro`);
+    await ctx.talk(`L/${l.id}/name`, `L/${l.id}/intro`);
     if (!heard) { heard = true; await continueBtn(ctx); done(); }
   };
   let done; const p = new Promise((r) => (done = r));
@@ -115,7 +113,7 @@ async function syllables(ctx) {
     <button class="btn round again" aria-label="שוב">🔊</button>`;
   const els = [...ctx.body.querySelectorAll('.syl')];
   bubbleText(ctx, ctx.textOf('ui/insSyl'));
-  await say('ui/insSyl');
+  await ctx.talk('ui/insSyl');
   const run = async () => {
     const a = new Audio(`audio/L/${l.id}/syl.mp3`);
     let dur = 0;
@@ -168,7 +166,7 @@ async function trace(ctx) {
   };
   render();
   bubbleText(ctx, ctx.textOf('ui/insTrace'));
-  say('ui/insTrace');
+  ctx.talk('ui/insTrace');
 
   let drawing = false; let last = null; let finished = false;
   const pos = (e) => { const r = cv.getBoundingClientRect(); return [((e.clientX - r.left) / r.width) * 600, ((e.clientY - r.top) / r.height) * 600]; };
@@ -213,9 +211,9 @@ function wordCard(i) {
       <div class="hint-small">מִלָּה ${i + 1} מִתּוֹךְ 6</div>`;
     const card = ctx.body.querySelector('.word-card');
     bubbleText(ctx, `<span class="big">${wordHTML(l, x.w)}</span>`);
-    if (i === 0) await say('ui/insWord');
-    await say(`L/${l.id}/s${i}`);
-    card.onclick = () => { card.classList.remove('boing'); void card.offsetWidth; card.classList.add('boing'); say(`L/${l.id}/w${i}`); };
+    if (i === 0) await ctx.talk('ui/insWord');
+    await ctx.talk(`L/${l.id}/s${i}`);
+    card.onclick = () => { card.classList.remove('boing'); void card.offsetWidth; card.classList.add('boing'); ctx.talk(`L/${l.id}/w${i}`); };
     await continueBtn(ctx);
   };
 }
@@ -228,7 +226,7 @@ async function bubbles(ctx) {
   const field = ctx.body.querySelector('.bubble-field');
   const counter = ctx.body.querySelector('.counter');
   bubbleText(ctx, `${ctx.textOf('ui/insBubbles')} <b class="hl">${l.ch}</b>`);
-  say('ui/insBubbles', `L/${l.id}/name`);
+  ctx.talk('ui/insBubbles', `L/${l.id}/name`);
   const others = ANY_LETTERS.filter((c) => c !== l.ch && c !== l.base);
   let resolve; const out = new Promise((r) => (resolve = r));
   let alive = true;
@@ -264,11 +262,11 @@ async function whichStarts(ctx) {
       <div class="round-dots">${[0, 1, 2].map((k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     const ins = l.final ? 'ui/insWhichEnd' : 'ui/insWhich';
     bubbleText(ctx, `${ctx.textOf(ins)} <b class="hl">${l.ch}</b>?`);
-    say(ins, `L/${l.id}/name`);
+    ctx.talk(ins, `L/${l.id}/name`);
     await new Promise((res) => {
       ctx.body.querySelectorAll('.choice').forEach((b) => (b.onclick = async () => {
         const o = opts[+b.dataset.k];
-        say(clip(o));
+        ctx.talk(clip(o));
         if (o === t) { b.classList.add('right'); await wait(700); await good(ctx); res(); }
         else { b.classList.add('wrong'); await wait(700); await bad(ctx); b.classList.remove('wrong'); }
       }));
@@ -287,14 +285,14 @@ async function listenChoose(ctx) {
       <div class="choices">${opts.map((o, k) => `<button class="choice" data-k="${k}"><div class="pic">${o.e}</div></button>`).join('')}</div>
       <div class="round-dots">${[0, 1, 2].map((k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     bubbleText(ctx, ctx.textOf('ui/insListen'));
-    if (round === 0) await say('ui/insListen');
-    say(clip(t));
-    ctx.body.querySelector('.listen').onclick = () => say(clip(t));
+    if (round === 0) await ctx.talk('ui/insListen');
+    ctx.talk(clip(t));
+    ctx.body.querySelector('.listen').onclick = () => ctx.talk(clip(t));
     await new Promise((res) => {
       ctx.body.querySelectorAll('.choice').forEach((b) => (b.onclick = async () => {
         const o = opts[+b.dataset.k];
         if (o === t) { b.classList.add('right'); b.insertAdjacentHTML('beforeend', `<div class="cap">${wordHTML(l, o.w)}</div>`); await good(ctx); res(); }
-        else { b.classList.add('wrong'); await bad(ctx); b.classList.remove('wrong'); say(clip(t)); }
+        else { b.classList.add('wrong'); await bad(ctx); b.classList.remove('wrong'); ctx.talk(clip(t)); }
       }));
     });
   }
@@ -314,7 +312,7 @@ async function hidden(ctx) {
     <div class="counter">${'🔍'.repeat(targets)}</div>`;
   const counter = ctx.body.querySelector('.counter');
   bubbleText(ctx, `${ctx.textOf('ui/insHidden')} <b class="hl">${l.ch}</b>`);
-  say('ui/insHidden', `L/${l.id}/name`);
+  ctx.talk('ui/insHidden', `L/${l.id}/name`);
   let found = 0;
   await new Promise((res) => {
     ctx.body.querySelectorAll('.hide-spot').forEach((b, i) => (b.onclick = async () => {
@@ -338,21 +336,21 @@ async function memory(ctx) {
   ctx.body.innerHTML = `<div class="memory">${cards.map((c, i) => `
     <button class="mcard" data-i="${i}"><span class="back">❓</span><span class="front ${c.kind}">${c.kind === 'pic' ? c.x.e : wordHTML(l, c.x.w)}</span></button>`).join('')}</div>`;
   bubbleText(ctx, ctx.textOf('ui/insMemory'));
-  say('ui/insMemory');
+  ctx.talk('ui/insMemory');
   let open = []; let matched = 0; let lock = false;
   await new Promise((res) => {
     ctx.body.querySelectorAll('.mcard').forEach((b) => (b.onclick = async () => {
       if (lock || b.classList.contains('up')) return;
       const c = cards[+b.dataset.i];
       b.classList.add('up'); sfx.flip();
-      if (c.kind === 'pic') say(clip(c.x));
+      if (c.kind === 'pic') ctx.talk(clip(c.x));
       open.push([b, c]);
       if (open.length === 2) {
         lock = true;
         const [[b1, c1], [b2, c2]] = open; open = [];
         if (c1.k === c2.k) {
           b1.classList.add('match'); b2.classList.add('match'); matched++;
-          await wait(300); say(clip(c1.x)); sfx.ding(); await wait(900);
+          await wait(300); ctx.talk(clip(c1.x)); sfx.ding(); await wait(900);
           if (matched === 3) { await good(ctx); res(); }
         } else { await wait(1000); b1.classList.remove('up'); b2.classList.remove('up'); }
         lock = false;
@@ -377,15 +375,15 @@ async function build(ctx) {
       <div class="tiles">${tiles.map((t) => `<button class="tile">${t}</button>`).join('')}</div></div>
       <div class="round-dots">${ws.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     bubbleText(ctx, ctx.textOf('ui/insBuild'));
-    if (round === 0) await say('ui/insBuild');
-    say(clip(x));
+    if (round === 0) await ctx.talk('ui/insBuild');
+    ctx.talk(clip(x));
     await new Promise((res) => {
       ctx.body.querySelectorAll('.tile').forEach((b) => (b.onclick = async () => {
         if (b.textContent === l.ch) {
           b.classList.add('right');
           const slot = ctx.body.querySelector('.slot');
           slot.textContent = g[idx]; slot.classList.add('filled');
-          say(clip(x)); await wait(900); await good(ctx); res();
+          ctx.talk(clip(x)); await wait(900); await good(ctx); res();
         } else { b.classList.add('wrong'); await bad(ctx); b.classList.remove('wrong'); }
       }));
     });
@@ -402,9 +400,9 @@ async function yesNo(ctx) {
     ctx.body.innerHTML = `<div class="yn"><button class="pic big hear">${it.x.e}</button><div class="cap">${it.x.w}</div>
       <div class="yn-btns"><button class="btn yes">👍 כֵּן</button><button class="btn no">👎 לֹא</button></div></div>
       <div class="round-dots">${items.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
-    if (round === 0) await say(`L/${l.id}/yesno`);
-    say(clip(it.x));
-    ctx.body.querySelector('.hear').onclick = () => say(clip(it.x));
+    if (round === 0) await ctx.talk(`L/${l.id}/yesno`);
+    ctx.talk(clip(it.x));
+    ctx.body.querySelector('.hear').onclick = () => ctx.talk(clip(it.x));
     await new Promise((res) => {
       const answer = async (v) => {
         if (v === it.yes) { await good(ctx); res(); } else await bad(ctx);
@@ -422,13 +420,13 @@ async function party(ctx) {
   ctx.body.innerHTML = `<div class="party">${ws.map((x, k) => `
     <button class="balloon" style="--h:${(k * 53) % 360};--t:${(k % 3) * 0.4}s"><span class="pic">${x.e}</span><span class="cap">${wordHTML(l, x.w)}</span></button>`).join('')}</div>`;
   bubbleText(ctx, ctx.textOf('ui/insParty'));
-  say('ui/insParty');
+  ctx.talk('ui/insParty');
   ctx.lulaReact('dance');
   let left = ws.length;
   await new Promise((res) => {
     ctx.body.querySelectorAll('.balloon').forEach((b, k) => (b.onclick = async () => {
       if (b.classList.contains('done')) return;
-      b.classList.add('done'); sfx.pop(); say(clip(ws[k])); ctx.confettiSmall();
+      b.classList.add('done'); sfx.pop(); ctx.talk(clip(ws[k])); ctx.confettiSmall();
       if (--left === 0) { await wait(1200); res(); }
     }));
   });
@@ -440,33 +438,47 @@ async function celebrate(ctx) {
   const { l, lines } = ctx;
   const stars = ctx.stars();
   ctx.body.innerHTML = `<div class="celebrate">
-      <div class="walker">${lulaSVG('jumping')}</div>
       <div class="fly-letter">${l.ch}</div>
       <div class="stars">${[1, 2, 3].map((s) => `<span class="${s <= stars ? 'on' : ''}" style="--i:${s}">⭐</span>`).join('')}</div>
-      <div class="sticker">קִבַּלְתֶּם מַדְבֵּקָה: <span>${l.friend.e}</span></div>
+      <div class="sticker">${ctx.friendHTML('sticker-pic')}<span>${l.friend.name} הִצְטָרֵף לָאַלְבּוֹם!</span></div>
     </div>`;
+  ctx.base('jump');
   ctx.confettiBig();
   sfx.tada();
   bubbleText(ctx, lines.done);
-  await say(`L/${l.id}/done`);
+  await ctx.talk(`L/${l.id}/done`);
   ctx.complete(stars);
   await continueBtn(ctx, 'חוֹזְרִים לַמַּפָּה');
+}
+
+// ---------- הפסקה: לולה מדברת ישירות אל הילד ----------
+function interlude(key) {
+  return async (ctx) => {
+    ctx.base('talk');
+    ctx.bubble(ctx.textOf(`ui/${key}`));
+    await ctx.talk(`ui/${key}`);
+    ctx.base('jump');
+    await continueBtn(ctx, 'כֵּן! בּוֹאִי!');
+  };
 }
 
 export const STAGES = [
   { key: 'story', icon: '📖', run: story },
   { key: 'letter', icon: '🔤', run: meetLetter },
   { key: 'syl', icon: '🎵', run: syllables },
-  { key: 'trace', icon: '✏️', run: trace },
+  { key: 'trace', icon: '✏️', pose: 'think', run: trace },
   ...[0, 1, 2, 3, 4, 5].map((i) => ({ key: `word${i}`, icon: '🖼️', run: wordCard(i) })),
+  { key: 'talkPlay', interlude: true, pose: 'talk', run: interlude('talkPlay') },
   { key: 'bubbles', icon: '🫧', run: bubbles },
   { key: 'which', icon: '🤔', run: whichStarts },
   { key: 'listen', icon: '👂', run: listenChoose },
+  { key: 'talkHelp', interlude: true, pose: 'talk', run: interlude('talkHelp') },
   { key: 'hidden', icon: '🔍', run: hidden },
   { key: 'memory', icon: '🃏', run: memory },
   { key: 'build', icon: '🧩', run: build },
   { key: 'yesno', icon: '👍', run: yesNo },
+  { key: 'talkFast', interlude: true, pose: 'talk', run: interlude('talkFast') },
   { key: 'party', icon: '🎈', run: party },
-  { key: 'celebrate', icon: '🏆', run: celebrate },
+  { key: 'celebrate', icon: '🏆', pose: 'jump', run: celebrate },
 ];
 export { letterLines };

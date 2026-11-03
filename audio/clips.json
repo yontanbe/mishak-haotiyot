@@ -126,6 +126,72 @@
   "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
  },
  {
+  "id": "ui/homeHello",
+  "text": "שָׁלוֹם חֲבֵרִים! אֲנִי לוּלָה. רוֹצִים לָצֵאת אִתִּי לְמַסָּע?",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/travel1",
+  "text": "בּוֹאוּ נֵלֵךְ לַתַּחֲנָה הַבָּאָה!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/travel2",
+  "text": "אֲנִי שׁוֹמַעַת מִישֶׁהוּ קוֹרֵא לָנוּ. בּוֹאוּ נִבְדֹּק!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/travel3",
+  "text": "עוֹד קְצָת... כִּמְעַט הִגַּעְנוּ!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/talkPlay",
+  "text": "אַתֶּם מוּכָנִים? עַכְשָׁו נְשַׂחֵק!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/talkFast",
+  "text": "וָאוּ, אַתֶּם לוֹמְדִים מַהֵר! עוֹד קְצָת וְהָאוֹת חוֹזֶרֶת הַבַּיְתָה.",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/talkHelp",
+  "text": "אַתֶּם יְכוֹלִים לַעֲזֹר לִי? אֲנִי צְרִיכָה אֶתְכֶם!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/tapLula1",
+  "text": "הִי! זֶה מַצְחִיק!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/tapLula2",
+  "text": "אֲנִי אוֹהֶבֶת אוֹתִיּוֹת!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/tapLula3",
+  "text": "אַתֶּם הַחֲבֵרִים הֲכִי טוֹבִים שֶׁלִּי!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
+  "id": "ui/album",
+  "text": "אֵלֶּה כָּל הַחֲבֵרִים שֶׁפָּגַשְׁנוּ בַּמַּסָּע!",
+  "voice": "Leda",
+  "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
+ },
+ {
   "id": "ui/praise1",
   "text": "כָּל הַכָּבוֹד!",
   "voice": "Leda",

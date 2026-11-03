@@ -286,3 +286,212 @@ dialog.parents .check { display: block; margin: .5rem 0; }
   .balloon .cap { font-size: 1rem; }
   .balloon::after { height: 18px; bottom: -18px; }
 }
+
+/* =====================================================================
+   גרסה 2: לולה גדולה, מסך בית, קטעי מעבר, משחקים על כל המסך
+   ===================================================================== */
+
+/* ---------- הדמות הגדולה ---------- */
+.hero { position: relative; display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-end; height: var(--hh, 60vh); pointer-events: auto; }
+.hero.xl { --hh: min(74vh, 120vw); }
+.hero.lg { --hh: min(68vh, 60vw); }
+.hero.sm { --hh: 150px; }
+.hero-body { position: relative; height: 100%; display: flex; align-items: flex-end; justify-content: center; transform-origin: 50% 100%; animation: h-breathe 2.8s ease-in-out infinite; }
+.hero .pose { display: none; height: 100%; width: auto; max-width: none; object-fit: contain; filter: drop-shadow(0 18px 18px rgba(40, 20, 80, .25)); -webkit-user-drag: none; }
+.hero[data-pose=wave] .p-wave, .hero[data-pose=walk] .p-walk, .hero[data-pose=jump] .p-jump,
+.hero[data-pose=talk] .p-talk, .hero[data-pose=think] .p-think, .hero[data-pose=oops] .p-oops { display: block; }
+.hero .hero-svg { display: none; height: 100%; }
+.hero .hero-svg .lula { height: 100%; width: auto; }
+.hero.noimg .pose { display: none !important; }
+.hero.noimg .hero-svg { display: block; }
+.hero-shadow { position: absolute; bottom: -2%; width: 55%; height: 6%; border-radius: 50%; background: radial-gradient(rgba(40,20,80,.35), rgba(40,20,80,0) 70%); animation: h-shadow 2.8s ease-in-out infinite; }
+.hero.speaking .hero-body { animation: h-talk .32s ease-in-out infinite alternate; }
+.hero[data-pose=walk] .hero-body { animation: h-walk .5s ease-in-out infinite; }
+.hero[data-pose=walk] .hero-shadow { animation: h-shadow-walk .5s ease-in-out infinite; }
+.hero.anim-jump .hero-body, .hero[data-pose=jump]:not(.anim-oops) .hero-body { animation: h-jump .9s cubic-bezier(.3,.7,.4,1) infinite; }
+.hero.anim-oops .hero-body { animation: h-oops .5s ease-in-out 2; }
+.hero[data-pose=think] .hero-body { animation: h-think 3s ease-in-out infinite; }
+.hero.tappable { cursor: pointer; }
+@keyframes h-breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.015, .985) translateY(1%); } }
+@keyframes h-talk { from { transform: scale(1, 1) rotate(-1deg); } to { transform: scale(1.025, .975) rotate(1deg); } }
+@keyframes h-walk { 0%, 100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-4%) rotate(2deg); } }
+@keyframes h-jump { 0% { transform: scale(1.06, .9); } 20% { transform: scale(.95, 1.06) translateY(-6%); } 45% { transform: scale(1, 1) translateY(-16%); } 75% { transform: scale(1.02, .98) translateY(0); } 85% { transform: scale(1.06, .92); } 100% { transform: scale(1, 1); } }
+@keyframes h-oops { 25% { transform: rotate(-5deg) translateX(-2%); } 75% { transform: rotate(5deg) translateX(2%); } }
+@keyframes h-think { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-3deg); } }
+@keyframes h-shadow { 50% { transform: scaleX(.94); opacity: .85; } }
+@keyframes h-shadow-walk { 50% { transform: scaleX(.85); opacity: .7; } }
+
+/* בועת דיבור ליד הראש */
+.bubble-anchor { position: absolute; z-index: 6; top: 0; left: 50%; transform: translate(-50%, -30%); width: max-content; max-width: min(560px, 86vw); pointer-events: none; }
+.bubble-anchor .speech { font-size: clamp(1.3rem, 3.2vmin + .5rem, 2.3rem); line-height: 1.55; padding: .7rem 1.4rem; border-radius: 30px; border: 4px solid #fff; background: #fffdf5; }
+.bubble-anchor .speech::after { content: ''; position: absolute; bottom: -22px; left: 50%; border: 14px solid transparent; border-top: 18px solid #fffdf5; transform: translateX(-50%); }
+.bubble-anchor:empty { display: none; }
+
+/* תמונות חברים */
+.fpic { display: inline-grid; place-items: center; }
+.fpic img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 10px 10px rgba(40,20,80,.22)); -webkit-user-drag: none; }
+.fpic .emo { display: none; line-height: 1; }
+.fpic.noimg img { display: none; }
+.fpic.noimg .emo { display: block; }
+
+/* ---------- מסך הבית ---------- */
+.home-screen { display: flex; flex-direction: column; background-size: cover; background-position: center; }
+.home-screen::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(255,255,255,.15), rgba(255,255,255,0) 40%, rgba(255,246,224,.35)); pointer-events: none; }
+.home-logo { position: relative; z-index: 2; text-align: center; padding-top: max(14px, env(safe-area-inset-top)); }
+.home-logo h1 { margin: 0; font-family: var(--heb); font-size: clamp(2.4rem, 7.5vmin, 5rem); line-height: 1.1; color: #fff; -webkit-text-stroke: 2px var(--purple-d); paint-order: stroke fill; text-shadow: 0 6px 0 var(--purple-d), 0 12px 24px rgba(60,20,140,.35); }
+.home-logo h1 span { display: inline-block; animation: wobble 3s ease-in-out infinite; }
+.home-logo h1 span:nth-child(2) { animation-delay: .3s; }
+.home-logo h1 .ab { color: var(--yellow); animation-delay: .6s; }
+.home-logo p { margin: .2rem 0 0; font-family: var(--heb); font-weight: 800; font-size: clamp(1.1rem, 3vmin, 1.8rem); color: #fff; text-shadow: 0 2px 6px rgba(60,20,140,.6); }
+.home-stage { position: relative; z-index: 2; flex: 1; display: flex; align-items: flex-end; justify-content: center; gap: 2vw; padding: 0 16px max(16px, env(safe-area-inset-bottom)); min-height: 0; }
+.home-hero { position: relative; display: flex; align-items: flex-end; height: 100%; }
+.home-hero .hero.xl { --hh: min(70vh, 90vw); }
+.home-menu { display: flex; flex-direction: column; gap: 18px; align-self: center; width: min(520px, 46vw); }
+.home-row { display: flex; gap: 18px; }
+.mega { display: flex; align-items: center; gap: 16px; padding: 18px 26px; border-radius: 36px; background: linear-gradient(180deg, #8ff0b9, var(--green)); color: #fff; box-shadow: 0 10px 0 #16875a, 0 18px 30px rgba(0,0,0,.22); font-family: var(--heb); font-weight: 800; font-size: clamp(1.6rem, 4.4vmin, 2.8rem); text-shadow: 0 2px 0 rgba(0,0,0,.15); text-align: start; animation: pulse 2s infinite; transition: transform .1s; }
+.mega:active { transform: translateY(6px); box-shadow: 0 4px 0 #16875a; }
+.mega small { display: block; font-size: .5em; opacity: .95; }
+.mega-ico { display: grid; place-items: center; width: 1.8em; height: 1.8em; border-radius: 50%; background: #fff3; font-size: 1.1em; flex: none; }
+.mega.small { flex: 1; animation: none; font-size: clamp(1.2rem, 3vmin, 1.9rem); padding: 14px 18px; background: linear-gradient(180deg, #fff, #f1e8ff); color: var(--purple-d); text-shadow: none; box-shadow: 0 8px 0 #c8b2ff, 0 14px 24px rgba(0,0,0,.15); }
+.mega.small .mega-ico { background: #e9dcff; }
+.gear { z-index: 5; }
+@media (orientation: portrait) {
+  .home-stage { flex-direction: column-reverse; align-items: center; justify-content: flex-end; }
+  .home-menu { width: min(560px, 100%); align-self: center; }
+  .home-hero .hero.xl { --hh: min(46vh, 90vw); }
+}
+
+/* ---------- סיפור הפתיחה ---------- */
+.story-screen { background-size: cover; background-position: center; }
+.story-stage { height: 100%; }
+.story-hero { position: absolute; bottom: 2vh; left: 50%; transform: translateX(-50%); display: flex; align-items: flex-end; height: 100%; }
+.story-hero .bubble-anchor { top: 4vh; transform: translate(-50%, 0); }
+.story-screen .skip { position: absolute; bottom: 20px; inset-inline-end: 20px; z-index: 7; }
+.story-screen .flying span { font-size: clamp(2.6rem, 7vmin, 4.6rem); z-index: 5; }
+
+/* ---------- קטע מעבר ---------- */
+.travel-screen { background: #cfe9ff; }
+.travel-screen .pan { position: absolute; inset: 0 -30% 0 0; background-size: cover; background-position: 0 50%; animation: pan 6s linear forwards; }
+@keyframes pan { to { transform: translateX(22%); } }
+.parallax { position: absolute; left: 0; width: 300%; display: flex; justify-content: space-around; pointer-events: none; animation: slide 6s linear forwards; }
+.parallax.far { bottom: 30vh; font-size: clamp(3rem, 9vmin, 6rem); opacity: .85; filter: blur(.5px); animation-duration: 9s; }
+.parallax.near { bottom: -2vh; font-size: clamp(5rem, 16vmin, 10rem); z-index: 4; filter: drop-shadow(0 10px 8px rgba(0,0,0,.2)); animation-duration: 4.5s; }
+@keyframes slide { from { transform: translateX(-10%); } to { transform: translateX(40%); } }
+.travel-hero { position: absolute; bottom: 4vh; left: 50%; transform: translateX(-50%); height: 100%; display: flex; align-items: flex-end; z-index: 3; }
+.travel-hero .bubble-anchor { top: 10vh; transform: translate(-50%, 0); }
+.travel-hero .hero.xl { --hh: min(66vh, 100vw); }
+.travel-sign { position: absolute; top: 18px; left: 50%; transform: translateX(-50%); z-index: 5; display: flex; align-items: center; gap: 14px; background: #fff; padding: .4em 1.2em; border-radius: 999px; box-shadow: var(--shadow); font-family: var(--heb); font-weight: 800; font-size: clamp(1.3rem, 3.6vmin, 2.2rem); white-space: nowrap; }
+.travel-sign b { color: var(--pink); font-size: 1.5em; }
+.travel-screen .skip { position: absolute; bottom: 20px; inset-inline-end: 20px; z-index: 7; }
+.travel-screen.arrive .travel-hero { animation: arrive .8s ease-in forwards; }
+@keyframes arrive { to { transform: translateX(-50%) scale(1.15); opacity: 0; } }
+
+/* ---------- מפה ---------- */
+.region { padding: 90px 0 40px; }
+.region-name { font-size: clamp(1.4rem, 4vmin, 2.2rem); }
+.path { gap: 54px; }
+.node { width: clamp(96px, 16vmin, 140px); height: clamp(96px, 16vmin, 140px); font-size: clamp(2.8rem, 8vmin, 4.2rem); margin-left: calc(var(--x) - clamp(48px, 8vmin, 70px)); }
+.node-friend { position: absolute; right: -78%; top: -10%; width: 85%; height: 85%; font-size: clamp(2rem, 6vmin, 3.2rem); animation: sway 3s ease-in-out infinite; }
+.map-lula { transform: translate(-50%, -100%); margin-top: 0; }
+
+/* ---------- אלבום ---------- */
+.album-screen { display: flex; flex-direction: column; background-size: cover; }
+.album-grid { flex: 1; overflow-y: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(clamp(130px, 22vmin, 200px), 1fr)); gap: 18px; padding: 18px; align-content: start; }
+.album-card { position: relative; background: #ffffffe6; border-radius: 28px; box-shadow: var(--shadow); padding: 12px 10px 14px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.album-pic { width: 80%; aspect-ratio: 1; font-size: clamp(3rem, 10vmin, 5rem); }
+.album-card.missing .album-pic { filter: brightness(0) opacity(.18); }
+.album-letter { position: absolute; top: 8px; inset-inline-start: 10px; font-family: var(--heb); font-weight: 800; font-size: 1.8rem; color: var(--pink); }
+.album-name { font-family: var(--heb); font-weight: 700; font-size: clamp(.95rem, 2.4vmin, 1.25rem); text-align: center; }
+
+/* ---------- מסך שלב: לולה בצד, המשחק על כל השאר ---------- */
+.level-screen { background-size: cover; background-position: center; }
+.level-head { padding: 10px 16px 0; }
+.level-head .btn.round, .letter-chip { width: clamp(56px, 9vmin, 76px); height: clamp(56px, 9vmin, 76px); font-size: clamp(1.6rem, 4.6vmin, 2.4rem); }
+.steps i { width: clamp(12px, 2vmin, 18px); height: clamp(12px, 2vmin, 18px); }
+.level-main { position: relative; z-index: 2; flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 30vw) 1fr; align-items: stretch; }
+.side-hero { position: relative; display: flex; align-items: flex-end; justify-content: center; min-height: 0; overflow: visible; transition: all .5s; }
+.side-hero .hero.lg { --hh: min(72vh, 56vw); max-width: 30vw; }
+.side-hero .bubble-anchor { top: 2%; transform: translate(-50%, 0); max-width: min(46vw, 640px); left: 60%; }
+.stage-body { padding: 8px 2vw 8px 2vw; gap: 2vmin; justify-content: center; }
+.foot { min-height: 0; padding: 0 16px max(14px, env(safe-area-inset-bottom)); position: absolute; bottom: 0; inset-inline-end: 0; left: 0; right: 0; justify-content: center; pointer-events: none; z-index: 8; }
+.foot > * { pointer-events: auto; }
+.btn { font-size: clamp(1.5rem, 4vmin, 2.4rem); }
+.btn.go { padding: .6em 1.6em; }
+.corner-lula, .stage-title, .caption { display: none; }
+
+/* הפסקות שבהן לולה מדברת אל הילד: לולה ענקית במרכז */
+.level-screen[data-stage^=talk] .level-main { grid-template-columns: 1fr 0; }
+.level-screen[data-stage^=talk] .side-hero .hero.lg { --hh: min(78vh, 110vw); max-width: none; }
+.level-screen[data-stage^=talk] .side-hero .bubble-anchor { left: 50%; }
+.level-screen[data-stage^=talk] .stage-body { display: none; }
+.level-screen[data-stage=story] .side-hero.walk-in { animation: walkin 2.4s ease-out both; }
+
+@media (orientation: portrait) {
+  .level-main { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+  .side-hero { position: absolute; bottom: 0; inset-inline-start: -2vw; z-index: 3; pointer-events: none; }
+  .side-hero .hero.lg { --hh: 26vh; max-width: 40vw; }
+  .side-hero .bubble-anchor { position: fixed; top: auto; bottom: 27vh; left: 50%; transform: translateX(-50%); max-width: 92vw; }
+  .side-hero .bubble-anchor .speech::after { display: none; }
+  .stage-body { padding-bottom: 30vh; }
+  .level-screen[data-stage^=talk] .side-hero { position: relative; inset: auto; height: 100%; }
+  .level-screen[data-stage^=talk] .side-hero .hero.lg { --hh: 62vh; max-width: none; }
+  .level-screen[data-stage^=talk] .side-hero .bubble-anchor { position: absolute; top: 2vh; bottom: auto; }
+}
+
+/* ---------- המשחקים בגודל מלא ---------- */
+.story-scene { max-width: none; height: 100%; justify-content: center; align-items: flex-end; }
+.friend-wrap { position: relative; height: min(64vh, 56vw); display: flex; align-items: flex-end; }
+.friend-big { height: 100%; aspect-ratio: 1; font-size: min(40vh, 36vw); }
+.friend-wrap.talking .friend-big { animation: talk .45s ease-in-out infinite; }
+.friend-bubble { position: absolute; top: -4%; left: 50%; transform: translateX(-50%); width: max-content; max-width: min(520px, 60vw); z-index: 5; }
+.friend-bubble .speech { font-size: clamp(1.3rem, 3.2vmin + .4rem, 2.2rem); border: 4px solid #ffe39a; }
+.lost-letter { font-size: min(26vh, 22vw); top: 4%; left: 20%; }
+
+.giant-letter { font-size: min(60vh, 50vw); }
+.letter-name { font-size: clamp(2.2rem, 7vmin, 4rem); }
+.syl { font-size: clamp(3rem, 12vmin, 7rem); border-radius: 34px; }
+.syl-row { gap: 2.4vmin; }
+.btn.round.again, .listen { width: clamp(70px, 12vmin, 110px); height: clamp(70px, 12vmin, 110px); font-size: clamp(2rem, 6vmin, 3.2rem); }
+canvas.trace { width: min(66vh, 60vw); height: min(66vh, 60vw); }
+.word-card { padding: 2vmin 5vmin 3vmin; border-radius: 48px; }
+.word-card .pic { font-size: min(40vh, 34vw); }
+.word-card .word { font-size: clamp(3rem, 12vmin, 7rem); }
+.bubble-field { width: 100%; max-width: none; height: 100%; }
+.bubble { width: clamp(100px, 17vmin, 160px); height: clamp(100px, 17vmin, 160px); font-size: clamp(3rem, 9vmin, 5.4rem); }
+.counter { font-size: clamp(2rem, 5vmin, 3rem); }
+.choices { gap: 3vmin; flex-wrap: nowrap; }
+.choice { min-width: 0; width: min(26vw, 36vh); padding: 2vmin; border-radius: 40px; }
+.choice .pic { font-size: min(22vh, 15vw); }
+.choice .cap, .yn .cap, .balloon .cap { font-size: clamp(1.6rem, 5vmin, 3rem); }
+.hide-field { max-width: min(100%, 110vh); gap: 2vmin; }
+.hide-spot .cover { font-size: clamp(3rem, 11vmin, 6.4rem); }
+.hide-spot .hidden-letter { font-size: clamp(3rem, 11vmin, 6rem); }
+.memory { max-width: min(100%, 100vh); gap: 2vmin; }
+.mcard .front { font-size: clamp(3rem, 12vmin, 7rem); }
+.mcard .front.word { font-size: clamp(1.6rem, 6vmin, 3.4rem); }
+.mcard .back { font-size: clamp(2.6rem, 8vmin, 4.4rem); }
+.pic.big { font-size: min(32vh, 30vw); }
+.build .word { font-size: clamp(3rem, 12vmin, 7rem); }
+.tile { width: clamp(90px, 16vmin, 150px); height: clamp(90px, 16vmin, 150px); font-size: clamp(3rem, 9vmin, 5.4rem); border-radius: 30px; }
+.yn { padding: 3vmin 6vmin; border-radius: 48px; }
+.yn .btn { font-size: clamp(1.8rem, 5vmin, 3rem); padding: .5em 1.2em; }
+.party { max-width: none; gap: 3vmin; }
+.balloon { width: clamp(110px, 20vmin, 190px); height: clamp(132px, 24vmin, 228px); }
+.balloon .pic { font-size: clamp(2.6rem, 8vmin, 4.8rem); }
+.celebrate .fly-letter { font-size: min(24vh, 20vw); }
+.stars { font-size: clamp(3.4rem, 12vmin, 7rem); }
+.sticker { display: flex; align-items: center; gap: 12px; font-size: clamp(1.2rem, 3.6vmin, 2rem); padding: .4em 1.2em .4em .6em; }
+.sticker-pic { width: clamp(70px, 14vmin, 120px); height: clamp(70px, 14vmin, 120px); font-size: 3rem; }
+.round-dots i { width: clamp(16px, 2.6vmin, 24px); height: clamp(16px, 2.6vmin, 24px); }
+@media (orientation: portrait) {
+  .choices { flex-wrap: wrap; }
+  .choice { width: min(42vw, 30vh); }
+  .choice .pic { font-size: min(16vh, 26vw); }
+  .friend-wrap { height: 40vh; }
+  .friend-bubble { max-width: 80vw; }
+  .giant-letter { font-size: min(44vh, 80vw); }
+  canvas.trace { width: min(56vh, 92vw); height: min(56vh, 92vw); }
+  .word-card .pic { font-size: min(26vh, 56vw); }
+}
+/* בעברית הולכים קדימה שמאלה */
+.hero .p-walk { transform: scaleX(-1); }
