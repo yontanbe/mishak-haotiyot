@@ -1,6 +1,7 @@
 // רשימת כל קטעי השמע. משותף לדפדפן (טקסט גיבוי לדיבור) ולמחולל השמע (tools/build-clips.mjs).
 import { COLORS, CUI, colorLines, parseThing } from './colors-data.js';
 import { worldClips } from './worlds-data.js';
+import { moreClips } from './more-data.js';
 import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, wordSentence, regionLine, parseWord, ttsText } from './data.js';
 
 const TEACHER = 'Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text';
@@ -49,6 +50,11 @@ export function buildClips() {
   const SONG = 'Sing this in Hebrew as a cheerful, rhythmic, bouncy children\'s song with a happy melody, clearly and not too fast, exactly as the niqqud shows. Sing only this text';
   const VOICE = { he: [HERO.voice, TEACHER], word: [HERO.voice, WORD], pnina: ['Callirrhoe', FRIEND], ofri: ['Achird', FRIEND], cat: ['Puck', FRIEND],
     'en-word': ['Charon', EN_WORD], 'en-line': ['Charon', EN_LINE], sound: ['Puck', SOUND], song: [HERO.voice, SONG] };
+  VOICE.story = [HERO.voice, 'You are a warm, gentle storyteller reading a bedtime picture book in Hebrew to a 5 year old. Read slowly and expressively, with feeling, exactly as the niqqud shows. Read only this text'];
+  VOICE['en-letter'] = ['Charon', 'Say the name of this English letter clearly, for a young child learning the alphabet. Say only the letter name'];
   for (const [id, text, kind] of worldClips()) add(id, text, VOICE[kind][0], VOICE[kind][1]);
-  return clips;
+  for (const [id, text, kind] of moreClips()) add(id, text, VOICE[kind][0], VOICE[kind][1]);
+  // מזהה כפול (אותה מילה בשני עולמות): נשאר הראשון
+  const seen = new Set();
+  return clips.filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)));
 }
