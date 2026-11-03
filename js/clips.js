@@ -1,5 +1,6 @@
 // רשימת כל קטעי השמע. משותף לדפדפן (טקסט גיבוי לדיבור) ולמחולל השמע (tools/build-clips.mjs).
 import { COLORS, CUI, colorLines, parseThing } from './colors-data.js';
+import { worldClips } from './worlds-data.js';
 import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, wordSentence, regionLine, parseWord, ttsText } from './data.js';
 
 const TEACHER = 'Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text';
@@ -41,5 +42,13 @@ export function buildClips() {
     for (const k of ['intro', 'where', 'which', 'pick', 'bubbles', 'done', 'mixQ', 'mixA']) if (lines[k]) add(`C/${c.id}/${k}`, lines[k]);
     c.things.forEach((t, i) => add(`C/${c.id}/t${i}`, parseThing(t).w, HERO.voice, WORD));
   });
+  // ארבעת העולמות החדשים
+  const EN_WORD = 'Say this single English word clearly and slowly, in a warm, friendly voice, for a young child learning English. Say only the word';
+  const EN_LINE = 'Say this in clear, warm, friendly English for a young child learning English. Say only this text';
+  const SOUND = 'You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this';
+  const SONG = 'Sing this in Hebrew as a cheerful, rhythmic, bouncy children\'s song with a happy melody, clearly and not too fast, exactly as the niqqud shows. Sing only this text';
+  const VOICE = { he: [HERO.voice, TEACHER], word: [HERO.voice, WORD], pnina: ['Callirrhoe', FRIEND], ofri: ['Achird', FRIEND], cat: ['Puck', FRIEND],
+    'en-word': ['Charon', EN_WORD], 'en-line': ['Charon', EN_LINE], sound: ['Puck', SOUND], song: [HERO.voice, SONG] };
+  for (const [id, text, kind] of worldClips()) add(id, text, VOICE[kind][0], VOICE[kind][1]);
   return clips;
 }
