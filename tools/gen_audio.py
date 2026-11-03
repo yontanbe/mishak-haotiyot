@@ -59,6 +59,10 @@ def step(budget=150, workers=10, batch=40):
                 done[c["id"]] = fp(c)
         if not ups:
             continue
+        # מיזוג עם הגרסה העדכנית ביותר, למקרה שרצה עוד הרצה במקביל
+        fresh = fetch("audio/done.json")
+        fresh.update({c["id"]: fp(c) for c, mp3 in res if mp3})
+        done = fresh
         ups.append({"path": "audio/done.json", "content": json.dumps(done, ensure_ascii=False, indent=0, sort_keys=True), "encoding": "utf-8"})
         owner, repo = REPO.split("/")
         r, e = run_composio_tool("GITHUB_COMMIT_MULTIPLE_FILES", {  # noqa: F821

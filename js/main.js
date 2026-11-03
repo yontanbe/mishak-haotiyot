@@ -1,8 +1,9 @@
 import { LETTERS, REGIONS, UI, letterLines } from './data.js';
-import { STAGES } from './stages.js';
+import { STAGES, REVIEW_STAGES } from './stages.js';
 import { say, stop, sfx, settings, textOf, unlockAudio } from './audio.js';
 import { heroHTML, pose, setBase, friendHTML } from './hero.js';
 import * as P from './progress.js';
+import { autoFit } from './fit.js';
 
 const app = document.getElementById('app');
 const DEV = new URLSearchParams(location.search).has('dev');
@@ -12,7 +13,19 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 let prog = P.loadProgress();
 const save = () => P.saveProgress(prog);
 const firstUndone = () => { const i = LETTERS.findIndex((l) => !prog.done[l.id]); return i === -1 ? LETTERS.length - 1 : i; };
-const unlockedIndex = () => (DEV || prog.all ? LETTERS.length - 1 : firstUndone());
+
+// מסלול המסע: 27 אותיות, ואחרי כל שתי אותיות תחנת חזרה על האותיות האחרונות
+const PATH = [];
+LETTERS.forEach((l, i) => {
+  PATH.push({ type: 'letter', id: l.id, l });
+  if ((i + 1) % 2 === 0 || i === LETTERS.length - 1) {
+    PATH.push({ type: 'review', id: `review-${l.id}`, l, letters: LETTERS.slice(Math.max(0, i - 3), i + 1) });
+  }
+});
+const isDone = (it) => (it.type === 'letter' ? !!prog.done[it.id] : !!(prog.reviews || {})[it.id]);
+const nextIndex = () => { const i = PATH.findIndex((it) => !isDone(it)); return i === -1 ? PATH.length - 1 : i; };
+const unlockedIndex = () => (DEV || prog.all ? PATH.length - 1 : nextIndex());
+const go = (it) => (it.type === 'review' ? level(it.l, it) : travelTo(it.l));
 const doneCount = () => Object.keys(prog.done).length;
 
 // ---------- לולה מדברת ----------
@@ -48,8 +61,9 @@ const regionOf = (l) => REGIONS.find((r) => r.id === l.region);
 // ---------- מסך הבית ----------
 function home() {
   stop();
-  const next = LETTERS[firstUndone()];
+  const next = PATH[nextIndex()];
   const started = doneCount() > 0;
+  const nextLabel = next.type === 'review' ? 'הַתַּחֲנָה הַבָּאָה: חֲזָרָה 🔁' : `הַתַּחֲנָה הַבָּאָה: הָאוֹת ${next.l.ch}`;
   app.innerHTML = `
   <section class="screen home-screen" style="${regionBG('home')}">
     <div class="home-logo">
@@ -63,7 +77,7 @@ function home() {
         <div class="bubble-anchor home-bubble"></div>
         <button class="mega play">
           <span class="mega-ico">▶</span>
-          <span class="mega-txt">${started ? 'מַמְשִׁיכִים בַּמַּסָּע' : 'יוֹצְאִים לַמַּסָּע'}<small>${started ? `הַתַּחֲנָה הַבָּאָה: הָאוֹת ${next.ch}` : 'לוּלָה מְחַכָּה לָכֶם'}</small></span>
+          <span class="mega-txt">${started ? 'מַמְשִׁיכִים בַּמַּסָּע' : 'יוֹצְאִים לַמַּסָּע'}<small>${started ? nextLabel : 'לוּלָה מְחַכָּה לָכֶם'}</small></span>
         </button>
         <div class="home-row">
           <button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">הַמַּפָּה</span></button>
@@ -90,7 +104,7 @@ function home() {
   };
   app.querySelector('.play').onclick = () => {
     unlockAudio(); sfx.pop();
-    if (!prog.seenStory) storyIntro(); else travelTo(LETTERS[firstUndone()]);
+    if (!prog.seenStory) storyIntro(); else go(PATH[nextIndex()]);
   };
   app.querySelector('.map').onclick = () => { unlockAudio(); sfx.pop(); map(); };
   app.querySelector('.album').onclick = () => { unlockAudio(); sfx.pop(); album(); };
@@ -111,7 +125,7 @@ async function storyIntro() {
   const hero = app.querySelector('.hero');
   const bubble = app.querySelector('.bubble-anchor');
   let skipped = false;
-  app.querySelector('.skip').onclick = () => { skipped = true; stop(); prog.seenStory = true; save(); travelTo(LETTERS[firstUndone()]); };
+  app.querySelector('.skip').onclick = () => { skipped = true; stop(); prog.seenStory = true; save(); go(PATH[nextIndex()]); };
   const slides = [['story1', 'wave'], ['story2', 'think'], ['story3', 'oops'], ['story4', 'jump']];
   for (const [k, p] of slides) {
     if (skipped) return;
@@ -121,7 +135,7 @@ async function storyIntro() {
     await talk(hero, bubble, [`ui/${k}`], UI[k]);
     await wait(400);
   }
-  if (!skipped) { prog.seenStory = true; save(); travelTo(LETTERS[firstUndone()]); }
+  if (!skipped) { prog.seenStory = true; save(); go(PATH[nextIndex()]); }
 }
 
 // ---------- קטע מעבר: לולה הולכת לתחנה הבאה ----------
@@ -161,12 +175,25 @@ async function travelTo(l) {
 function map(walkTo = null) {
   stop();
   const cur = unlockedIndex();
-  const here = firstUndone();
-  const nodes = LETTERS.map((l, i) => {
-    const x = 50 + Math.sin(i * 0.9) * 26;
-    const st = prog.done[l.id] ? 'done' : i <= cur ? 'open' : 'locked';
-    return { l, i, x, st, stars: prog.done[l.id] || 0 };
+  const here = nextIndex();
+  let li = 0;
+  const nodes = PATH.map((it, i) => {
+    const x = it.type === 'review' ? 50 : 50 + Math.sin(li++ * 0.9) * 26;
+    const st = isDone(it) ? 'done' : i <= cur ? 'open' : 'locked';
+    const stars = it.type === 'letter' ? prog.done[it.id] || 0 : (prog.reviews || {})[it.id] || 0;
+    return { it, i, x, st, stars };
   });
+  const nodeHTML = (n) => n.it.type === 'review' ? `
+              <button class="node review ${n.st} ${n.i === here && n.st !== 'done' ? 'current' : ''}" data-i="${n.i}" style="--x:${n.x}%" aria-label="חזרה">
+                <span class="ch">${n.st === 'locked' ? '🔒' : '🔁'}</span>
+                <span class="review-letters">${n.it.letters.map((l) => l.ch).join(' ')}</span>
+                ${n.st === 'done' ? `<span class="node-stars">${'⭐'.repeat(n.stars)}</span>` : ''}
+              </button>` : `
+              <button class="node ${n.st} ${n.i === here && n.st !== 'done' ? 'current' : ''}" data-i="${n.i}" style="--x:${n.x}%">
+                <span class="ch">${n.st === 'locked' ? '🔒' : n.it.l.ch}</span>
+                ${n.st === 'done' ? `<span class="node-stars">${'⭐'.repeat(n.stars)}</span>` : ''}
+                ${n.st !== 'locked' ? friendHTML(n.it.l, 'node-friend') : ''}
+              </button>`;
   app.innerHTML = `
   <section class="screen map-screen">
     <header class="map-head">
@@ -177,14 +204,7 @@ function map(walkTo = null) {
       ${REGIONS.map((r) => `
         <div class="region" style="${regionBG(r.id, r.sky)}">
           <h2 class="region-name">${r.name}</h2>
-          <div class="path">
-            ${nodes.filter((n) => n.l.region === r.id).map((n) => `
-              <button class="node ${n.st} ${n.i === here && !prog.done[n.l.id] ? 'current' : ''}" data-i="${n.i}" style="--x:${n.x}%">
-                <span class="ch">${n.st === 'locked' ? '🔒' : n.l.ch}</span>
-                ${n.st === 'done' ? `<span class="node-stars">${'⭐'.repeat(n.stars)}</span>` : ''}
-                ${n.st !== 'locked' ? friendHTML(n.l, 'node-friend') : ''}
-              </button>`).join('')}
-          </div>
+          <div class="path">${nodes.filter((n) => n.it.l.region === r.id).map(nodeHTML).join('')}</div>
         </div>`).join('')}
       <div class="map-end">🏰 ${doneCount() === LETTERS.length ? 'כָּל הָאוֹתִיּוֹת חָזְרוּ!' : 'הַסּוֹף שֶׁל הַמַּסָּע'}</div>
       <div class="map-lula">${heroHTML('wave', 'sm')}</div>
@@ -217,7 +237,7 @@ function map(walkTo = null) {
       }, 500);
     }
   });
-  if (doneCount() === LETTERS.length && walkTo === LETTERS.length - 1) { confetti(120); say('ui/theEnd'); }
+  if (doneCount() === LETTERS.length && walkTo === PATH.length - 1) { confetti(120); say('ui/theEnd'); }
   else say('ui/map');
   app.querySelectorAll('.node').forEach((b) => (b.onclick = () => {
     const i = +b.dataset.i;
@@ -225,7 +245,7 @@ function map(walkTo = null) {
     sfx.pop(); stop();
     pose(hero, 'walk');
     place(i, true);
-    setTimeout(() => travelTo(LETTERS[i]), 1000);
+    setTimeout(() => go(PATH[i]), 1000);
   }));
 }
 
@@ -247,6 +267,7 @@ function album() {
         </button>`).join('')}
     </div>
   </section>`;
+  autoFit(app.querySelector('.album-grid'));
   app.querySelector('.home').onclick = home;
   say('ui/album');
   app.querySelectorAll('.album-card').forEach((b) => (b.onclick = () => {
@@ -258,15 +279,18 @@ function album() {
 }
 
 // ---------- שלב של אות ----------
-async function level(l) {
+async function level(l, review = null) {
   stop();
   const region = regionOf(l);
-  const visible = STAGES.filter((s) => !s.interlude);
+  const stages = review ? REVIEW_STAGES : STAGES;
+  const visible = stages.filter((s) => !s.interlude);
+  const pathIndex = PATH.findIndex((it) => it.id === (review ? review.id : l.id));
   app.innerHTML = `
-  <section class="screen level-screen" style="${regionBG(region.id, region.sky)}">
+  <section class="screen level-screen ${review ? 'is-review' : ''}" style="${regionBG(region.id, region.sky)}">
     <header class="level-head">
       <button class="btn round home" aria-label="למפה">🗺️</button>
-      <div class="letter-chip">${l.ch}</div>
+      <div class="letter-chip">${review ? '🔁' : l.ch}</div>
+      <button class="btn round back" aria-label="לשלב הקודם">➡️</button>
       <div class="steps">${visible.map((s, i) => `<i data-i="${i}"></i>`).join('')}</div>
       ${DEV ? '<button class="btn round skip" aria-label="דלג">⏭</button>' : ''}
     </header>
@@ -279,15 +303,19 @@ async function level(l) {
   const scr = app.querySelector('.level-screen');
   const hero = scr.querySelector('.hero');
   const bubble = scr.querySelector('.bubble-anchor');
+  const backBtn = scr.querySelector('.back');
+  autoFit(scr.querySelector('.stage-body'));
   setBase(hero, 'wave');
   let mistakes = 0;
   let aborted = false;
   let curStage = 'story';
-  const since = P.startLetter(prog, l.id);
+  const statId = review ? review.id : l.id;
+  const since = review ? Date.now() : P.startLetter(prog, l.id);
   save();
   const starsBefore = P.totalStars(prog);
   const ctx = {
     l,
+    letters: review ? review.letters : [l],
     lines: letterLines(l),
     screen: scr,
     hero,
@@ -303,20 +331,29 @@ async function level(l) {
     lulaReact: (kind) => (kind === 'dance' ? setBase(hero, 'jump') : pose(hero, kind === 'happy' ? 'jump' : kind, 1300)),
     confettiSmall: () => confetti(24),
     confettiBig: () => confetti(140),
-    mistake: () => { mistakes++; P.recordWrong(prog, l.id, curStage); save(); },
-    right: () => { P.recordRight(prog, l.id); save(); },
+    mistake: () => { mistakes++; P.recordWrong(prog, statId, curStage); save(); },
+    right: () => { P.recordRight(prog, statId); save(); },
     stars: () => (mistakes <= 2 ? 3 : mistakes <= 6 ? 2 : 1),
-    complete: (stars) => { P.completeLetter(prog, l.id, stars); P.recordTime(prog, l.id, since); save(); },
+    complete: (stars) => {
+      if (review) { prog.reviews ||= {}; prog.reviews[review.id] = Math.max(prog.reviews[review.id] || 0, stars); }
+      else { P.completeLetter(prog, l.id, stars); P.recordTime(prog, l.id, since); }
+      save();
+    },
     scoreHTML: () => celebrateScore(starsBefore),
     friendHTML: (cls) => friendHTML(l, cls),
   };
-  scr.querySelector('.home').onclick = () => { aborted = true; stop(); P.recordTime(prog, l.id, since); save(); map(); };
+  scr.querySelector('.home').onclick = () => { aborted = true; stop(); if (!review) P.recordTime(prog, l.id, since); save(); map(); };
   let skip = null;
+  let back = null;
   if (DEV) scr.querySelector('.skip').onclick = () => skip && skip();
-  let vi = 0;
-  for (const st of STAGES) {
+  backBtn.onclick = () => { sfx.pop(); back && back(); };
+  let i = 0;
+  while (i < stages.length) {
     if (aborted) return;
+    const st = stages[i];
+    const vi = stages.slice(0, i).filter((x) => !x.interlude).length;
     scr.querySelectorAll('.steps i').forEach((d, k) => { d.classList.toggle('on', k < vi); d.classList.toggle('cur', k === vi); });
+    backBtn.disabled = i === 0;
     showBubble(bubble, '');
     ctx.foot.replaceChildren();
     scr.dataset.stage = st.key;
@@ -324,13 +361,16 @@ async function level(l) {
     ctx.body.className = `stage-body st-${st.key}`;
     ctx.body.innerHTML = '';
     setBase(hero, st.pose || 'wave');
-    await Promise.race([st.run(ctx), new Promise((r) => (skip = r))]);
+    const nav = await Promise.race([
+      st.run(ctx).then(() => 'next'),
+      new Promise((r) => { skip = () => r('next'); back = () => r('back'); }),
+    ]);
     if (aborted || !document.body.contains(scr)) return;
     stop();
-    if (!st.interlude) vi++;
+    if (nav === 'back') { let j = i - 1; while (j > 0 && stages[j].interlude) j--; i = Math.max(0, j); }
+    else i++;
   }
-  const idx = LETTERS.indexOf(l);
-  map(Math.min(LETTERS.length - 1, idx + 1));
+  map(Math.min(PATH.length - 1, pathIndex + 1));
 }
 
 // ---------- ציון לילד ----------
@@ -414,6 +454,7 @@ function report() {
         <div class="rep-card"><small>אותיות שהושלמו</small><b>${o.letters}/${LETTERS.length}</b><div class="score-bar"><i style="width:${o.percent}%"></i></div></div>
         <div class="rep-card"><small>כוכבים</small><b>⭐ ${o.stars}/${P.maxStars}</b><span>${r.icon} ${r.name}</span></div>
         <div class="rep-card"><small>דיוק בתשובות</small><b>${o.accuracy == null ? '–' : o.accuracy + '%'}</b><span>תשובות נכונות מכלל הניסיונות</span></div>
+        <div class="rep-card"><small>תחנות חזרה</small><b>🔁 ${Object.keys(prog.reviews || {}).length}/${PATH.filter((x) => x.type === 'review').length}</b><span>חזרה על האותיות האחרונות</span></div>
         <div class="rep-card"><small>זמן משחק</small><b>${o.minutes} דק׳</b><span>${prog.lastPlayed ? 'שוחק לאחרונה ' + fmtDate(prog.lastPlayed) : 'עוד לא שוחק'}</span></div>
       </div>
 

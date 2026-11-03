@@ -577,3 +577,46 @@ canvas.trace { width: min(66vh, 60vw); height: min(66vh, 60vw); }
 .score-bar i { inset: 0 0 0 auto; }
 .celebrate { gap: 1.4vmin; }
 .celebrate .stars { font-size: clamp(3rem, 10vmin, 6rem); }
+
+/* ---------- תיקוני QA: טקסט שנכנס, חפיפות, כפתור חזרה, תחנות חזרה ---------- */
+.mcard .front, .choice .cap, .balloon .cap, .yn .cap, .rv-word, .album-name { white-space: nowrap; overflow: hidden; max-width: 100%; }
+.mcard .front.word { padding: 0 6px; }
+.choice .cap, .yn .cap { display: block; text-align: center; }
+.balloon .cap { max-width: 92%; }
+.word-card { max-width: min(92%, 900px); }
+.word-card .word, .build .word { white-space: nowrap; max-width: 100%; overflow: hidden; }
+/* במחבואים: הכיסוי זז לגמרי הצידה כדי שהאות תיראה כולה */
+.hide-spot.open .cover { transform: translate(38%, -38%) scale(.38) rotate(-12deg); background: transparent; }
+.hide-spot .cover { z-index: 2; }
+.hide-spot .hidden-letter { z-index: 1; }
+.hide-spot { transform: rotate(var(--r)); }
+/* בועות: הבועה שנלחצת מעל האחרות */
+.bubble:active { z-index: 3; }
+/* כפתור חזרה לשלב הקודם */
+.level-head .back { font-size: clamp(1.4rem, 4vmin, 2rem); }
+.level-head .back:disabled { opacity: .3; pointer-events: none; }
+/* תחנות חזרה במפה */
+.node.review { background: radial-gradient(circle at 35% 30%, #fff, #ffe0f0 60%, #ffb3d6); box-shadow: 0 8px 0 #e07aa8, 0 14px 22px rgba(120,30,80,.25); }
+.node.review.done { background: radial-gradient(circle at 35% 30%, #fff8c8, var(--yellow) 60%, #f0a500); box-shadow: 0 8px 0 #c88400; }
+.node.review .ch { font-size: .75em; }
+.review-letters { position: absolute; bottom: -30px; white-space: nowrap; font-family: var(--heb); font-weight: 800; font-size: 1rem; background: #fff; padding: 0 .6em; border-radius: 999px; box-shadow: 0 3px 8px rgba(0,0,0,.12); }
+.node.review .node-stars { bottom: -54px; }
+.review-banner { display: flex; gap: 2vmin; justify-content: center; }
+.review-banner span { font-family: var(--heb); font-weight: 800; font-size: clamp(3rem, 12vmin, 7rem); width: 1.4em; height: 1.4em; display: grid; place-items: center; background: #fff; border-radius: 30px; box-shadow: var(--shadow); color: var(--purple); animation: float 2.4s ease-in-out infinite; animation-delay: calc(var(--k) * .3s); }
+.big-tiles .tile { width: clamp(100px, 18vmin, 170px); height: clamp(100px, 18vmin, 170px); font-size: clamp(3.4rem, 11vmin, 6rem); }
+.rv-word { font-family: var(--heb); font-weight: 800; font-size: clamp(2rem, 7vmin, 4rem); background: #fff; padding: 0 .5em; border-radius: 20px; box-shadow: var(--shadow); }
+.mcard .front.letter { font-family: var(--heb); font-weight: 800; color: var(--purple); }
+.memory.m8 { grid-template-columns: repeat(4, 1fr); max-width: min(100%, 120vh); }
+@media (orientation: portrait) { .memory.m8 { grid-template-columns: repeat(3, 1fr); max-width: min(100%, 52vh); } }
+.choices { max-width: 100%; }
+.choice { width: min(19vw, 32vh); }
+@media (orientation: portrait) { .choice { width: min(42vw, 28vh); } }
+.hide-spot { --r: 0deg !important; }
+.hide-field .hide-spot:nth-child(odd) { transform: rotate(-2deg); }
+.hide-field .hide-spot:nth-child(even) { transform: rotate(2deg); }
+.hide-field { gap: 2.4vmin; }
+.big-tiles { flex-wrap: wrap; justify-content: center; max-width: 100%; }
+@media (orientation: portrait) {
+  .big-tiles { display: grid; grid-template-columns: repeat(2, auto); gap: 3vmin; }
+  .big-tiles .tile { width: min(30vw, 15vh); height: min(30vw, 15vh); }
+}

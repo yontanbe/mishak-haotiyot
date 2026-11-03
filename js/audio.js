@@ -1,9 +1,11 @@
 // שמע: קטעי Gemini TTS מוקלטים מראש (audio/**/*.mp3), גיבוי לדיבור של הדפדפן,
 // ואפקטים קוליים שנוצרים ב-WebAudio (בלי קבצים).
 import { buildClips } from './clips.js';
+import { QA } from './qa.js';
 
 const TEXT = Object.fromEntries(buildClips().map((c) => [c.id, c.text]));
 let current = null;
+let finishCurrent = null; // משחרר את מי שמחכה לקטע שנקטע באמצע
 let token = 0;
 export const settings = { muted: false };
 
@@ -15,7 +17,7 @@ function speakFallback(text) {
       u.lang = 'he-IL';
       u.rate = 0.85;
       u.onend = res; u.onerror = res;
-      setTimeout(res, 1500 + text.length * 120); // יש דפדפנים שלא מודיעים על סוף הדיבור
+      setTimeout(res, QA ? 50 : 1500 + text.length * 120); // יש דפדפנים שלא מודיעים על סוף הדיבור
       speechSynthesis.speak(u);
     } catch { res(); }
   });
@@ -25,9 +27,11 @@ function playOne(id, my) {
   return new Promise((res) => {
     if (settings.muted || my !== token) return res();
     const a = new Audio(`audio/${id}.mp3`);
+    if (QA) { a.playbackRate = 12; a.muted = true; }
     current = a;
     let done = false;
-    const finish = () => { if (!done) { done = true; res(); } };
+    const finish = () => { if (!done) { done = true; if (finishCurrent === finish) finishCurrent = null; res(); } };
+    finishCurrent = finish;
     a.onended = finish;
     a.onerror = () => { if (my === token) speakFallback(TEXT[id]).then(finish); else finish(); };
     a.play().catch(() => speakFallback(TEXT[id]).then(finish));
@@ -47,6 +51,7 @@ export async function say(...ids) {
 export function stop() {
   token++;
   if (current) { try { current.pause(); } catch {} current = null; }
+  if (finishCurrent) { const f = finishCurrent; finishCurrent = null; f(); }
   try { speechSynthesis.cancel(); } catch {}
 }
 

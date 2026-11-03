@@ -1,6 +1,7 @@
 // 19 השלבים של כל אות. כל שלב הוא פונקציה אסינכרונית שמסתיימת כשהילד סיים אותו.
 import { LETTERS, REGIONS, letterLines, parseWord } from './data.js';
 import { sfx, stop } from './audio.js';
+import { ok, QA } from './qa.js';
 
 const $ = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -117,6 +118,7 @@ async function syllables(ctx) {
   await ctx.talk('ui/insSyl');
   const run = async () => {
     const a = new Audio(`audio/L/${l.id}/syl.mp3`);
+    if (QA) { a.playbackRate = 12; a.muted = true; }
     let dur = 0;
     a.onloadedmetadata = () => (dur = a.duration);
     const tick = () => {
@@ -231,11 +233,16 @@ async function bubbles(ctx) {
   const others = ANY_LETTERS.filter((c) => c !== l.ch && c !== l.base);
   let resolve; const out = new Promise((r) => (resolve = r));
   let alive = true;
+  // נתיבים קבועים כדי שבועות לא יעלו אחת על השנייה
+  const LANES = 5; let lastLanes = [];
   const spawn = () => {
-    if (!alive) return;
+    if (!alive || !field.isConnected) return;
+    const free = [...Array(LANES).keys()].filter((k) => !lastLanes.includes(k));
+    const lane = free[Math.floor(Math.random() * free.length)];
+    lastLanes = [...lastLanes.slice(-2), lane];
     const isT = Math.random() < 0.42;
     const ch = isT ? l.ch : others[Math.floor(Math.random() * others.length)];
-    const b = $(`<button class="bubble" style="--x:${5 + Math.random() * 78}%;--d:${6 + Math.random() * 3}s;--h:${Math.floor(Math.random() * 360)}">${ch}</button>`);
+    const b = $(`<button class="bubble" style="--x:${2 + lane * (88 / (LANES - 1)) * 0.92}%;--d:${6 + Math.random() * 3}s;--h:${Math.floor(Math.random() * 360)}">${ch}</button>`);
     b.onclick = async () => {
       if (b.classList.contains('popped')) return;
       if (ch === l.ch) {
@@ -246,7 +253,7 @@ async function bubbles(ctx) {
     };
     b.addEventListener('animationend', () => b.remove());
     field.append(b);
-    setTimeout(spawn, 750);
+    setTimeout(spawn, 900);
   };
   spawn();
   return out;
@@ -259,7 +266,7 @@ async function whichStarts(ctx) {
   for (let round = 0; round < 3; round++) {
     const t = mine[round];
     const opts = shuffle([t, ...distractors(l, 2, [t.e])]);
-    ctx.body.innerHTML = `<div class="choices">${opts.map((o, k) => `<button class="choice" data-k="${k}"><div class="pic">${o.e}</div><div class="cap">${o.w}</div></button>`).join('')}</div>
+    ctx.body.innerHTML = `<div class="choices">${opts.map((o, k) => `<button class="choice" data-k="${k}"${ok(o === t)}><div class="pic">${o.e}</div><div class="cap">${o.w}</div></button>`).join('')}</div>
       <div class="round-dots">${[0, 1, 2].map((k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     const ins = l.final ? 'ui/insWhichEnd' : 'ui/insWhich';
     bubbleText(ctx, `${ctx.textOf(ins)} <b class="hl">${l.ch}</b>?`);
@@ -283,7 +290,7 @@ async function listenChoose(ctx) {
     const t = mine[round];
     const opts = shuffle([t, ...distractors(l, 2, [t.e])]);
     ctx.body.innerHTML = `<button class="btn round listen pulse" aria-label="שמיעה">🔊</button>
-      <div class="choices">${opts.map((o, k) => `<button class="choice" data-k="${k}"><div class="pic">${o.e}</div></button>`).join('')}</div>
+      <div class="choices">${opts.map((o, k) => `<button class="choice" data-k="${k}"${ok(o === t)}><div class="pic">${o.e}</div></button>`).join('')}</div>
       <div class="round-dots">${[0, 1, 2].map((k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     bubbleText(ctx, ctx.textOf('ui/insListen'));
     if (round === 0) await ctx.talk('ui/insListen');
@@ -335,7 +342,7 @@ async function memory(ctx) {
   const ws = pick(ownWords(l), 3);
   const cards = shuffle(ws.flatMap((x, k) => [{ k, kind: 'pic', x }, { k, kind: 'word', x }]));
   ctx.body.innerHTML = `<div class="memory">${cards.map((c, i) => `
-    <button class="mcard" data-i="${i}"><span class="back">❓</span><span class="front ${c.kind}">${c.kind === 'pic' ? c.x.e : wordHTML(l, c.x.w)}</span></button>`).join('')}</div>`;
+    <button class="mcard" data-i="${i}" data-k="${c.k}"><span class="back">❓</span><span class="front ${c.kind}">${c.kind === 'pic' ? c.x.e : wordHTML(l, c.x.w)}</span></button>`).join('')}</div>`;
   bubbleText(ctx, ctx.textOf('ui/insMemory'));
   ctx.talk('ui/insMemory');
   let open = []; let matched = 0; let lock = false;
@@ -373,7 +380,7 @@ async function build(ctx) {
     const shown = g.map((s, i) => (i === idx ? '<span class="slot">?</span>' : s)).join('');
     const tiles = shuffle([l.ch, ...pick(others, 2)]);
     ctx.body.innerHTML = `<div class="build"><div class="pic big">${x.e}</div><div class="word">${shown}</div>
-      <div class="tiles">${tiles.map((t) => `<button class="tile">${t}</button>`).join('')}</div></div>
+      <div class="tiles">${tiles.map((t) => `<button class="tile"${ok(t === l.ch)}>${t}</button>`).join('')}</div></div>
       <div class="round-dots">${ws.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     bubbleText(ctx, ctx.textOf('ui/insBuild'));
     if (round === 0) await ctx.talk('ui/insBuild');
@@ -399,7 +406,7 @@ async function yesNo(ctx) {
   for (let round = 0; round < items.length; round++) {
     const it = items[round];
     ctx.body.innerHTML = `<div class="yn"><button class="pic big hear">${it.x.e}</button><div class="cap">${it.x.w}</div>
-      <div class="yn-btns"><button class="btn yes">👍 כֵּן</button><button class="btn no">👎 לֹא</button></div></div>
+      <div class="yn-btns"><button class="btn yes"${ok(it.yes)}>👍 כֵּן</button><button class="btn no"${ok(!it.yes)}>👎 לֹא</button></div></div>
       <div class="round-dots">${items.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
     if (round === 0) await ctx.talk(`L/${l.id}/yesno`);
     ctx.talk(clip(it.x));
@@ -482,5 +489,118 @@ export const STAGES = [
   { key: 'talkFast', interlude: true, pose: 'talk', run: interlude('talkFast') },
   { key: 'party', icon: '🎈', run: party },
   { key: 'celebrate', icon: '🏆', pose: 'jump', run: celebrate },
+];
+
+// =====================================================================
+// תחנת חזרה: משחקים על כמה אותיות אחרונות ביחד
+// =====================================================================
+const rvWord = (l) => { const ws = ownWords(l); return ws[Math.floor(Math.random() * ws.length)]; };
+const tilesHTML = (letters, t) => `<div class="tiles big-tiles">${letters.map((x) => `<button class="tile" data-id="${x.id}"${ok(x === t)}>${x.ch}</button>`).join('')}</div>`;
+
+async function reviewIntro(ctx) {
+  ctx.base('talk');
+  ctx.body.innerHTML = `<div class="review-banner">${ctx.letters.map((x, k) => `<span style="--k:${k}">${x.ch}</span>`).join('')}</div>`;
+  ctx.bubble(ctx.textOf('ui/reviewIntro'));
+  await ctx.talk('ui/reviewIntro');
+  await continueBtn(ctx, 'בּוֹאוּ!');
+}
+
+// שומעים שם של אות ומוצאים אותה
+async function rvFindLetter(ctx) {
+  const set = ctx.letters;
+  const order = shuffle([...set, ...set]).slice(0, 4);
+  for (let round = 0; round < order.length; round++) {
+    const t = order[round];
+    ctx.body.innerHTML = `${tilesHTML(shuffle(set), t)}<div class="round-dots">${order.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
+    ctx.bubble(`${ctx.textOf('ui/insFindLetter')} <b class="hl">${t.name}</b>?`);
+    ctx.talk('ui/insFindLetter', `L/${t.id}/name`);
+    await new Promise((res) => {
+      ctx.body.querySelectorAll('.tile').forEach((b) => (b.onclick = async () => {
+        if (b.dataset.id === t.id) { b.classList.add('right'); await good(ctx); res(); }
+        else { b.classList.add('wrong'); await bad(ctx); b.classList.remove('wrong'); ctx.talk(`L/${t.id}/name`); }
+      }));
+    });
+  }
+}
+
+// שומעים מילה ובוחרים באיזו אות היא מתחילה (או נגמרת)
+async function rvWhichLetter(ctx) {
+  const set = ctx.letters;
+  const order = shuffle([...set, ...set]).slice(0, 4);
+  for (let round = 0; round < order.length; round++) {
+    const t = order[round];
+    const x = rvWord(t);
+    const ins = t.final ? 'ui/insLastLetter' : 'ui/insFirstLetter';
+    ctx.body.innerHTML = `<button class="pic big hear">${x.e}</button>${tilesHTML(shuffle(set), t)}
+      <div class="round-dots">${order.map((_, k) => `<i class="${k < round ? 'on' : ''}"></i>`).join('')}</div>`;
+    ctx.bubble(ctx.textOf(ins));
+    await ctx.talk(ins);
+    ctx.talk(clip(x));
+    ctx.body.querySelector('.hear').onclick = () => ctx.talk(clip(x));
+    await new Promise((res) => {
+      ctx.body.querySelectorAll('.tile').forEach((b) => (b.onclick = async () => {
+        if (b.dataset.id === t.id) {
+          b.classList.add('right');
+          ctx.body.querySelector('.hear').insertAdjacentHTML('afterend', `<div class="rv-word">${wordHTML(t, x.w)}</div>`);
+          await good(ctx); res();
+        } else { b.classList.add('wrong'); await bad(ctx); b.classList.remove('wrong'); ctx.talk(clip(x)); }
+      }));
+    });
+  }
+}
+
+// זיכרון: אות ותמונה שמתאימה לה
+async function rvMatch(ctx) {
+  const set = pick(ctx.letters, Math.min(4, ctx.letters.length));
+  const pairs = set.map((t, k) => ({ k, t, x: rvWord(t) }));
+  const cards = shuffle(pairs.flatMap((p) => [{ ...p, kind: 'letter' }, { ...p, kind: 'pic' }]));
+  ctx.body.innerHTML = `<div class="memory ${cards.length > 6 ? 'm8' : ''}">${cards.map((c, i) => `
+    <button class="mcard" data-i="${i}" data-k="${c.k}"><span class="back">❓</span><span class="front ${c.kind === 'letter' ? 'letter' : 'pic'}">${c.kind === 'letter' ? c.t.ch : c.x.e}</span></button>`).join('')}</div>`;
+  ctx.bubble(ctx.textOf('ui/insMatchLetters'));
+  ctx.talk('ui/insMatchLetters');
+  let open = []; let matched = 0; let lock = false;
+  await new Promise((res) => {
+    ctx.body.querySelectorAll('.mcard').forEach((b) => (b.onclick = async () => {
+      if (lock || b.classList.contains('up')) return;
+      const c = cards[+b.dataset.i];
+      b.classList.add('up'); sfx.flip();
+      ctx.talk(c.kind === 'pic' ? clip(c.x) : `L/${c.t.id}/name`);
+      open.push([b, c]);
+      if (open.length === 2) {
+        lock = true;
+        const [[b1, c1], [b2, c2]] = open; open = [];
+        if (c1.k === c2.k && c1.kind !== c2.kind) {
+          b1.classList.add('match'); b2.classList.add('match'); matched++;
+          sfx.ding(); ctx.right?.(); await wait(900);
+          if (matched === pairs.length) { await good(ctx); res(); }
+        } else { await wait(1100); b1.classList.remove('up'); b2.classList.remove('up'); if (c1.kind !== c2.kind) ctx.mistake(); }
+        lock = false;
+      }
+    }));
+  });
+  await continueBtn(ctx);
+}
+
+async function rvCelebrate(ctx) {
+  const stars = ctx.stars();
+  ctx.complete(stars);
+  ctx.body.innerHTML = `<div class="celebrate">
+      <div class="review-banner">${ctx.letters.map((x, k) => `<span style="--k:${k}">${x.ch}</span>`).join('')}</div>
+      <div class="stars">${[1, 2, 3].map((s) => `<span class="${s <= stars ? 'on' : ''}" style="--i:${s}">⭐</span>`).join('')}</div>
+    </div>`;
+  ctx.base('jump');
+  ctx.confettiBig();
+  sfx.tada();
+  ctx.bubble(ctx.textOf('ui/reviewDone'));
+  await ctx.talk('ui/reviewDone');
+  await continueBtn(ctx, 'חוֹזְרִים לַמַּפָּה');
+}
+
+export const REVIEW_STAGES = [
+  { key: 'talkReview', interlude: true, pose: 'talk', run: reviewIntro },
+  { key: 'rvFind', icon: '🔤', run: rvFindLetter },
+  { key: 'rvWhich', icon: '👂', run: rvWhichLetter },
+  { key: 'rvMatch', icon: '🃏', run: rvMatch },
+  { key: 'rvDone', icon: '🏆', pose: 'jump', run: rvCelebrate },
 ];
 export { letterLines };
