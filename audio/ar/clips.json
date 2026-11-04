@@ -1,5 +1,29 @@
 [
  {
+  "id": "ar/ui/story1",
+  "text": "فِي يَوْمٍ مِنَ الْأَيَّامِ، فِي بِلَادٍ بَعِيدَةٍ خَضْرَاءَ، عَاشَتْ بِنْتٌ فُضُولِيَّةٌ اسْمُهَا لُولَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/story2",
+  "text": "كَانَ عِنْدَ لُولَا حَقِيبَةٌ سِحْرِيَّةٌ، مَلِيئَةٌ بِالْحُرُوفِ الْمُلَوَّنَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/story3",
+  "text": "وَفِي يَوْمٍ هَبَّتْ رِيحٌ شَقِيَّةٌ. فُوف! طَارَتْ كُلُّ الْحُرُوفِ مِنَ الْحَقِيبَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/story4",
+  "text": "هَيَّا نَخْرُجْ مَعًا فِي رِحْلَةٍ، نُقَابِلُ أَصْدِقَاءَ، وَنُعِيدُ كُلَّ الْحُرُوفِ إِلَى الْبَيْتِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
   "id": "ar/ui/hello",
   "text": "مَرْحَبًا! أَنَا لُولَا الْمُسْتَكْشِفَةُ!",
   "voice": "Leda",
@@ -8,6 +32,96 @@
  {
   "id": "ar/ui/map",
   "text": "إِلَى أَيْنَ نَذْهَبُ الْآنَ؟ اِلْمِسُوا الْحَجَرَ اللَّامِعَ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/letsLearn",
+  "text": "هَيَّا نَتَعَلَّمِ الْحَرْفَ، لِكَيْ يَعُودَ إِلَى الْحَقِيبَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insLetter",
+  "text": "اِلْمِسُوا الْحَرْفَ لِتَسْمَعُوا اسْمَهُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insSyl",
+  "text": "هَيَّا نَقُلْ مَعًا أَصْوَاتَ الْحَرْفِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insTrace",
+  "text": "هَيَّا نَرْسُمِ الْحَرْفَ بِالْإِصْبَعِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insWord",
+  "text": "كَلِمَةٌ جَدِيدَةٌ! اِلْمِسُوا الصُّورَةَ لِتَسْمَعُوا مَرَّةً أُخْرَى.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insBubbles",
+  "text": "فَقِّعُوا الْفُقَاعَاتِ الَّتِي فِيهَا الْحَرْفُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insWhich",
+  "text": "أَيُّ صُورَةٍ تَبْدَأُ بِالْحَرْفِ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insWhichEnd",
+  "text": "أَيُّ صُورَةٍ تَنْتَهِي بِالْحَرْفِ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insListen",
+  "text": "اِسْتَمِعُوا إِلَى الْكَلِمَةِ، وَاخْتَارُوا الصُّورَةَ الصَّحِيحَةَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insHidden",
+  "text": "الْحُرُوفُ اخْتَبَأَتْ! جِدُوا كُلَّ الْحُرُوفِ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insMemory",
+  "text": "جِدُوا أَزْوَاجًا: صُورَةً وَكَلِمَةً تُنَاسِبُهَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insBuild",
+  "text": "أَيُّ حَرْفٍ نَاقِصٌ فِي الْكَلِمَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insParty",
+  "text": "حَفْلَةُ كَلِمَاتٍ! اِلْمِسُوا كُلَّ كَلِمَةٍ وَنَقُولُهَا مَعًا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/finalsIntro",
+  "text": "وَصَلْنَا إِلَى أَشْكَالِ الْحُرُوفِ فِي آخِرِ الْكَلِمَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/theEnd",
+  "text": "نَجَحْنَا! كُلُّ الْحُرُوفِ عَادَتْ إِلَى الْبَيْتِ. أَنْتُمْ أَبْطَالُ الْحُرُوفِ!",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
@@ -78,8 +192,38 @@
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
+  "id": "ar/ui/reviewIntro",
+  "text": "وَقْتُ الْمُرَاجَعَةِ! هَيَّا نَتَأَكَّدْ أَنَّنَا نَتَذَكَّرُ الْحُرُوفَ الَّتِي تَعَلَّمْنَاهَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insFindLetter",
+  "text": "أَيْنَ الْحَرْفُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
   "id": "ar/ui/insFirstLetter",
   "text": "بِأَيِّ حَرْفٍ تَبْدَأُ الْكَلِمَةُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insLastLetter",
+  "text": "بِأَيِّ حَرْفٍ تَنْتَهِي الْكَلِمَةُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/insMatchLetters",
+  "text": "جِدُوا أَزْوَاجًا: حَرْفًا وَصُورَةً تُنَاسِبُهُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/reviewDone",
+  "text": "أَحْسَنْتُمْ! تَذَكَّرْتُمْ كُلَّ الْحُرُوفِ!",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
@@ -138,8 +282,110 @@
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
+  "id": "ar/ui/cWelcome",
+  "text": "أَهْلًا بِكُمْ فِي عَالَمِ الْأَلْوَانِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cStory1",
+  "text": "فِي يَوْمٍ مِنَ الْأَيَّامِ، كَانَ عَالَمُ لُولَا مَلِيئًا بِالْأَلْوَانِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cStory2",
+  "text": "وَفِي يَوْمٍ جَاءَتْ غَيْمَةُ الرَّمَادِ، وَامْتَصَّتْ كُلَّ الْأَلْوَانِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cStory3",
+  "text": "صَارَ كُلُّ شَيْءٍ رَمَادِيًّا وَحَزِينًا. حَتَّى قَوْسُ قُزَحَ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cStory4",
+  "text": "هَيَّا نَجِدْ قَطَرَاتِ اللَّوْنِ، وَنُعِيدِ الْأَلْوَانَ إِلَى الْعَالَمِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cMap",
+  "text": "أَيَّ لَوْنٍ نُعِيدُ الْآنَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsMeet",
+  "text": "اِلْمِسُوا الْبُقْعَةَ لِتَسْمَعُوا اللَّوْنَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
   "id": "ar/ui/cInsThing",
   "text": "اِلْمِسُوا الصُّورَةَ لِتَسْمَعُوا مَرَّةً أُخْرَى.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsPaint",
+  "text": "الصُّوَرُ رَمَادِيَّةٌ! اِلْمِسُوا كُلَّ صُورَةٍ لِتُلَوِّنُوهَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsGuess",
+  "text": "مَاذَا سَيَخْرُجُ؟ اِخْتَارُوا لَوْنًا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsMix",
+  "text": "الْآنَ نَخْلِطُ! اِلْمِسُوا الْوِعَاءَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsNotOnly",
+  "text": "اِنْتَبِهُوا: الشَّيْءُ نَفْسُهُ يُمْكِنُ أَنْ يَكُونَ بِأَلْوَانٍ كَثِيرَةٍ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cTalkPlay",
+  "text": "وَاوْ، مَا أَجْمَلَ هَذَا اللَّوْنَ! الْآنَ نَلْعَبُ بِهِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cReviewIntro",
+  "text": "وَقْتُ الْمُرَاجَعَةِ! هَيَّا نَتَذَكَّرِ الْأَلْوَانَ الَّتِي أَعَدْنَاهَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsWhatColor",
+  "text": "مَا هَذَا اللَّوْنُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cInsSort",
+  "text": "إِلَى أَيِّ سَلَّةٍ يَنْتَمِي؟ اِلْمِسُوا السَّلَّةَ ذَاتَ اللَّوْنِ الصَّحِيحِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cReviewDone",
+  "text": "أَحْسَنْتُمْ! أَنْتُمْ تَعْرِفُونَ الْأَلْوَانَ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/cTheEnd",
+  "text": "عَادَ قَوْسُ قُزَحَ! كُلُّ الْأَلْوَانِ عَادَتْ إِلَى الْعَالَمِ. شُكْرًا لَكُمْ أَيُّهَا الرَّسَّامُونَ الصِّغَارُ!",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
@@ -150,8 +396,164 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/C/red/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ حَمْرَاء!",
+  "voice": "Aoede",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَحْمَر؟",
+  "voice": "Aoede",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَحْمَر. أَحْمَرُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَحْمَر؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/which",
+  "text": "أَيُّهَا أَحْمَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْحَمْرَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْحَمْرَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَحْمَر!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/red/t0",
+  "text": "فَرَاوِلَةٌ حَمْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/red/t1",
+  "text": "طَمَاطِمُ حَمْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/red/t2",
+  "text": "تُفَّاحَةٌ حَمْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/red/t3",
+  "text": "كَرَزٌ أَحْمَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/red/t4",
+  "text": "قَلْبٌ أَحْمَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
   "id": "ar/C/yellow/name",
   "text": "أَصْفَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/yellow/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ صَفْرَاء!",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَصْفَر؟",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَصْفَر. أَصْفَرُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَصْفَر؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/which",
+  "text": "أَيُّهَا أَصْفَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الصَّفْرَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الصَّفْرَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَصْفَر!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/yellow/t0",
+  "text": "مَوْزَةٌ صَفْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/yellow/t1",
+  "text": "لَيْمُونَةٌ صَفْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/yellow/t2",
+  "text": "كَتْكُوتٌ أَصْفَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/yellow/t3",
+  "text": "ذُرَةٌ صَفْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/yellow/t4",
+  "text": "نَجْمَةٌ صَفْرَاءُ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
@@ -162,8 +564,176 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/C/blue/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ زَرْقَاء!",
+  "voice": "Despina",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَزْرَق؟",
+  "voice": "Despina",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَزْرَق. أَزْرَقُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَزْرَق؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/which",
+  "text": "أَيُّهَا أَزْرَقُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الزَّرْقَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الزَّرْقَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَزْرَق!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/blue/t0",
+  "text": "بَحْرٌ أَزْرَقُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/blue/t1",
+  "text": "قَطْرَةٌ زَرْقَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/blue/t2",
+  "text": "فَرَاشَةٌ زَرْقَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/blue/t3",
+  "text": "حُوتٌ أَزْرَقُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/blue/t4",
+  "text": "قَلْبٌ أَزْرَقُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
   "id": "ar/C/green/name",
   "text": "أَخْضَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/green/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ خَضْرَاء!",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَخْضَر؟",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَخْضَر. أَخْضَرُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَخْضَر؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/which",
+  "text": "أَيُّهَا أَخْضَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْخَضْرَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْخَضْرَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَخْضَر!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/mixQ",
+  "text": "مَاذَا يَحْدُثُ إِذَا خَلَطْنَا الْأَصْفَر وَالْأَزْرَق؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/mixA",
+  "text": "الْأَصْفَر وَالْأَزْرَق مَعًا، يُعْطِيَانِ اللَّوْنَ الْأَخْضَر!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/green/t0",
+  "text": "ضِفْدَعٌ أَخْضَرُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/green/t1",
+  "text": "وَرَقَةٌ خَضْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/green/t2",
+  "text": "خِيَارَةٌ خَضْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/green/t3",
+  "text": "تُفَّاحَةٌ خَضْرَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/green/t4",
+  "text": "تِمْسَاحٌ أَخْضَرُ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
@@ -174,8 +744,188 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/C/orange/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ بُرْتُقَالِيَّة!",
+  "voice": "Autonoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْبُرْتُقَالِيّ؟",
+  "voice": "Autonoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْبُرْتُقَالِيّ. بُرْتُقَالِيٌّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/where",
+  "text": "أَيْنَ اللَّوْنُ الْبُرْتُقَالِيّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/which",
+  "text": "أَيُّهَا بُرْتُقَالِيٌّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْبُرْتُقَالِيَّة.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْبُرْتُقَالِيَّة!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْبُرْتُقَالِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/mixQ",
+  "text": "مَاذَا يَحْدُثُ إِذَا خَلَطْنَا الْأَحْمَر وَالْأَصْفَر؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/mixA",
+  "text": "الْأَحْمَر وَالْأَصْفَر مَعًا، يُعْطِيَانِ اللَّوْنَ الْبُرْتُقَالِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/orange/t0",
+  "text": "بُرْتُقَالَةٌ بُرْتُقَالِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/orange/t1",
+  "text": "جَزَرَةٌ بُرْتُقَالِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/orange/t2",
+  "text": "يَقْطِينَةٌ بُرْتُقَالِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/orange/t3",
+  "text": "ثَعْلَبٌ بُرْتُقَالِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/orange/t4",
+  "text": "قَلْبٌ بُرْتُقَالِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
   "id": "ar/C/purple/name",
   "text": "بَنَفْسَجِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/purple/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ بَنَفْسَجِيَّة!",
+  "voice": "Aoede",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْبَنَفْسَجِيّ؟",
+  "voice": "Aoede",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْبَنَفْسَجِيّ. بَنَفْسَجِيٌّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/where",
+  "text": "أَيْنَ اللَّوْنُ الْبَنَفْسَجِيّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/which",
+  "text": "أَيُّهَا بَنَفْسَجِيٌّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْبَنَفْسَجِيَّة.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْبَنَفْسَجِيَّة!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْبَنَفْسَجِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/mixQ",
+  "text": "مَاذَا يَحْدُثُ إِذَا خَلَطْنَا الْأَحْمَر وَالْأَزْرَق؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/mixA",
+  "text": "الْأَحْمَر وَالْأَزْرَق مَعًا، يُعْطِيَانِ اللَّوْنَ الْبَنَفْسَجِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/purple/t0",
+  "text": "بَاذِنْجَانَةٌ بَنَفْسَجِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/purple/t1",
+  "text": "عِنَبٌ بَنَفْسَجِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/purple/t2",
+  "text": "مِظَلَّةٌ بَنَفْسَجِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/purple/t3",
+  "text": "زَهْرَةٌ بَنَفْسَجِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/purple/t4",
+  "text": "قَلْبٌ بَنَفْسَجِيٌّ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
@@ -186,8 +936,164 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/C/pink/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ وَرْدِيَّة!",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْوَرْدِيّ؟",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْوَرْدِيّ. وَرْدِيٌّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/where",
+  "text": "أَيْنَ اللَّوْنُ الْوَرْدِيّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/which",
+  "text": "أَيُّهَا وَرْدِيٌّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْوَرْدِيَّة.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْوَرْدِيَّة!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْوَرْدِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/mixQ",
+  "text": "مَاذَا يَحْدُثُ إِذَا خَلَطْنَا الْأَحْمَر وَالْأَبْيَض؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/mixA",
+  "text": "الْأَحْمَر وَالْأَبْيَض مَعًا، يُعْطِيَانِ اللَّوْنَ الْوَرْدِيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/pink/t0",
+  "text": "وَرْدَةٌ وَرْدِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/pink/t1",
+  "text": "فْلَامِينْغُو وَرْدِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/pink/t2",
+  "text": "زَهْرَةٌ وَرْدِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/pink/t3",
+  "text": "قَلْبٌ وَرْدِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
   "id": "ar/C/brown/name",
   "text": "بُنِّيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/brown/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ بُنِّيَّة!",
+  "voice": "Despina",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْبُنِّيّ؟",
+  "voice": "Despina",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْبُنِّيّ. بُنِّيٌّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/where",
+  "text": "أَيْنَ اللَّوْنُ الْبُنِّيّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/which",
+  "text": "أَيُّهَا بُنِّيٌّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْبُنِّيَّة.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْبُنِّيَّة!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْبُنِّيّ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/brown/t0",
+  "text": "دُبٌّ بُنِّيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/brown/t1",
+  "text": "شُوكُولَاتَةٌ بُنِّيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/brown/t2",
+  "text": "بَسْكَوِيتٌ بُنِّيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/brown/t3",
+  "text": "كَسْتَنَاءٌ بُنِّيَّةٌ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
@@ -198,10 +1104,592 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/C/black/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ سَوْدَاء!",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَسْوَد؟",
+  "voice": "Laomedeia",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَسْوَد. أَسْوَدُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَسْوَد؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/which",
+  "text": "أَيُّهَا أَسْوَدُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ السَّوْدَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ السَّوْدَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَسْوَد!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/black/t0",
+  "text": "قِطٌّ أَسْوَدُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/black/t1",
+  "text": "عَنْكَبُوتٌ أَسْوَدُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/black/t2",
+  "text": "قَلْبٌ أَسْوَدُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/black/t3",
+  "text": "غُرَابٌ أَسْوَدُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
   "id": "ar/C/white/name",
   "text": "أَبْيَضُ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/white/friend1",
+  "text": "مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ بَيْضَاء!",
+  "voice": "Autonoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/friend2",
+  "text": "غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ الْأَبْيَض؟",
+  "voice": "Autonoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/intro",
+  "text": "هَذَا هُوَ اللَّوْنُ الْأَبْيَض. أَبْيَضُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/where",
+  "text": "أَيْنَ اللَّوْنُ الْأَبْيَض؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/which",
+  "text": "أَيُّهَا أَبْيَضُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/pick",
+  "text": "اِلْمِسُوا كُلَّ الْأَشْيَاءِ الْبَيْضَاء.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/bubbles",
+  "text": "فَقِّعُوا فَقَطْ الْفُقَاعَاتِ الْبَيْضَاء!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/done",
+  "text": "نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ الْأَبْيَض!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/C/white/t0",
+  "text": "غَيْمَةٌ بَيْضَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/white/t1",
+  "text": "خَرُوفٌ أَبْيَضُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/white/t2",
+  "text": "بَجَعَةٌ بَيْضَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/white/t3",
+  "text": "حَلِيبٌ أَبْيَضُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/C/white/t4",
+  "text": "بَيْضَةٌ بَيْضَاءُ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/ui/szStory1",
+  "text": "هَيَّا نَتَعَرَّفْ عَلَى صَدِيقَيْنِ: فُلَّةَ الْفِيلَةِ، وَفَرْفُورٍ الْفَأْرِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szStory2",
+  "text": "هَيَّا نَتَعَلَّمْ مَعًا مَا هُوَ الْكَبِيرُ وَمَا هُوَ الصَّغِيرُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szPnina",
+  "text": "أَنَا فُلَّةُ، وَأَنَا كَبِيرَةٌ، كَبِيرَةٌ، كَبِيرَةٌ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szOfri",
+  "text": "وَأَنَا فَرْفُورٌ، وَأَنَا صَغِيرٌ، صَغِيرٌ، صَغِيرٌ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szBig",
+  "text": "كَبِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szSmall",
+  "text": "صَغِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereBig",
+  "text": "أَيْنَ الْكَبِيرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereSmall",
+  "text": "أَيْنَ الصَّغِيرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szSortBig",
+  "text": "مَا الْكَبِيرُ وَمَا الصَّغِيرُ؟ ضَعُوا كُلَّ شَيْءٍ فِي الصُّنْدُوقِ الصَّحِيحِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szBears",
+  "text": "ثَلَاثَةُ دَبَادِيبَ: وَاحِدٌ كَبِيرٌ، وَوَاحِدٌ وَسَطٌ، وَوَاحِدٌ صَغِيرٌ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szBiggest",
+  "text": "أَيْنَ الْأَكْبَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szSmallest",
+  "text": "أَيْنَ الْأَصْغَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szMedium",
+  "text": "أَيْنَ الْأَوْسَطُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szOrder",
+  "text": "اِلْمِسُوا بِالتَّرْتِيبِ: مِنَ الصَّغِيرِ إِلَى الْكَبِيرِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szTallIntro",
+  "text": "بُرْجٌ عَالٍ، وَبُرْجٌ مُنْخَفِضٌ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereTall",
+  "text": "أَيْنَ الْبُرْجُ الْعَالِي؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereLow",
+  "text": "أَيْنَ الْبُرْجُ الْمُنْخَفِضُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szOrderTall",
+  "text": "اِلْمِسُوا الْأَبْرَاجَ مِنَ الْمُنْخَفِضِ إِلَى الْعَالِي.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szLongIntro",
+  "text": "ثُعْبَانٌ طَوِيلٌ، وَثُعْبَانٌ قَصِيرٌ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereLong",
+  "text": "أَيْنَ الثُّعْبَانُ الطَّوِيلُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szWhereShort",
+  "text": "أَيْنَ الثُّعْبَانُ الْقَصِيرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szOrderLong",
+  "text": "اِلْمِسُوا الثَّعَابِينَ مِنَ الْقَصِيرِ إِلَى الطَّوِيلِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szRelIntro",
+  "text": "الْكَلْبُ كَبِيرٌ بِجَانِبِ الْفَأْرِ، لَكِنَّهُ صَغِيرٌ بِجَانِبِ الْفِيلِ. هَذَا يَتَعَلَّقُ بِمَا نُقَارِنُ بِهِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szRelQ",
+  "text": "هَلِ الْكَلْبُ هُنَا كَبِيرٌ أَمْ صَغِيرٌ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szDone",
+  "text": "أَحْسَنْتُمْ! أَنْتُمْ تَعْرِفُونَ الْكَبِيرَ وَالصَّغِيرَ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szEnd",
+  "text": "أَنْهَيْنَا كُلَّ عَالَمِ الْأَحْجَامِ. أَبْطَالٌ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_ball_big",
+  "text": "كُرَةٌ كَبِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_ball_small",
+  "text": "كُرَةٌ صَغِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_apple_big",
+  "text": "تُفَّاحَةٌ كَبِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_apple_small",
+  "text": "تُفَّاحَةٌ صَغِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_house_big",
+  "text": "بَيْتٌ كَبِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_house_small",
+  "text": "بَيْتٌ صَغِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_star_big",
+  "text": "نَجْمَةٌ كَبِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_star_small",
+  "text": "نَجْمَةٌ صَغِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_fish_big",
+  "text": "سَمَكَةٌ كَبِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_fish_small",
+  "text": "سَمَكَةٌ صَغِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_balloon_big",
+  "text": "بَالُونٌ كَبِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_balloon_small",
+  "text": "بَالُونٌ صَغِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_teddy_big",
+  "text": "دُبْدُوبٌ كَبِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_teddy_small",
+  "text": "دُبْدُوبٌ صَغِيرٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_tree_big",
+  "text": "شَجَرَةٌ كَبِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/szo_tree_small",
+  "text": "شَجَرَةٌ صَغِيرَةٌ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whStory1",
+  "text": "هَذَا مِشْمِشُ الْقِطُّ. هُوَ يُحِبُّ الِاخْتِبَاءَ كَثِيرًا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whCat",
+  "text": "مِيَاوْ! هَلْ تَجِدُونَنِي؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whStory2",
+  "text": "هَيَّا نَتَعَلَّمْ أَنْ نَقُولَ بِالضَّبْطِ أَيْنَ مِشْمِشُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whDemo",
+  "text": "اِلْمِسُوا الصُّورَةَ لِتَسْمَعُوا أَيْنَ مِشْمِشُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whDone",
+  "text": "مُمْتَازٌ! وَجَدْتُمْ مِشْمِشَ فِي كُلِّ مَكَانٍ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/whEnd",
+  "text": "مِشْمِشُ لَمْ يَعُدْ يَسْتَطِيعُ الِاخْتِبَاءَ مِنْكُمْ. أَبْطَالٌ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_in_say",
+  "text": "مِشْمِشُ دَاخِلَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_in_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ دَاخِلَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_in_put",
+  "text": "ضَعُوا مِشْمِشَ دَاخِلَ الصُّنْدُوقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_out_say",
+  "text": "مِشْمِشُ خَارِجَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_out_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ خَارِجَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_out_put",
+  "text": "ضَعُوا مِشْمِشَ خَارِجَ الصُّنْدُوقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_on_say",
+  "text": "مِشْمِشُ عَلَى الطَّاوِلَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_on_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ عَلَى الطَّاوِلَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_on_put",
+  "text": "ضَعُوا مِشْمِشَ عَلَى الطَّاوِلَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_under_say",
+  "text": "مِشْمِشُ تَحْتَ الطَّاوِلَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_under_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ تَحْتَ الطَّاوِلَةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_under_put",
+  "text": "ضَعُوا مِشْمِشَ تَحْتَ الطَّاوِلَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_next_say",
+  "text": "مِشْمِشُ بِجَانِبِ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_next_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ بِجَانِبِ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_next_put",
+  "text": "ضَعُوا مِشْمِشَ بِجَانِبِ الصُّنْدُوقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_front_say",
+  "text": "مِشْمِشُ أَمَامَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_front_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ أَمَامَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_front_put",
+  "text": "ضَعُوا مِشْمِشَ أَمَامَ الصُّنْدُوقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_behind_say",
+  "text": "مِشْمِشُ خَلْفَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_behind_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ خَلْفَ الصُّنْدُوقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_behind_put",
+  "text": "ضَعُوا مِشْمِشَ خَلْفَ الصُّنْدُوقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_between_say",
+  "text": "مِشْمِشُ بَيْنَ الصَّنَادِيقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_between_find",
+  "text": "اِلْمِسُوا الصُّورَةَ الَّتِي فِيهَا مِشْمِشُ بَيْنَ الصَّنَادِيقِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/wh_between_put",
+  "text": "ضَعُوا مِشْمِشَ بَيْنَ الصَّنَادِيقِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/enStory1",
@@ -319,37 +1807,289 @@
  },
  {
   "id": "ar/ui/en_gloss_one",
-  "text": "وَاحِدٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "وَاحِد، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_two",
-  "text": "اِثْنَانِ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "اِثْنَان، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_three",
-  "text": "ثَلَاثَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "ثَلَاثَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_four",
-  "text": "أَرْبَعَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "أَرْبَعَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_five",
-  "text": "خَمْسَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "خَمْسَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
+  "id": "ar/ui/anStory1",
+  "text": "هَيَّا نَخْرُجْ فِي رِحْلَةٍ لِنَلْتَقِيَ بِالْحَيَوَانَاتِ. كُلُّ حَيَوَانٍ يَسْكُنُ فِي مَكَانٍ مُخْتَلِفٍ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anStory2",
+  "text": "وَفِي كُلِّ مَكَانٍ نُغَنِّي مَعًا أُنْشُودَةَ الْحَيَوَانَاتِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anSing",
+  "text": "هَيَّا نُغَنِّ مَعًا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anMeet",
+  "text": "اِلْمِسُوا كُلَّ حَيَوَانٍ لِتَسْمَعُوا مَنْ هُوَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anWhoSays",
+  "text": "مَنْ يُصْدِرُ هَذَا الصَّوْتَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anWhere",
+  "text": "أَيْنَ يَسْكُنُ هَذَا الْحَيَوَانُ؟ اِلْمِسُوا الْمَكَانَ الصَّحِيحَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anDone",
+  "text": "مَا أَجْمَلَ هَذَا! قَابَلْنَا كُلَّ الْحَيَوَانَاتِ الَّتِي تَسْكُنُ هُنَا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/anEnd",
+  "text": "قَابَلْنَا كُلَّ الْحَيَوَانَاتِ فِي عَالَمِنَا. هَيَّا نُغَنِّ الْأُنْشُودَةَ كُلَّهَا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_farm_arrive",
+  "text": "وَصَلْنَا إِلَى الْمَزْرَعَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_farm_who",
+  "text": "مَنْ يَسْكُنُ فِي الْمَزْرَعَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_farm_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الْمَزْرَعَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_forest_arrive",
+  "text": "وَصَلْنَا إِلَى الْغَابَةِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_forest_who",
+  "text": "مَنْ يَسْكُنُ فِي الْغَابَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_forest_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الْغَابَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_jungle_arrive",
+  "text": "وَصَلْنَا إِلَى الْأَدْغَالِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_jungle_who",
+  "text": "مَنْ يَسْكُنُ فِي الْأَدْغَالِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_jungle_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الْأَدْغَالِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_sea_arrive",
+  "text": "وَصَلْنَا إِلَى الْبَحْرِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_sea_who",
+  "text": "مَنْ يَسْكُنُ فِي الْبَحْرِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_sea_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الْبَحْرِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_polar_arrive",
+  "text": "وَصَلْنَا إِلَى الْقُطْبِ الْبَارِدِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_polar_who",
+  "text": "مَنْ يَسْكُنُ فِي الْقُطْبِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_polar_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الْقُطْبِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_desert_arrive",
+  "text": "وَصَلْنَا إِلَى الصَّحْرَاءِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_desert_who",
+  "text": "مَنْ يَسْكُنُ فِي الصَّحْرَاءِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/an_desert_odd",
+  "text": "مَنْ لَا يَسْكُنُ فِي الصَّحْرَاءِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/W/size/pnina",
+  "text": "أَنَا فُلَّةُ، وَأَنَا كَبِيرَةٌ، كَبِيرَةٌ، كَبِيرَةٌ!",
+  "voice": "Callirrhoe",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/W/size/ofri",
+  "text": "وَأَنَا فَرْفُورٌ، وَأَنَا صَغِيرٌ، صَغِيرٌ، صَغِيرٌ!",
+  "voice": "Achird",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/W/where/cat",
+  "text": "مِيَاوْ! هَلْ تَجِدُونَنِي؟",
+  "voice": "Puck",
+  "style": "Read aloud in Modern Standard Arabic (Fusha) as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
   "id": "ar/A/cow/name",
   "text": "بَقَرَةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/cow/sound",
+  "text": "مُو! مُو!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/sheep/name",
+  "text": "خَرُوفٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/sheep/sound",
+  "text": "مَاء! مَاء!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/rooster/name",
+  "text": "دِيكٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/rooster/sound",
+  "text": "كُوكُوكُو!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/donkey/name",
+  "text": "حِمَارٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/donkey/sound",
+  "text": "هِي هَاء! هِي هَاء!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/bear/name",
+  "text": "دُبٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/bear/sound",
+  "text": "غْرْرْرْ!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/fox/name",
+  "text": "ثَعْلَبٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/owl/name",
+  "text": "بُومٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/owl/sound",
+  "text": "هُو! هُو!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/hedgehog/name",
+  "text": "قُنْفُذٌ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
@@ -360,16 +2100,442 @@
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/A/monkey/sound",
+  "text": "أُو أُو آه آه!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/tiger/name",
+  "text": "نَمِرٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/tiger/sound",
+  "text": "غْرْرْرْ!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/parrot/name",
+  "text": "بَبَّغَاءٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/parrot/sound",
+  "text": "مَرْحَبًا! مَرْحَبًا!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
   "id": "ar/A/elephant/name",
   "text": "فِيلٌ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
+  "id": "ar/A/elephant/sound",
+  "text": "تْرُوووو!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
   "id": "ar/A/fish/name",
   "text": "سَمَكَةٌ",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/fish/sound",
+  "text": "بْلُوب! بْلُوب!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/dolphin/name",
+  "text": "دُلْفِينٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/dolphin/sound",
+  "text": "إِي! إِي! إِي!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/octopus/name",
+  "text": "أُخْطُبُوطٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/whale/name",
+  "text": "حُوتٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/penguin/name",
+  "text": "بِطْرِيقٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/polarbear/name",
+  "text": "دُبٌّ قُطْبِيٌّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/polarbear/sound",
+  "text": "غْرْرْرْ!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/seal/name",
+  "text": "عِجْلُ الْبَحْرِ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/seal/sound",
+  "text": "أَرْ! أَرْ!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/camel/name",
+  "text": "جَمَلٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/lizard/name",
+  "text": "سِحْلِيَّةٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/snake/name",
+  "text": "ثُعْبَانٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/snake/sound",
+  "text": "سْسْسْ!",
+  "voice": "Puck",
+  "style": "You are a playful cartoon animal. Make this animal sound in a fun, expressive way for small children. Say only this"
+ },
+ {
+  "id": "ar/A/scorpion/name",
+  "text": "عَقْرَبٌ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/A/song/chorus",
+  "text": "لُولَا تَخْرُجُ فِي الطَّرِيقِ، مَعَ حَقِيبَةٍ وَقُبَّعَةْ. مَنْ يَسْكُنُ هُنَا وَمَنْ هُنَاكْ؟ هَيَّا نَلْتَقِي بِالْجَمَاعَةْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/farm",
+  "text": "فِي الْمَزْرَعَةِ بَقَرَةٌ، مُو مُو، وَخَرُوفٌ صَغِيرٌ، مَاء مَاء. الدِّيكُ يَصِيحُ كُوكُوكُو، وَالْحِمَارُ يَقُولُ هِي هَاء!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/forest",
+  "text": "فِي الْغَابَةِ الْخَضْرَاءِ دُبٌّ كَبِيرٌ، وَثَعْلَبٌ أَيْضًا. الْبُومُ يَقُولُ هُو هُو، وَالْقُنْفُذُ الصَّغِيرُ يَتَدَحْرَجُ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/jungle",
+  "text": "فِي الْأَدْغَالِ يَقْفِزُ الْقِرْدُ، أُو أُو آه آه. النَّمِرُ يَرْكُضُ بِسُرْعَةٍ، وَالْبَبَّغَاءُ يَتَكَلَّمُ، وَالْفِيلُ يُحَرِّكُ أُذُنَيْهِ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/sea",
+  "text": "فِي الْبَحْرِ الْأَزْرَقِ تَسْبَحُ سَمَكَةٌ، وَالدُّلْفِينُ يَقْفِزُ عَالِيًا. هُنَاكَ أُخْطُبُوطٌ لَهُ ثَمَانِي أَرْجُلٍ، وَحُوتٌ ضَخْمٌ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/polar",
+  "text": "فِي الْقُطْبِ الْبَارِدِ الْأَبْيَضِ، يَمْشِي الْبِطْرِيقُ بِبُطْءٍ. الدُّبُّ الْقُطْبِيُّ يَلْعَبُ فِي الثَّلْجِ، وَعِجْلُ الْبَحْرِ يَنْزَلِقُ إِلَى الْمَاءِ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/A/song/desert",
+  "text": "فِي الصَّحْرَاءِ الْحَارَّةِ الصَّفْرَاءِ، يَمْشِي الْجَمَلُ فِي الرَّمْلِ. السِّحْلِيَّةُ تَتَدَفَّأُ فِي الشَّمْسِ، وَالثُّعْبَانُ يَزْحَفُ، سْسْسْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/ui/nmStory1",
+  "text": "هَيَّا نَعُدَّ مَعًا! أَنَا أُحِبُّ أَنْ أَعُدَّ كُلَّ شَيْءٍ: النُّجُومَ، وَالتُّفَّاحَ، وَالْعَصَافِيرَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmStory2",
+  "text": "كُلُّ رَقْمٍ يُخْبِرُنَا كَمْ يُوجَدُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmMeet",
+  "text": "هَذَا هُوَ الرَّقْمُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmCount",
+  "text": "اِلْمِسُوا كُلَّ وَاحِدٍ، وَنَعُدُّ مَعًا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmThereAre",
+  "text": "يُوجَدُ هُنَا",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmHowMany",
+  "text": "كَمْ يُوجَدُ؟ اِخْتَارُوا الرَّقْمَ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmFind",
+  "text": "أَيْنَ يُوجَدُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmQuick",
+  "text": "بِسُرْعَةٍ بِسُرْعَةٍ! كَمْ نُقْطَةً رَأَيْتُمْ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmMore",
+  "text": "أَيْنَ يُوجَدُ أَكْثَرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmLess",
+  "text": "أَيْنَ يُوجَدُ أَقَلُّ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmOrder",
+  "text": "اِلْمِسُوا الْأَرْقَامَ بِالتَّرْتِيبِ، مِنَ الصَّغِيرِ إِلَى الْكَبِيرِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmAfter",
+  "text": "أَيُّ رَقْمٍ يَأْتِي بَعْدَ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmDone",
+  "text": "أَحْسَنْتُمْ! أَنْتُمْ تَعُدُّونَ بِشَكْلٍ مُمْتَازٍ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/nmEnd",
+  "text": "عَدَدْنَا حَتَّى عَشَرَةٍ! أَبْطَالٌ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtStory1",
+  "text": "عَلَى شَجَرَتِي تَسْكُنُ عَصَافِيرُ. أَحْيَانًا يَأْتِي الْمَزِيدُ، وَأَحْيَانًا تَطِيرُ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtStory2",
+  "text": "هَيَّا نَكْتَشِفْ فِي كُلِّ مَرَّةٍ كَمْ عُصْفُورًا يُوجَدُ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtHave",
+  "text": "يُوجَدُ هُنَا",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtComeMany",
+  "text": "وَيَأْتِي الْمَزِيدُ:",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtComeOne",
+  "text": "وَيَأْتِي الْمَزِيدُ:",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtFlyMany",
+  "text": "ثُمَّ يَطِيرُ مِنْهَا:",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtFlyOne",
+  "text": "ثُمَّ يَطِيرُ مِنْهَا:",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtHowNow",
+  "text": "كَمْ يُوجَدُ الْآنَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtLeft",
+  "text": "كَمْ بَقِيَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtCountOn",
+  "text": "نَصِيحَةٌ: نَبْدَأُ مِنَ الرَّقْمِ الْكَبِيرِ، وَنُكْمِلُ الْعَدَّ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtHouse",
+  "text": "يُوجَدُ خَمْسَةُ عَصَافِيرَ فِي الْمَجْمُوعِ. كَمْ عُصْفُورًا يَخْتَبِئُ فِي الْبَيْتِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtHouse10",
+  "text": "يُوجَدُ عَشَرَةُ عَصَافِيرَ فِي الْمَجْمُوعِ. كَمْ عُصْفُورًا يَخْتَبِئُ فِي الْبَيْتِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtDone",
+  "text": "مُمْتَازٌ! أَنْتُمْ تَعْرِفُونَ الْجَمْعَ وَالطَّرْحَ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/mtEnd",
+  "text": "أَنْتُمْ أَبْطَالُ الْحِسَابِ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/stStory1",
+  "text": "أَهْلًا بِكُمْ فِي رُكْنِ الْقِصَصِ! هُنَا قِصَصٌ عَنْ أَطْفَالٍ وَحَيَوَانَاتٍ، نَجَحُوا فِي التَّغَلُّبِ عَلَى أَشْيَاءَ صَعْبَةٍ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/stStory2",
+  "text": "نَسْتَمِعُ، وَنَنْظُرُ إِلَى الصُّوَرِ، وَفِي النِّهَايَةِ نَتَحَدَّثُ عَنِ الْقِصَّةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/stListen",
+  "text": "هَيَّا نَسْتَمِعْ إِلَى الْقِصَّةِ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/stTalkBtn",
+  "text": "تَحَدَّثْنَا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/stDone",
+  "text": "مَا أَجْمَلَ هَذِهِ الْقِصَّةَ! شُكْرًا لِأَنَّكُمُ اسْتَمَعْتُمْ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/sgStory1",
+  "text": "مَا هِيَ الْأُنْشُودَةُ؟ الْأُنْشُودَةُ كَلِمَاتٌ نُغَنِّيهَا بِلَحْنٍ، وَفِيهَا إِيقَاعٌ وَقَوَافٍ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/sgStory2",
+  "text": "هَيَّا نَتَعَلَّمْ مَا هِيَ الْقَافِيَةُ، وَنُصَفِّقْ، وَنُغَنِّ مَعًا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/rhTeach",
+  "text": "الْقَافِيَةُ هِيَ عِنْدَمَا تَنْتَهِي كَلِمَتَانِ بِنَفْسِ الصَّوْتِ. قِطّ، بَطّ! كِتَاب، بَاب!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/rhWith",
+  "text": "أَيُّ كَلِمَةٍ تَنْتَهِي مِثْلَ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/rhOdd",
+  "text": "أَيُّ كَلِمَةٍ لَا تُشْبِهُ الْبَاقِيَ فِي آخِرِهَا؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/syTeach",
+  "text": "كُلُّ كَلِمَةٍ تَتَكَوَّنُ مِنْ مَقَاطِعَ. نُصَفِّقُ عَلَى كُلِّ مَقْطَعٍ: فَ، رَا، شَة!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/syQ",
+  "text": "كَمْ مَقْطَعًا فِي الْكَلِمَةِ؟ كَمْ تَصْفِيقَةً؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/sgSing",
+  "text": "هَيَّا نُغَنِّ مَعًا!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/sgQ",
+  "text": "وَالْآنَ سُؤَالٌ عَنِ الْأُنْشُودَةِ:",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/ui/sgDone",
+  "text": "مَا أَجْمَلَ غِنَاءَكُمْ!",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/langPick",
@@ -403,69 +2569,579 @@
  },
  {
   "id": "ar/N/0",
-  "text": "صِفْرٌ",
+  "text": "صِفْر",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/1",
-  "text": "وَاحِدٌ",
+  "text": "وَاحِد",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/2",
-  "text": "اِثْنَانِ",
+  "text": "اِثْنَان",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/3",
-  "text": "ثَلَاثَةٌ",
+  "text": "ثَلَاثَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/4",
-  "text": "أَرْبَعَةٌ",
+  "text": "أَرْبَعَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/5",
-  "text": "خَمْسَةٌ",
+  "text": "خَمْسَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/6",
-  "text": "سِتَّةٌ",
+  "text": "سِتَّة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/7",
-  "text": "سَبْعَةٌ",
+  "text": "سَبْعَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/8",
-  "text": "ثَمَانِيَةٌ",
+  "text": "ثَمَانِيَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/9",
-  "text": "تِسْعَةٌ",
+  "text": "تِسْعَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
  },
  {
   "id": "ar/N/10",
-  "text": "عَشَرَةٌ",
+  "text": "عَشَرَة",
   "voice": "Leda",
   "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/S/noa/title",
+  "text": "نُورُ وَالظَّلَامُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p0",
+  "text": "كَانَتْ نُورُ بِنْتًا شُجَاعَةً فِي النَّهَارِ. لَكِنْ فِي اللَّيْلِ، عِنْدَمَا يُطْفِئُونَ الضَّوْءَ، كَانَتْ تَخَافُ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p1",
+  "text": "الظِّلَالُ عَلَى الْحَائِطِ بَدَتْ لَهَا مِثْلَ وُحُوشٍ كَبِيرَةٍ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p2",
+  "text": "أَعْطَى بَابَا نُورَ مِصْبَاحًا صَغِيرًا، وَقَالَ: تَعَالَيْ نَرَى مَاذَا هُنَاكَ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p3",
+  "text": "وَجَّهَتْ نُورُ الضَّوْءَ نَحْوَ الْوَحْشِ. كَانَ مِعْطَفَهَا فَقَطْ، مُعَلَّقًا عَلَى الْكُرْسِيِّ!",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p4",
+  "text": "ثُمَّ وَجَّهَتِ الضَّوْءَ نَحْوَ النَّافِذَةِ، فَرَأَتْ قَمَرًا كَبِيرًا وَنُجُومًا كَثِيرَةً تَلْمَعُ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/p5",
+  "text": "وَمُنْذُ ذَلِكَ الْيَوْمِ، عِنْدَمَا تَخَافُ نُورُ، تَأْخُذُ نَفَسًا عَمِيقًا، وَتَقُولُ لِلنُّجُومِ: تُصْبِحِينَ عَلَى خَيْرٍ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/noa/q0",
+  "text": "كَيْفَ شَعَرَتْ نُورُ فِي اللَّيْلِ، فِي الْبِدَايَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/noa/q1",
+  "text": "مَاذَا كَانَ الْوَحْشُ فِي الْحَقِيقَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/noa/talk",
+  "text": "وَأَنْتُمْ؟ مَا الَّذِي يُسَاعِدُكُمْ عِنْدَمَا تَخَافُونَ؟ أَخْبِرُوا بَابَا أَوْ مَامَا.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/title",
+  "text": "آدَمُ وَالدَّرَّاجَةُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p0",
+  "text": "كَانَتْ عِنْدَ آدَمَ دَرَّاجَةٌ جَدِيدَةٌ، وَكَانَ يُرِيدُ كَثِيرًا أَنْ يَرْكَبَهَا وَحْدَهُ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p1",
+  "text": "رَكِبَ، وَدَاسَ عَلَى الدَّوَّاسَاتِ، وَ... بُوم! وَقَعَ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p2",
+  "text": "غَضِبَ آدَمُ. قَالَ: أَنَا لَا أَنْجَحُ، وَأَرَادَ أَنْ يَسْتَسْلِمَ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p3",
+  "text": "قَالَتْ جَدَّتُهُ: أَنَا أَيْضًا وَقَعْتُ عِنْدَمَا تَعَلَّمْتُ. كُلُّ وَقْعَةٍ تُعَلِّمُنَا شَيْئًا.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p4",
+  "text": "حَاوَلَ آدَمُ مَرَّةً أُخْرَى، وَمَرَّةً، وَمَرَّةً. وَفِي كُلِّ مَرَّةٍ ذَهَبَ أَبْعَدَ قَلِيلًا.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/p5",
+  "text": "وَفِي النِّهَايَةِ، رَكِبَ حَتَّى آخِرِ الطَّرِيقِ، وَصَاحَ: نَجَحْتُ!",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/q0",
+  "text": "مَاذَا فَعَلَ آدَمُ بَعْدَ أَنْ وَقَعَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/q1",
+  "text": "كَيْفَ شَعَرَ آدَمُ فِي النِّهَايَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/eitan/talk",
+  "text": "مَاذَا تُرِيدُونَ أَنْ تَتَعَلَّمُوا، حَتَّى لَوْ كَانَ صَعْبًا فِي الْبِدَايَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/title",
+  "text": "سَلِيمٌ السُّلَحْفَاةُ فِي الرَّوْضَةِ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p0",
+  "text": "إِلَى رَوْضَةِ الْحَيَوَانَاتِ وَصَلَ صَدِيقٌ جَدِيدٌ: سَلِيمٌ السُّلَحْفَاةُ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p1",
+  "text": "الْجَمِيعُ رَكَضُوا وَلَعِبُوا الْمُطَارَدَةَ، لَكِنَّ سَلِيمًا كَانَ يَمْشِي بِبُطْءٍ، بِبُطْءٍ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p2",
+  "text": "ضَحِكَ الْأَرْنَبُ: أَنْتَ بَطِيءٌ جِدًّا! فَشَعَرَ سَلِيمٌ بِالْحُزْنِ وَالْوَحْدَةِ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p3",
+  "text": "رَأَتْهُ الْفِيلَةُ الصَّغِيرَةُ، وَقَالَتْ: تَعَالَ، نَلْعَبُ مَعًا لُعْبَةً أُخْرَى!",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p4",
+  "text": "بَنَيَا بُرْجًا عَالِيًا، وَسَلِيمٌ، الَّذِي يَعْمَلُ بِبُطْءٍ وَحَذَرٍ، وَضَعَ الْمُكَعَّبَ الْأَخِيرَ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/p5",
+  "text": "اعْتَذَرَ الْأَرْنَبُ. وَالْآنَ يَعْرِفُ الْجَمِيعُ: كُلُّ وَاحِدٍ مُمَيَّزٌ فِي شَيْءٍ مُخْتَلِفٍ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/q0",
+  "text": "كَيْفَ شَعَرَ سَلِيمٌ عِنْدَمَا ضَحِكُوا عَلَيْهِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/q1",
+  "text": "مَنْ سَاعَدَ سَلِيمًا؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/tzvi/talk",
+  "text": "مَاذَا يُمْكِنُ أَنْ نَفْعَلَ عِنْدَمَا يَشْعُرُ أَحَدٌ فِي الرَّوْضَةِ بِالْوَحْدَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/dana/title",
+  "text": "دَانَةُ الدُّبَّةُ وَالْغَضَبُ",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p0",
+  "text": "بَنَتْ دَانَةُ الدُّبَّةُ قَصْرًا عَالِيًا مِنَ الْمُكَعَّبَاتِ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p1",
+  "text": "فَجْأَةً، هَبَّتْ رِيحٌ قَوِيَّةٌ، وَسَقَطَ الْقَصْرُ!",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p2",
+  "text": "غَضِبَتْ دَانَةُ كَثِيرًا. صَارَ وَجْهُهَا أَحْمَرَ، وَأَرَادَتْ أَنْ تَصْرُخَ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p3",
+  "text": "قَالَتْ مَامَا الدُّبَّةُ: تَعَالَيْ نَتَنَفَّسْ نَفَسَ الْبَالُونِ. نَأْخُذُ نَفَسًا إِلَى الدَّاخِلِ، ثُمَّ نَنْفُخُ بِبُطْءٍ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p4",
+  "text": "تَنَفَّسَتْ دَانَةُ ثَلَاثَ مَرَّاتٍ، فَصَارَ الْغَضَبُ يَصْغُرُ وَيَصْغُرُ، مِثْلَ بَالُونٍ يَفْرُغُ مِنَ الْهَوَاءِ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/p5",
+  "text": "ثُمَّ بَنَتْ دَانَةُ قَصْرًا جَدِيدًا، أَجْمَلَ مِنَ الْأَوَّلِ، تَحْتَ الشَّجَرَةِ، حَيْثُ لَا تَصِلُ الرِّيحُ.",
+  "voice": "Leda",
+  "style": "You are a warm, gentle storyteller reading a bedtime picture book in Modern Standard Arabic (Fusha) to a 5 year old. Read slowly and expressively, with feeling, exactly as the harakat (tashkeel) show. Read only this text"
+ },
+ {
+  "id": "ar/S/dana/q0",
+  "text": "كَيْفَ شَعَرَتْ دَانَةُ عِنْدَمَا سَقَطَ الْقَصْرُ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/dana/q1",
+  "text": "مَاذَا سَاعَدَ دَانَةَ عَلَى أَنْ تَهْدَأَ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/S/dana/talk",
+  "text": "هَيَّا نَتَنَفَّسْ مَعًا نَفَسَ الْبَالُونِ: نَأْخُذُ نَفَسًا إِلَى الدَّاخِلِ، ثُمَّ نَنْفُخُ بِبُطْءٍ، بِبُطْءٍ.",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/R/balon",
+  "text": "قِطّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/shaon",
+  "text": "بَطّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/tzav",
+  "text": "كِتَاب",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/zahav",
+  "text": "بَاب",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_sahab",
+  "text": "سَحَاب",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_usfur",
+  "text": "عُصْفُور",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_nur",
+  "text": "نُور",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_zuhur",
+  "text": "زُهُور",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_qalam",
+  "text": "قَلَم",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_alam",
+  "text": "عَلَم",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_qamar",
+  "text": "قَمَر",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_shajar",
+  "text": "شَجَر",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_matar",
+  "text": "مَطَر",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_qitt",
+  "text": "قِطّ",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_bab",
+  "text": "بَاب",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_arnab",
+  "text": "أَرْنَب",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_mawza",
+  "text": "مَوْزَة",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_samaka",
+  "text": "سَمَكَة",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_sayyara",
+  "text": "سَيَّارَة",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_farasha",
+  "text": "فَرَاشَة",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/R/ar_burtuqala",
+  "text": "بُرْتُقَالَة",
+  "voice": "Leda",
+  "style": "Say this single Arabic word clearly for a 5 year old learning to read, exactly as the harakat (tashkeel) show, with nothing added before or after it. Say only the word"
+ },
+ {
+  "id": "ar/G/morning/0",
+  "text": "صَبَاحُ الْخَيْرِ يَا شَمْسُ، صَبَاحُ الْخَيْرِ يَا شَجَرْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/1",
+  "text": "صَبَاحُ الْخَيْرِ يَا جَرْوِي، تَقْفِزُ بَيْنَ الزَّهَرْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/2",
+  "text": "نَغْسِلُ وُجُوهَنَا بِالْمَاءِ، وَنُنَظِّفُ الْأَسْنَانْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/3",
+  "text": "نَلْبَسُ ثِيَابًا جَمِيلَةً، وَنَلْبَسُ الْحِذَاءَ الْآنْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/4",
+  "text": "صَبَاحُ الْخَيْرِ، صَبَاحُ الْخَيْرِ، يَوْمٌ جَدِيدٌ جَمِيلْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/5",
+  "text": "صَبَاحُ الْخَيْرِ يَا أُمِّي، وَيَا أَبِي الْغَالِي النَّبِيلْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/morning/q",
+  "text": "نَغْسِلُ وُجُوهَنَا بِالْمَاءِ، وَنُنَظِّفُ... مَاذَا؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/G/numbers/0",
+  "text": "وَاحِدٌ، اِثْنَانِ، ثَلَاثَةْ، عُصْفُورٌ فَوْقَ الطَّاوِلَةْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/numbers/1",
+  "text": "أَرْبَعَةٌ، خَمْسَةٌ، سِتَّةْ، قِرْدٌ يَأْكُلُ مَوْزَتَهْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/numbers/2",
+  "text": "سَبْعَةٌ، ثَمَانِيَةٌ، تِسْعَةْ، نَقْفِزُ كُلُّنَا بِسُرْعَةْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/numbers/3",
+  "text": "وَعَشَرَةْ! عَدَدْنَا كُلَّ الْأَرْقَامْ، نَرْفَعُ أَيْدِيَنَا إِلَى الْأَمَامْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/numbers/q",
+  "text": "أَيُّ رَقْمٍ يَأْتِي بَعْدَ ثَلَاثَةٍ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/G/hands/0",
+  "text": "مَاءٌ وَصَابُونْ، مَاءٌ وَصَابُونْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/1",
+  "text": "أَيْدٍ نَظِيفَةٌ تَلْمَعُ مِثْلَ اللَّيْمُونْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/2",
+  "text": "نَفْرُكُ ظَهْرَ الْيَدِ، وَنَفْرُكُ الْكَفَّيْنْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/3",
+  "text": "وَبَيْنَ كُلِّ الْأَصَابِعِ، وَالْإِصْبَعَيْنِ الصَّغِيرَيْنْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/4",
+  "text": "نَشْطُفُ بِالْمَاءِ، وَنُنَشِّفُ بِالْمِنْشَفَةْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/5",
+  "text": "أَيْدٍ نَظِيفَةٌ، مَا أَحْلَى هَذِهِ الْمَعْرِفَةْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/hands/q",
+  "text": "مَاذَا نَحْتَاجُ لِنَغْسِلَ أَيْدِيَنَا؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
+ },
+ {
+  "id": "ar/G/colors/0",
+  "text": "أَحْمَرُ مِثْلُ الْفَرَاوِلَةْ، أَصْفَرُ مِثْلُ الشَّمْسْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/colors/1",
+  "text": "أَزْرَقُ مِثْلُ الْبَحْرِ، وَأَخْضَرُ مِثْلُ عُشْبٍ يَهْمِسْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/colors/2",
+  "text": "بُرْتُقَالِيٌّ مِثْلُ الْجَزَرْ، وَرْدِيٌّ مِثْلُ الزَّهَرْ،",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/colors/3",
+  "text": "كُلُّ الْأَلْوَانِ مَعًا، قَوْسُ قُزَحٍ أَمَامَ الْقَمَرْ!",
+  "voice": "Leda",
+  "style": "Sing this in Modern Standard Arabic (Fusha) as a cheerful, rhythmic, bouncy children's song with a happy melody, clearly and not too fast, exactly as the harakat (tashkeel) show. Sing only this text"
+ },
+ {
+  "id": "ar/G/colors/q",
+  "text": "مَا الْأَصْفَرُ فِي الْأُنْشُودَةِ؟",
+  "voice": "Leda",
+  "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_please",
@@ -529,31 +3205,31 @@
  },
  {
   "id": "ar/ui/en_gloss_six",
-  "text": "سِتَّةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "سِتَّة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_seven",
-  "text": "سَبْعَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "سَبْعَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_eight",
-  "text": "ثَمَانِيَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "ثَمَانِيَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_nine",
-  "text": "تِسْعَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "تِسْعَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },
  {
   "id": "ar/ui/en_gloss_ten",
-  "text": "عَشَرَةٌ، وَبِالْإِنْجِلِيزِيَّةِ:",
+  "text": "عَشَرَة، وَبِالْإِنْجِلِيزِيَّةِ:",
   "voice": "Leda",
   "style": "Read aloud in Modern Standard Arabic (Fusha), warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the harakat (tashkeel). Read only this text"
  },

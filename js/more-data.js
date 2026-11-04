@@ -124,6 +124,20 @@ export const SYL_WORDS = [
   { id: 'banana', w: 'בָּנָנָה', e: '🍌', s: ['בָּ', 'נָ', 'נָה'] }, { id: 'mechonit', w: 'מְכוֹנִית', e: '🚗', s: ['מְ', 'כוֹ', 'נִית'] },
   { id: 'iparon2', w: 'עִפָּרוֹן', e: '✏️', s: ['עִ', 'פָּ', 'רוֹן'] }, { id: 'hipo', w: 'הִיפּוֹפּוֹטָם', e: '🦛', s: ['הִי', 'פּוֹ', 'פּוֹ', 'טָם'] },
 ];
+// בערבית: מילים בערבית לחרוזים ולהברות. המזהים balon/shaon/tzav/zahav נשמרים כי כרטיס ההסבר משתמש בהם.
+if (IS_AR) {
+  RHYME_WORDS.splice(0, RHYME_WORDS.length,
+    { id: 'balon', w: 'قِطّ', e: '🐱', g: 'att' }, { id: 'shaon', w: 'بَطّ', e: '🦆', g: 'att' },
+    { id: 'tzav', w: 'كِتَاب', e: '📖', g: 'aab' }, { id: 'zahav', w: 'بَاب', e: '🚪', g: 'aab' }, { id: 'ar_sahab', w: 'سَحَاب', e: '☁️', g: 'aab' },
+    { id: 'ar_usfur', w: 'عُصْفُور', e: '🐦', g: 'uur' }, { id: 'ar_nur', w: 'نُور', e: '💡', g: 'uur' }, { id: 'ar_zuhur', w: 'زُهُور', e: '💐', g: 'uur' },
+    { id: 'ar_qalam', w: 'قَلَم', e: '✏️', g: 'alam' }, { id: 'ar_alam', w: 'عَلَم', e: '🚩', g: 'alam' },
+    { id: 'ar_qamar', w: 'قَمَر', e: '🌙', g: 'amar' }, { id: 'ar_shajar', w: 'شَجَر', e: '🌳', g: 'amar' }, { id: 'ar_matar', w: 'مَطَر', e: '🌧️', g: 'amar' });
+  SYL_WORDS.splice(0, SYL_WORDS.length,
+    { id: 'ar_qitt', w: 'قِطّ', e: '🐱', s: ['قِطّ'] }, { id: 'ar_bab', w: 'بَاب', e: '🚪', s: ['بَاب'] },
+    { id: 'ar_arnab', w: 'أَرْنَب', e: '🐰', s: ['أَرْ', 'نَب'] }, { id: 'ar_mawza', w: 'مَوْزَة', e: '🍌', s: ['مَوْ', 'زَة'] },
+    { id: 'ar_samaka', w: 'سَمَكَة', e: '🐟', s: ['سَ', 'مَ', 'كَة'] }, { id: 'ar_sayyara', w: 'سَيَّارَة', e: '🚗', s: ['سَيْ', 'يَا', 'رَة'] },
+    { id: 'ar_farasha', w: 'فَرَاشَة', e: '🦋', s: ['فَ', 'رَا', 'شَة'] }, { id: 'ar_burtuqala', w: 'بُرْتُقَالَة', e: '🍊', s: ['بُرْ', 'تُ', 'قَا', 'لَة'] });
+}
 export const SONGS = [
   { id: 'morning', title: 'שִׁיר הַבֹּקֶר', icon: '☀️', lines: [
     'בֹּקֶר טוֹב לַשֶּׁמֶשׁ, בֹּקֶר טוֹב לָעֵץ,',

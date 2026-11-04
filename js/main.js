@@ -143,19 +143,19 @@ function home() {
       ${en ? '<h1><span dir="ltr">English</span> <span>עִם</span> <span class="ab">לוּלָה</span></h1><p>לוֹמְדִים אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</p>'
         : '<h1><span>מִשְׂחַק</span> <span>הָאוֹתִיּוֹת</span> <span class="ab">א-ב</span></h1><p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>'}
     </div>
-    ${en ? '' : scorePanel()}
+    ${en || IS_AR ? '' : scorePanel()}
     <div class="home-stage">
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
         <div class="bubble-anchor home-bubble"></div>
         <div class="worlds-grid ${en ? 'en' : ''}">
           ${en ? EN_WORLDS.map(card).join('') : `
-          <button class="world-card play world-letters"><span class="wc-ico">א</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : '27 אוֹתִיּוֹת'}</small></button>
+          ${IS_AR ? '' : `<button class="world-card play world-letters"><span class="wc-ico">א</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : '27 אוֹתִיּוֹת'}</small></button>`}
           <button class="world-card play-colors world-colors"><span class="wc-ico">🎨</span><span class="wc-t">צְבָעִים</span><small>${colorsDone()}/${COLORS.length}</small></button>
           ${HE_WORLDS.map(card).join('')}`}
         </div>
         <div class="home-row">
-          ${en ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
+          ${en || IS_AR ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
           ${IS_AR ? '' : '<button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>' + doneCount() + '/27</small></span></button>'}
           <button class="mega small lang-switch"><span class="mega-ico">🌐</span><span class="mega-txt">${tr('שָׂפָה')}</span></button>
         </div>

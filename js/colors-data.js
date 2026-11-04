@@ -1,7 +1,7 @@
 // עולם הצבעים: 10 צבעים, עם ניקוד מלא וכל צורות התואר (זכר, נקבה, רבים, רבות, מיודע).
 // עקרונות: קודם זיהוי ("איפה האדום?") ורק אחר כך שיום, הרבה חזרות, ניגודים (מה כן אדום ומה לא),
 // אותו חפץ בכמה צבעים (הצבע הוא תכונה ולא שם של חפץ), ובעברית שם העצם בא לפני הצבע (תַּפּוּחַ אָדֹם).
-import { localizeDeep } from './i18n.js';
+import { localizeDeep, IS_AR } from './i18n.js';
 
 export const COLORS = [
   { id: 'red', hex: '#e53935', m: 'אָדֹם', f: 'אֲדֻמָּה', mpl: 'אֲדֻמִּים', fpl: 'אֲדֻמּוֹת', def: 'הָאָדֹם', defpl: 'הָאֲדֻמִּים',
@@ -56,6 +56,7 @@ const vav = (w) => 'וְ' + w.replace(/^([בגדכפת][\u05B0-\u05BB]*)\u05BC/,
 
 // משפטים לכל צבע
 export function colorLines(c) {
+  if (IS_AR) return colorLinesAr(c);
   const lines = {
     name: c.m,
     friend1: `שָׁלוֹם, לוּלָה! אֲנִי טִפָּה ${c.f}!`,
@@ -79,3 +80,25 @@ export function colorLines(c) {
 export const COLOR_REVIEW_AFTER = ['blue', 'orange', 'pink', 'white'];
 
 localizeDeep(COLORS); localizeDeep(CUI);
+
+// ערבית: התואר בא אחרי שם העצם ומתאים לו במין. בסוף משפט הצבע נקרא בלי סיומת יחסה.
+// c.m = أَحْمَرُ, c.f = حَمْرَاء, c.def = الْأَحْمَر, c.defpl = الْحَمْرَاء (רבים שאינם בני אדם)
+function colorLinesAr(c) {
+  const lines = {
+    name: c.m,
+    friend1: `مَرْحَبًا يَا لُولَا! أَنَا قَطْرَةٌ ${c.f}!`,
+    friend2: `غَيْمَةُ الرَّمَادِ أَخَذَتْ لَوْنِي. هَلْ تُسَاعِدُونَنِي فِي إِعَادَةِ اللَّوْنِ ${c.def}؟`,
+    intro: `هَذَا هُوَ اللَّوْنُ ${c.def}. ${c.m}!`,
+    where: `أَيْنَ اللَّوْنُ ${c.def}؟`,
+    which: `أَيُّهَا ${c.m}؟`,
+    pick: `اِلْمِسُوا كُلَّ الْأَشْيَاءِ ${c.defpl}.`,
+    bubbles: `فَقِّعُوا فَقَطْ الْفُقَاعَاتِ ${c.defpl}!`,
+    done: `نَجَحْنَا! عَادَ إِلَى الْعَالَمِ اللَّوْنُ ${c.def}!`,
+  };
+  if (c.mix) {
+    const [a, b] = c.mix.map((id) => COLOR_BY_ID[id]);
+    lines.mixQ = `مَاذَا يَحْدُثُ إِذَا خَلَطْنَا ${a.def} وَ${b.def}؟`;
+    lines.mixA = `${a.def} وَ${b.def} مَعًا، يُعْطِيَانِ اللَّوْنَ ${c.def}!`;
+  }
+  return lines;
+}

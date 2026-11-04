@@ -1,5 +1,6 @@
 // העולמות החדשים: מספרים, חיבור וחיסור, פינת הסיפורים, מה זה שיר (עברית),
 // וצד האנגלית: 9 נושאים ו-ABC.
+import { IS_AR } from './i18n.js';
 import { NUMW, NUM_UI, MATH_UI, STORIES, STORY_UI, RHYME_WORDS, SYL_WORDS, SONGS, SONG_UI, EN_THEMES, ABC, EN_UI, enWordKey } from './more-data.js';
 import { ENGLISH } from './worlds-data.js';
 import { K } from './worlds-stages.js';
@@ -189,7 +190,7 @@ const SONG_STATIONS = [
     choose('rhGame', rhymeRounds(5)), celebrate('sgDone', { text: SONG_UI.sgDone, clip: UI('sgDone') })] },
   songStation(SONGS[0]),
   { id: 'claps', chip: '👏', title: 'מוֹחֲאִים כַּפַּיִם', stages: () => [
-    cards('syTeach', [{ html: `<div class="rh-target"><span class="an-emoji">🍌</span><b>בָּ - נָ - נָה</b><span class="claps">👏👏👏</span></div>`, text: SONG_UI.syTeach, clips: UI('syTeach') }]),
+    cards('syTeach', [{ html: `<div class="rh-target"><span class="an-emoji">${IS_AR ? '🦋' : '🍌'}</span><b>${IS_AR ? 'فَ - رَا - شَة' : 'בָּ - נָ - נָה'}</b><span class="claps">👏👏👏</span></div>`, text: SONG_UI.syTeach, clips: UI('syTeach') }]),
     choose('syGame', sylRounds), celebrate('sgDone', { text: SONG_UI.sgDone, clip: UI('sgDone') })] },
   songStation(SONGS[1]),
   songStation(SONGS[2]),
