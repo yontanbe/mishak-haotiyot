@@ -1,4 +1,4 @@
-// בודק שכל 195 המילים נכנסות לכרטיס זיכרון, לכרטיס תמונה ולבלון, בשלושה גדלי מסך.
+// בודק שכל המילים (195 בעברית, LULA_GUIDE=ar לערבית) נכנסות לכרטיס זיכרון, לכרטיס תמונה ולבלון, בשלושה גדלי מסך.
 // הרצה: npm run serve ואז node tools/fitcheck.cjs
 const { chromium } = require('playwright');
 const BASE = process.env.QA_URL || 'http://localhost:8080/';
@@ -6,6 +6,9 @@ const BASE = process.env.QA_URL || 'http://localhost:8080/';
   const b = await chromium.launch();
   for (const [w, h] of [[1280, 800], [390, 844], [1024, 768]]) {
     const p = await b.newPage({ viewport: { width: w, height: h } });
+    await p.goto(`${BASE}?qa=1`);
+    // LULA_GUIDE=ar בודק את המילים בערבית
+    await p.evaluate((g) => localStorage.setItem('lula-guide', g), process.env.LULA_GUIDE || 'he');
     await p.goto(`${BASE}?qa=1`); await p.waitForTimeout(500);
     const res = await p.evaluate(async () => {
       const { LETTERS, parseWord } = await import('./js/data.js');
