@@ -205,12 +205,12 @@ const abcHTML = (a) => `<div class="abc-card" dir="ltr"><span class="abc-big">${
 function abcStation(group, gi) {
   return { id: `abc${gi}`, chip: `<span dir="ltr">${group[0].L}-${group[group.length - 1].L}</span>`, title: `${group[0].L} - ${group[group.length - 1].L}`, stages: () => [
     ...(gi === 0 ? [intro('enIntro', { pics: [pic(OWL, 'friend-big')], lines: [{ who: 0, clip: 'E/owlHello', text: '<bdi dir="ltr">Hello! I am Yogi the owl.</bdi>' }, { clip: UI('enAbcIntro'), text: EN_UI.enAbcIntro }] })] : []),
-    cards('abcCards', group.map((a) => ({ html: abcHTML(a), cap: `<bdi dir="ltr">${a.w}</bdi>`, text: `<bdi dir="ltr"><b>${a.L}</b> - ${a.w}</bdi>`, clips: `E/abc/${lk(a)}` }))),
+    cards('abcCards', group.map((a) => ({ html: abcHTML(a), cap: `<bdi dir="ltr">${a.w}</bdi>`, text: `<bdi dir="ltr"><b>${a.L}</b> - ${a.w}</bdi>`, clips: `E/abc/${a.k}` }))),
     choose('abcName', () => shuffle(group).slice(0, 4).map((t) => ({ pre: UI('enAbcFind'), text: '🔊', clips: `E/abcn/${lk(t)}`, top: '<button class="btn round replay listen" aria-label="שוב">🔊</button>',
-      options: shuffle(group.filter((x) => x !== t)).slice(0, 2).concat([t]).map((a) => ({ html: `<span class="abc-big" dir="ltr">${a.L}</span>`, ok: a === t, after: a === t ? `E/abc/${lk(a)}` : null })) }))),
+      options: shuffle(group.filter((x) => x !== t)).slice(0, 2).concat([t]).map((a) => ({ html: `<span class="abc-big" dir="ltr">${a.L}</span>`, ok: a === t, after: a === t ? `E/abc/${a.k}` : null })) }))),
     choose('abcStart', () => shuffle(group.filter((a) => a.L !== 'X')).slice(0, 3).map((t) => ({ pre: UI('enAbcStart'), text: `<bdi dir="ltr">${t.w}</bdi>`, clips: `E/w/${enWordKey(t.w)}`, top: `<div class="rh-target"><span class="an-emoji">${t.e}</span></div>`,
-      options: shuffle(ABC.filter((x) => x !== t)).slice(0, 2).concat([t]).map((a) => ({ html: `<span class="abc-big" dir="ltr">${a.L}</span>`, ok: a === t, after: a === t ? `E/abc/${lk(a)}` : null })) }))),
-    echo('abcEcho', group.map((a) => ({ html: abcHTML(a), clip: `E/abc/${lk(a)}` }))),
+      options: shuffle(ABC.filter((x) => x !== t)).slice(0, 2).concat([t]).map((a) => ({ html: `<span class="abc-big" dir="ltr">${a.L}</span>`, ok: a === t, after: a === t ? `E/abc/${a.k}` : null })) }))),
+    echo('abcEcho', group.map((a) => ({ html: abcHTML(a), clip: `E/abc/${a.k}` }))),
     celebrate('enDone', { html: `<div class="kit-row" dir="ltr">${group.map((a) => `<span class="abc-big small">${a.L}</span>`).join('')}</div>`, text: ENGLISH.ui.enDone, clip: UI('enDone'), sayClip: 'E/owlGreat' }),
   ] };
 }

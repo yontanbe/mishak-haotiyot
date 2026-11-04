@@ -8,6 +8,7 @@ const fs = require('fs');
 const MODE = process.argv[2] || 'desktop';
 const WORLD = process.argv[4] || 'letters'; // letters | colors
 const WORLD_IDS = ['size', 'where', 'english', 'animals', 'numbers', 'math', 'stories', 'songs', 'en-hello', 'en-colors', 'en-numbers', 'en-body', 'en-family', 'en-animals', 'en-food', 'en-feelings', 'en-actions', 'en-abc'];
+const GUIDE = process.env.LULA_GUIDE || 'he';
 const LIMIT = +(process.argv[3] || 999);
 const VIEW = MODE === 'phone' ? { width: 390, height: 844 } : { width: 1280, height: 800 };
 const BASE = process.env.QA_URL || 'http://localhost:8080/';
@@ -110,7 +111,7 @@ async function playStage(page, key, where) {
   page.on('console', (m) => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) note('page', 'console', m.text()); });
   page.on('response', (r) => { if (r.status() >= 400 && !/fonts\.g/.test(r.url())) note('net', String(r.status()), r.url().replace(BASE, '')); });
   await page.goto(`${BASE}?qa=1`);
-  await page.evaluate(({ ids, lang }) => localStorage.setItem('alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true }, worlds: Object.fromEntries(ids.map((w) => [w, { done: {}, seen: true }])), lang })), { ids: WORLD_IDS, lang: WORLD.startsWith('en-') ? 'en' : 'he' });
+  await page.evaluate(({ ids, lang, guide }) => localStorage.setItem('lula-guide', guide) || localStorage.setItem(guide === 'ar' ? 'lula-quest-ar-v1' : 'alefbet-quest-v1', JSON.stringify({ v: 2, done: {}, stats: {}, seenStory: true, colors: { done: {}, reviews: {}, seenStory: true }, worlds: Object.fromEntries(ids.map((w) => [w, { done: {}, seen: true }])), lang })), { ids: WORLD_IDS, lang: WORLD.startsWith('en-') ? 'en' : 'he', guide: GUIDE });
   await page.goto(`${BASE}?qa=1`);
   await page.waitForTimeout(800);
   await inspect(page, 'home');
@@ -148,7 +149,9 @@ async function playStage(page, key, where) {
   await click(page, '.home'); await page.waitForTimeout(600);
   await inspect(page, 'home-end');
   await click(page, '.album'); await page.waitForTimeout(800); await inspect(page, 'album');
-  const prog = await page.evaluate(() => JSON.parse(localStorage.getItem('alefbet-quest-v1')));
+  const missingDOM = await page.evaluate(() => [...(globalThis.__i18nMissingDOM || [])]);
+  if (missingDOM.length) { console.log(`untranslated on screen (${missingDOM.length}):`); missingDOM.forEach((t) => console.log('  ' + t)); }
+  const prog = await page.evaluate((g) => JSON.parse(localStorage.getItem(g === 'ar' ? 'lula-quest-ar-v1' : 'alefbet-quest-v1')), GUIDE);
   fs.writeFileSync(`qa-report-${WORLD}.json`, JSON.stringify({ mode: MODE, world: WORLD, stations, letters: Object.keys(prog.done).length, reviews: Object.keys(prog.reviews || {}).length, issues }, null, 1));
   console.log(`\nstations ${stations}, letters done ${Object.keys(prog.done).length}, reviews ${Object.keys(prog.reviews || {}).length}, colors done ${Object.keys(prog.colors?.done || {}).length}, color reviews ${Object.keys(prog.colors?.reviews || {}).length}, world stations ${Object.values(prog.worlds || {}).map((w) => Object.keys(w.done).length).join('/')}, issues ${issues.length}`);
   await browser.close();

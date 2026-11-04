@@ -3,6 +3,12 @@ import { COLORS, CUI, colorLines, parseThing } from './colors-data.js';
 import { worldClips } from './worlds-data.js';
 import { moreClips } from './more-data.js';
 import { LETTERS, REGIONS, UI, HERO, letterLines, wordChant, wordSentence, regionLine, parseWord, ttsText } from './data.js';
+import { IS_AR } from './i18n.js';
+
+// הוראות הקול בערבית: אותו סגנון, ערבית ספרותית לפי התנועות
+const arStyle = (st) => st.replace(/in Hebrew/g, 'in Modern Standard Arabic (Fusha)').replace(/Hebrew/g, 'Arabic')
+  .replace(/the niqqud shows/g, 'the harakat (tashkeel) show').replace(/written in the niqqud/g, 'written in the harakat (tashkeel)').replace(/niqqud/g, 'harakat');
+const HEB = /[\u0590-\u05FF]/;
 
 const TEACHER = 'Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text';
 const FRIEND = 'Read aloud in Hebrew as a friendly, playful cartoon animal character talking to a small child, slowly and clearly. Pronounce every vowel exactly as written in the niqqud. Read only this text';
@@ -56,5 +62,12 @@ export function buildClips() {
   for (const [id, text, kind] of moreClips()) add(id, text, VOICE[kind][0], VOICE[kind][1]);
   // מזהה כפול (אותה מילה בשני עולמות): נשאר הראשון
   const seen = new Set();
-  return clips.filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)));
+  const out = clips.filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)));
+  if (!IS_AR) return out;
+  // ערבית: רק קטעים שתורגמו, בלי קטעי האנגלית המשותפים (E/...), עם הוראות קול בערבית
+  return out.filter((c) => !c.id.startsWith('E/') && !HEB.test(c.text)).map((c) => {
+    const x = { ...c, style: arStyle(c.style) };
+    if (x.alt && HEB.test(x.alt)) delete x.alt;
+    return x;
+  });
 }

@@ -3,7 +3,7 @@
   "name": "mishak-haotiyot",
   "private": true,
   "scripts": {
-    "clips": "node tools/build-clips.mjs",
+    "clips": "node tools/build-clips.mjs && LULA_GUIDE=ar node tools/build-clips.mjs",
     "serve": "python3 -m http.server 8080",
     "check": "node tools/check.mjs",
     "build": "npm run clips && npm run check",

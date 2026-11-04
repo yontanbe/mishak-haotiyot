@@ -7758,6 +7758,12 @@
   "style": "Read aloud in Hebrew, warmly, slowly and very clearly, like a kind kindergarten teacher talking to a 5 year old. Pronounce every vowel exactly as written in the niqqud. Read only this text"
  },
  {
+  "id": "E/abc/p_pizza",
+  "text": "P. P is for Pizza.",
+  "voice": "Charon",
+  "style": "Say this in clear, warm, friendly English for a young child learning English. Say only this text"
+ },
+ {
   "id": "E/abc/a",
   "text": "A. A is for Apple.",
   "voice": "Charon",

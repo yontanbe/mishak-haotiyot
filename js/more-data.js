@@ -1,5 +1,6 @@
 // תוכן נוסף: מספרים, חיבור וחיסור, פינת הסיפורים, מה זה שיר, וצד האנגלית (לדוברי עברית).
 // קובץ טהור, בלי DOM.
+import { localizeDeep, trf, IS_AR } from './i18n.js';
 
 // ---------------------------------------------------------------------
 // מספרים (מסלול Clements ו-Sarama): קליטה מיידית של כמויות קטנות, ספירה אחד לאחד,
@@ -205,7 +206,12 @@ export const ABC = [
   ['M', 'Moon', '🌙'], ['N', 'Nose', '👃'], ['O', 'Octopus', '🐙'], ['P', 'Pig', '🐷'], ['Q', 'Queen', '👸'], ['R', 'Rabbit', '🐰'],
   ['S', 'Sun', '☀️'], ['T', 'Tree', '🌳'], ['U', 'Umbrella', '☂️'], ['V', 'Van', '🚐'], ['W', 'Whale', '🐳'], ['X', 'Fox', '🦊'],
   ['Y', 'Yo-yo', '🪀'], ['Z', 'Zebra', '🦓'],
-].map(([L, w, e]) => ({ L, w, e }));
+].map(([L, w, e]) => ({ L, w, e, k: L.toLowerCase() }));
+// בצד הערבי: בלי חזיר (משפחות מוסלמיות רבות). P היא Pizza, ובחווה יש עז במקום חזיר.
+if (IS_AR) {
+  ABC[15] = { L: 'P', w: 'Pizza', e: '🍕', k: 'p_pizza' };
+  for (const T of EN_THEMES) for (const st of T.sets) st.words = st.words.map((w) => (w.en === 'Pig' ? { en: 'Goat', he: 'עֵז', e: '🐐' } : w));
+}
 export const EN_UI = {
   langPick: 'בְּמָה נְשַׂחֵק הַיּוֹם? בְּעִבְרִית, אוֹ בְּאַנְגְּלִית?',
   enHome: 'בְּרוּכִים הַבָּאִים לְאַנְגְּלִית עִם לוּלָה וְיוֹגִי!',
@@ -236,13 +242,18 @@ export function moreClips() {
     const k = enKey(w.en);
     if (seen.has(k)) return; seen.add(k);
     out.push([`E/w/${k}`, w.en, 'en-word']);
-    out.push([`ui/en_gloss_${k}`, `${w.he}, בְּאַנְגְּלִית זֶה:`, 'he']);
+    out.push([`ui/en_gloss_${k}`, trf('{0}, בְּאַנְגְּלִית זֶה:', w.he), 'he']);
   })));
+  // קטע נוסף לצד הערבי (P is for Pizza), נוצר תמיד כי קטעי האנגלית משותפים
+  out.push(['E/abc/p_pizza', 'P. P is for Pizza.', 'en-line']);
   ABC.forEach((a) => {
-    out.push([`E/abc/${a.L.toLowerCase()}`, a.L === 'X' ? 'X. X is in fox.' : `${a.L}. ${a.L} is for ${a.w}.`, 'en-line']);
+    out.push([`E/abc/${a.k}`, a.L === 'X' ? 'X. X is in fox.' : `${a.L}. ${a.L} is for ${a.w}.`, 'en-line']);
     out.push([`E/abcn/${a.L.toLowerCase()}`, a.L, 'en-letter']);
+
     const k = enKey(a.w);
     if (!seen.has(k)) { seen.add(k); out.push([`E/w/${k}`, a.w, 'en-word']); }
   });
   return out;
 }
+
+localizeDeep([NUMW, NUM_UI, MATH_UI, STORIES, STORY_UI, SONGS, SONG_UI, EN_THEMES, EN_UI]);

@@ -2,6 +2,7 @@
 // ואפקטים קוליים שנוצרים ב-WebAudio (בלי קבצים).
 import { buildClips } from './clips.js';
 import { QA } from './qa.js';
+import { IS_AR, clipPath } from './i18n.js';
 
 const TEXT = Object.fromEntries(buildClips().map((c) => [c.id, c.text]));
 let current = null;
@@ -14,7 +15,7 @@ function speakFallback(text) {
     try {
       if (!('speechSynthesis' in window) || !text) return res();
       const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'he-IL';
+      u.lang = IS_AR ? 'ar' : 'he-IL';
       u.rate = 0.85;
       u.onend = res; u.onerror = res;
       setTimeout(res, QA ? 50 : 1500 + text.length * 120); // יש דפדפנים שלא מודיעים על סוף הדיבור
@@ -26,7 +27,9 @@ function speakFallback(text) {
 function playOne(id, my) {
   return new Promise((res) => {
     if (settings.muted || my !== token) return res();
-    const a = new Audio(`audio/${id}.mp3`);
+    // מזהה שמתחיל ב-! נטען כמו שהוא (למשל קול ערבי במסך הבחירה כשהמדריכה בעברית)
+    const path = id.startsWith('!') ? id.slice(1) : clipPath(id);
+    const a = new Audio(`audio/${path}.mp3`);
     if (QA) { a.playbackRate = 12; a.muted = true; }
     current = a;
     let done = false;

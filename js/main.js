@@ -5,6 +5,9 @@ import { colorStages, COLOR_REVIEW_STAGES, splashSVG } from './colors-stages.js'
 import { WORLDS } from './worlds-stages.js';
 import { HE_MORE, EN_WORLDS } from './more-stages.js';
 import { EN_UI } from './more-data.js';
+import { GUIDE, IS_AR, tr, observeDOM } from './i18n.js';
+// השאלה במסך הבחירה תמיד מוצגת גם בעברית
+const EN_UI_HE = { langPick: 'בְּמָה נְשַׂחֵק הַיּוֹם? בְּעִבְרִית, אוֹ בְּאַנְגְּלִית?' };
 // עולמות בצד העברית (בלי פרק הניסיון באנגלית, שעבר לצד האנגלית) ובצד האנגלית
 const HE_WORLDS = [...WORLDS.filter((W) => W.id !== 'english'), ...HE_MORE];
 const ALL_WORLDS = [...WORLDS, ...HE_MORE, ...EN_WORLDS];
@@ -14,6 +17,7 @@ import * as P from './progress.js';
 import { autoFit } from './fit.js';
 
 const app = document.getElementById('app');
+observeDOM(document.body);
 const DEV = new URLSearchParams(location.search).has('dev');
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -68,40 +72,59 @@ const regionOf = (l) => REGIONS.find((r) => r.id === l.region);
 
 // ---------- מסך הבית ----------
 // ---------- בחירת שפה: עברית (לימוד עברית) או English (אנגלית לדוברי עברית) ----------
+// ארבעה מסלולים: עברית, אנגלית לדוברי עברית, ערבית, אנגלית לדוברי ערבית.
+// שפת המדריכה (עברית או ערבית) קובעת קול, טקסטים והתקדמות נפרדת, ולכן החלפה שלה טוענת את הדף מחדש.
+const TRACKS = [
+  { id: 'he', guide: 'he', lang: 'he', bg: 'home', friend: 'img/friends/alef.webp', fl: ['א', 'ב', 'ג', 'ד'], flc: 'he', label: 'עִבְרִית', sub: 'אוֹתִיּוֹת, מִסְפָּרִים, סִפּוּרִים', aria: 'עברית' },
+  { id: 'he-en', guide: 'he', lang: 'en', bg: 'english', friend: 'img/friends/yod.webp', fl: ['A', 'א', 'B', 'ב'], flc: 'en mix', label: 'English', ltr: true, sub: 'אַנְגְּלִית לְדוֹבְרֵי עִבְרִית', aria: 'English לדוברי עברית' },
+  { id: 'ar', guide: 'ar', lang: 'he', bg: 'desert', friend: 'img/friends/gimel.webp', fl: ['أ', 'ب', 'ت', 'ث'], flc: 'ar', label: 'الْعَرَبِيَّة', sub: 'حُرُوفٌ، أَرْقَامٌ، قِصَصٌ', aria: 'العربية' },
+  { id: 'ar-en', guide: 'ar', lang: 'en', bg: 'english', friend: 'img/friends/yod.webp', fl: ['A', 'أ', 'B', 'ب'], flc: 'en mix', label: 'English', ltr: true, sub: 'الْإِنْجِلِيزِيَّةُ لِلنَّاطِقِينَ بِالْعَرَبِيَّةِ', aria: 'English للناطقين بالعربية' },
+];
+const LANG_ASK_AR = 'بِمَاذَا نَلْعَبُ الْيَوْمَ؟';
 function langSelect() {
   stop();
   const floaters = (chars, cls) => chars.map((c, i) => `<span class="lg-float ${cls} p${i}" style="--i:${i}">${c}</span>`).join('');
+  const gate = (t) => `<button class="lang-gate ${t.flc} t-${t.id}" data-track="${t.id}" aria-label="${t.aria}">
+        <span class="lg-arch" style="background-image:url(img/regions/${t.bg}.webp)"></span>
+        <span class="lg-glow"></span>
+        ${floaters(t.fl, t.flc)}
+        <img class="lg-friend" src="${t.friend}" alt="">
+        <span class="lg-label ${t.guide === 'ar' ? 'ar' : ''}"><b${t.ltr ? ' dir="ltr"' : ''}>${t.label}</b><small>${t.sub}</small></span>
+      </button>`;
   app.innerHTML = `
-  <section class="screen lang-screen">
+  <section class="screen lang-screen four" data-keep>
     <div class="lg-sky"><i class="cl c1"></i><i class="cl c2"></i><i class="cl c3"></i></div>
-    <div class="lg-ask">בְּמָה נְשַׂחֵק הַיּוֹם?</div>
+    <div class="lg-ask">בְּמָה נְשַׂחֵק הַיּוֹם? <span class="ar">${LANG_ASK_AR}</span></div>
     <div class="lg-stage">
-      <button class="lang-gate he" data-lang="he" aria-label="עברית">
-        <span class="lg-arch" style="background-image:url(img/regions/home.webp)"></span>
-        <span class="lg-glow"></span>
-        ${floaters(['א', 'ב', 'ג', 'ד'], 'he')}
-        <img class="lg-friend" src="img/friends/alef.webp" alt="">
-        <span class="lg-label"><b>עִבְרִית</b><small>אוֹתִיּוֹת, מִסְפָּרִים, סִפּוּרִים וְשִׁירִים</small></span>
-      </button>
+      <div class="lg-pair">${gate(TRACKS[0])}${gate(TRACKS[1])}</div>
       <div class="lang-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
-      <button class="lang-gate en" data-lang="en" aria-label="English">
-        <span class="lg-arch" style="background-image:url(img/regions/english.webp)"></span>
-        <span class="lg-glow"></span>
-        ${floaters(['A', 'B', 'C', 'D'], 'en')}
-        <img class="lg-friend" src="${'img/friends/yod.webp'}" alt="">
-        <span class="lg-label"><b dir="ltr">English</b><small>אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</small></span>
-      </button>
+      <div class="lg-pair">${gate(TRACKS[2])}${gate(TRACKS[3])}</div>
     </div>
   </section>`;
   const hero = app.querySelector('.hero');
   setBase(hero, 'wave');
-  showBubble(app.querySelector('.bubble-anchor'), EN_UI.langPick);
+  const askHTML = `${EN_UI_HE.langPick}<br><span class="ar">${LANG_ASK_AR}</span>`;
+  showBubble(app.querySelector('.bubble-anchor'), askHTML);
   app.querySelector('.lang-screen').addEventListener('pointerdown', () => { unlockAudio(); }, { once: true });
-  setTimeout(() => { if (navigator.userActivation?.hasBeenActive) talk(hero, app.querySelector('.bubble-anchor'), ['ui/langPick'], EN_UI.langPick); }, 400);
+  setTimeout(() => { if (navigator.userActivation?.hasBeenActive) talk(hero, null, ['!ui/langPick', '!ar/ui/langPick']); }, 400);
   app.querySelectorAll('.lang-gate').forEach((b) => (b.onclick = () => {
     unlockAudio(); sfx.pop(); stop();
-    prog.lang = b.dataset.lang; save();
-    app.querySelector('.lang-screen').classList.add('picked', `picked-${b.dataset.lang}`);
+    const t = TRACKS.find((x) => x.id === b.dataset.track);
+    app.querySelector('.lang-screen').classList.add('picked');
+    b.classList.add('chosen');
+    if (t.guide !== GUIDE) {
+      // מעבר בין עברית לערבית: שומרים את הבחירה בהתקדמות של השפה השנייה וטוענים מחדש
+      try {
+        const key = P.PROGRESS_KEYS[t.guide];
+        const other = JSON.parse(localStorage.getItem(key) || 'null') || { v: 2, done: {}, stats: {}, created: Date.now() };
+        other.lang = t.lang;
+        localStorage.setItem(key, JSON.stringify(other));
+        localStorage.setItem('lula-guide', t.guide);
+      } catch {}
+      setTimeout(() => location.reload(), 650);
+      return;
+    }
+    prog.lang = t.lang; save();
     setTimeout(home, 650);
   }));
 }
@@ -133,8 +156,8 @@ function home() {
         </div>
         <div class="home-row">
           ${en ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
-          <button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>${doneCount()}/27</small></span></button>
-          <button class="mega small lang-switch"><span class="mega-ico">🌐</span><span class="mega-txt">${en ? 'עִבְרִית' : 'English'}</span></button>
+          ${IS_AR ? '' : '<button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>' + doneCount() + '/27</small></span></button>'}
+          <button class="mega small lang-switch"><span class="mega-ico">🌐</span><span class="mega-txt">${tr('שָׂפָה')}</span></button>
         </div>
       </nav>
     </div>
@@ -164,8 +187,8 @@ function home() {
   app.querySelector('.map')?.addEventListener('click', () => { unlockAudio(); sfx.pop(); map(); });
   app.querySelector('.play-colors')?.addEventListener('click', () => { unlockAudio(); sfx.pop(); colorsMap(); });
   app.querySelectorAll('.play-world').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); worldMap(ALL_WORLDS.find((W) => W.id === b.dataset.w)); }));
-  app.querySelector('.album').onclick = () => { unlockAudio(); sfx.pop(); album(); };
-  app.querySelector('.lang-switch').onclick = () => { sfx.pop(); prog.lang = en ? 'he' : 'en'; save(); home(); };
+  const albumBtn = app.querySelector('.album'); if (albumBtn) albumBtn.onclick = () => { unlockAudio(); sfx.pop(); album(); };
+  app.querySelector('.lang-switch').onclick = () => { sfx.pop(); langSelect(); };
   app.querySelector('.gear').onclick = parents;
 }
 
@@ -816,17 +839,17 @@ function report() {
   $('.all').onchange = (e) => { prog.all = e.target.checked; save(); };
   $('.copy').onclick = async () => {
     const t = $('.rep-code');
-    try { await navigator.clipboard.writeText(t.value); msg('הקוד הועתק'); } catch { t.select(); document.execCommand('copy'); msg('הקוד הועתק'); }
+    try { await navigator.clipboard.writeText(t.value); msg(tr('הקוד הועתק')); } catch { t.select(); document.execCommand('copy'); msg(tr('הקוד הועתק')); }
   };
   $('.load').onclick = () => {
     try {
       const p = P.importCode($('.rep-import').value);
-      if (!confirm('לטעון את ההתקדמות מהקוד? ההתקדמות הנוכחית בדפדפן הזה תוחלף.')) return;
+      if (!confirm(tr('לטעון את ההתקדמות מהקוד? ההתקדמות הנוכחית בדפדפן הזה תוחלף.'))) return;
       prog = p; save(); report();
-    } catch { msg('הקוד לא תקין'); }
+    } catch { msg(tr('הקוד לא תקין')); }
   };
   $('.reset').onclick = () => {
-    if (!confirm('למחוק את כל ההתקדמות? אי אפשר לבטל את זה.')) return;
+    if (!confirm(tr('למחוק את כל ההתקדמות? אי אפשר לבטל את זה.'))) return;
     prog = P.resetProgress(); save(); report();
   };
 }

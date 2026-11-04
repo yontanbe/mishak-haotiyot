@@ -1,5 +1,6 @@
 // תוכן ארבעת העולמות החדשים: גדול וקטן, איפה זה?, אנגלית ראשונה, מסע החיות.
 // הקובץ טהור (בלי DOM) כדי שגם מחולל הקול יוכל להשתמש בו.
+import { localizeDeep, tr, trf } from './i18n.js';
 
 // ---------------------------------------------------------------------
 // גדול וקטן. סדר מקובל: ניגוד חזק, אותו חפץ בשני גדלים, שלושה גדלים וסידור,
@@ -111,7 +112,7 @@ export const ENGLISH = {
   },
 };
 // "חָתוּל בְּאַנְגְּלִית זֶה..." ואחריו המילה בקול של יוגי
-ENGLISH.sets.forEach((s) => s.words.forEach((w) => { ENGLISH.ui[`en_gloss_${w.en.toLowerCase()}`] = `${w.he}, בְּאַנְגְּלִית זֶה:`; }));
+ENGLISH.sets.forEach((s) => s.words.forEach((w) => { ENGLISH.ui[`en_gloss_${w.en.toLowerCase()}`] = trf('{0}, בְּאַנְגְּלִית זֶה:', tr(w.he)); }));
 
 // ---------------------------------------------------------------------
 // מסע החיות: 6 בתי גידול, שיר עם פזמון ובית לכל מקום.
@@ -184,3 +185,5 @@ export function worldClips() {
   ANIMALS.habitats.forEach((h) => out.push([`A/song/${h.id}`, h.song, 'song']));
   return out;
 }
+
+localizeDeep([SIZE, WHERE, ENGLISH, ANIMALS, ALL_ANIMALS]);

@@ -1,8 +1,11 @@
 // שמירת התקדמות, ציון לילד ונתונים לדוח ההורים.
 // הכל נשמר בדפדפן (localStorage). אפשר להעביר בין מכשירים עם קוד גיבוי.
 import { LETTERS } from './data.js';
+import { IS_AR } from './i18n.js';
 
-const KEY = 'alefbet-quest-v1';
+// לכל שפת מדריכה התקדמות נפרדת (ילד שמשחק בערבית וילד שמשחק בעברית הם שני ילדים)
+export const PROGRESS_KEYS = { he: 'alefbet-quest-v1', ar: 'lula-quest-ar-v1' };
+const KEY = IS_AR ? PROGRESS_KEYS.ar : PROGRESS_KEYS.he;
 const MAX_STARS = LETTERS.length * 3;
 
 const blank = () => ({ v: 2, done: {}, stats: {}, created: Date.now() });
