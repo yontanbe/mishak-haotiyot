@@ -5,7 +5,7 @@ import { colorStages, COLOR_REVIEW_STAGES, splashSVG } from './colors-stages.js'
 import { WORLDS } from './worlds-stages.js';
 import { HE_MORE, EN_WORLDS } from './more-stages.js';
 import { EN_UI } from './more-data.js';
-import { GUIDE, IS_AR, tr, observeDOM } from './i18n.js';
+import { GUIDE, IS_AR, tr, observeDOM, localizeDeep } from './i18n.js';
 // השאלה במסך הבחירה תמיד מוצגת גם בעברית
 const EN_UI_HE = { langPick: 'בְּמָה נְשַׂחֵק הַיּוֹם? בְּעִבְרִית, אוֹ בְּאַנְגְּלִית?' };
 // עולמות בצד העברית (בלי פרק הניסיון באנגלית, שעבר לצד האנגלית) ובצד האנגלית
@@ -143,20 +143,20 @@ function home() {
       ${en ? '<h1><span dir="ltr">English</span> <span>עִם</span> <span class="ab">לוּלָה</span></h1><p>לוֹמְדִים אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</p>'
         : '<h1><span>מִשְׂחַק</span> <span>הָאוֹתִיּוֹת</span> <span class="ab">א-ב</span></h1><p>מַסָּע קָסוּם עִם לוּלָה הַמְּגַלָּה</p>'}
     </div>
-    ${en || IS_AR ? '' : scorePanel()}
+    ${en ? '' : scorePanel()}
     <div class="home-stage">
       <div class="home-hero">${heroHTML('wave', 'xl tappable')}</div>
       <nav class="home-menu">
         <div class="bubble-anchor home-bubble"></div>
         <div class="worlds-grid ${en ? 'en' : ''}">
           ${en ? EN_WORLDS.map(card).join('') : `
-          ${IS_AR ? '' : `<button class="world-card play world-letters"><span class="wc-ico">א</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : '27 אוֹתִיּוֹת'}</small></button>`}
+          <button class="world-card play world-letters"><span class="wc-ico">${LETTERS[0].ch}</span><span class="wc-t">אוֹתִיּוֹת</span><small>${started ? nextLabel.replace('הַתַּחֲנָה הַבָּאָה: ', '') : `${LETTERS.length} אוֹתִיּוֹת`}</small></button>
           <button class="world-card play-colors world-colors"><span class="wc-ico">🎨</span><span class="wc-t">צְבָעִים</span><small>${colorsDone()}/${COLORS.length}</small></button>
           ${HE_WORLDS.map(card).join('')}`}
         </div>
         <div class="home-row">
-          ${en || IS_AR ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
-          ${IS_AR ? '' : '<button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>' + doneCount() + '/27</small></span></button>'}
+          ${en ? '' : '<button class="mega small map"><span class="mega-ico">🗺️</span><span class="mega-txt">מַפַּת הָאוֹתִיּוֹת</span></button>'}
+          <button class="mega small album"><span class="mega-ico">🎒</span><span class="mega-txt">הַחֲבֵרִים<small>${doneCount()}/${LETTERS.length}</small></span></button>
           <button class="mega small lang-switch"><span class="mega-ico">🌐</span><span class="mega-txt">${tr('שָׂפָה')}</span></button>
         </div>
       </nav>
@@ -198,7 +198,7 @@ async function storyIntro() {
   <section class="screen story-screen" style="${regionBG('forest')}">
     <div class="story-stage">
       <div class="story-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
-      <div class="flying">${'אבגדהוזחטיכלמנסעפצקרשת'.split('').map((c, i) => `<span style="--i:${i};--a:${(i * 47) % 360}deg">${c}</span>`).join('')}</div>
+      <div class="flying">${(IS_AR ? 'ابتثجحخدذرزسشصضطظعغفقكلمنهوي' : 'אבגדהוזחטיכלמנסעפצקרשת').split('').map((c, i) => `<span style="--i:${i};--a:${(i * 47) % 360}deg">${c}</span>`).join('')}</div>
     </div>
     <button class="btn small skip">דַּלְּגוּ ⏭</button>
   </section>`;
@@ -279,7 +279,7 @@ function map(walkTo = null) {
   <section class="screen map-screen">
     <header class="map-head">
       <button class="btn round home" aria-label="בית">🏠</button>
-      <div class="bag-count">🎒 ${doneCount()}/27</div>
+      <div class="bag-count">🎒 ${doneCount()}/${LETTERS.length}</div>
     </header>
     <div class="map-scroll">
       ${REGIONS.map((r) => `
@@ -337,7 +337,7 @@ function album() {
   <section class="screen album-screen" style="${regionBG('home')}">
     <header class="map-head">
       <button class="btn round home" aria-label="בית">🏠</button>
-      <div class="bag-count">🎒 ${doneCount()}/27</div>
+      <div class="bag-count">🎒 ${doneCount()}/${LETTERS.length}</div>
     </header>
     <div class="album-grid">
       <h3 class="album-title">חַבְרֵי הָאוֹתִיּוֹת</h3>
@@ -764,13 +764,14 @@ function parents() {
   };
 }
 
-const STAGE_NAMES = {
+const STAGE_NAMES = localizeDeep({
+  forms: 'צורות האות',
   story: 'סיפור', letter: 'הכרות עם האות', syl: 'הברות', trace: 'ציור האות', word: 'מילים חדשות',
   bubbles: 'זיהוי האות בבועות', which: 'צליל פותח (איזו תמונה מתחילה באות)', listen: 'הבנת מילה שומעים',
   hidden: 'חיפוש האות', memory: 'התאמת תמונה ומילה', build: 'השלמת אות חסרה', yesno: 'האם המילה מתחילה באות',
   party: 'מסיבת מילים', celebrate: 'חגיגה',
-};
-const fmtDate = (t) => (t ? new Date(t).toLocaleDateString('he-IL', { day: 'numeric', month: 'numeric', year: '2-digit' }) : '');
+});
+const fmtDate = (t) => (t ? new Date(t).toLocaleDateString(IS_AR ? 'ar' : 'he-IL', { day: 'numeric', month: 'numeric', year: '2-digit' }) : '');
 
 function report() {
   stop();

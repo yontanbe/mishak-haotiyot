@@ -2,15 +2,19 @@
 import { LETTERS, REGIONS, letterLines, parseWord } from './data.js';
 import { sfx, stop } from './audio.js';
 import { ok, QA } from './qa.js';
+import { IS_AR, clipPath } from './i18n.js';
+import { AR_ALPHABET, AR_NON_JOINING } from './ar/letters.js';
 
 const $ = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const pick = (a, n) => shuffle(a).slice(0, n);
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-export const graphemes = (w) => w.match(/[א-ת][֑-ׇ]*|./gu) || [];
+export const graphemes = (w) => w.match(/[א-ת][֑-ׇ]*|[\u0621-\u064A][\u064B-\u0652\u0670]*|./gu) || [];
 
 const ALL_WORDS = LETTERS.flatMap((l) => l.words.map((s, i) => ({ ...parseWord(s), letter: l, i })));
-const ANY_LETTERS = 'אבגדהוזחטיכלמנסעפצקרשת'.split('');
+const ANY_LETTERS = IS_AR ? AR_ALPHABET : 'אבגדהוזחטיכלמנסעפצקרשת'.split('');
+// האות וצורותיה האחרות (באלף: أ ا إ آ), כדי שלא יופיעו כמסיחים
+const sameLetter = (l, c) => c === l.ch || c === l.base || (l.alts || []).includes(c);
 
 // מילה מוצגת עם האות הנלמדת צבועה (ראשונה, או אחרונה באות סופית)
 export function wordHTML(l, w) {
@@ -23,7 +27,7 @@ export function wordHTML(l, w) {
 function distractors(l, n, avoidEmoji = []) {
   const ok = ALL_WORDS.filter((x) => {
     const c = l.final ? x.plain.at(-1) : x.plain[0];
-    return c !== l.ch && x.letter.id !== l.id && !avoidEmoji.includes(x.e);
+    return !sameLetter(l, c) && x.letter.id !== l.id && !avoidEmoji.includes(x.e);
   });
   const res = []; const seen = new Set(avoidEmoji);
   for (const x of shuffle(ok)) { if (!seen.has(x.e)) { seen.add(x.e); res.push(x); } if (res.length === n) break; }
@@ -117,7 +121,7 @@ async function syllables(ctx) {
   bubbleText(ctx, ctx.textOf('ui/insSyl'));
   await ctx.talk('ui/insSyl');
   const run = async () => {
-    const a = new Audio(`audio/L/${l.id}/syl.mp3`);
+    const a = new Audio(`audio/${clipPath(`L/${l.id}/syl`)}.mp3`);
     if (QA) { a.playbackRate = 12; a.muted = true; }
     let dur = 0;
     a.onloadedmetadata = () => (dur = a.duration);
@@ -149,7 +153,7 @@ async function trace(ctx) {
   const cv = ctx.body.querySelector('canvas');
   const g = cv.getContext('2d');
   const meter = ctx.body.querySelector('.trace-meter div');
-  const font = '700 470px "Noto Sans Hebrew", "Varela Round", sans-serif';
+  const font = IS_AR ? '700 400px "Noto Naskh Arabic", serif' : '700 470px "Noto Sans Hebrew", "Varela Round", sans-serif';
   try { await document.fonts.load(font, l.ch); } catch {}
   const mask = document.createElement('canvas'); mask.width = mask.height = 600;
   const m = mask.getContext('2d');
@@ -230,7 +234,7 @@ async function bubbles(ctx) {
   const counter = ctx.body.querySelector('.counter');
   bubbleText(ctx, `${ctx.textOf('ui/insBubbles')} <b class="hl">${l.ch}</b>`);
   ctx.talk('ui/insBubbles', `L/${l.id}/name`);
-  const others = ANY_LETTERS.filter((c) => c !== l.ch && c !== l.base);
+  const others = ANY_LETTERS.filter((c) => !sameLetter(l, c));
   let resolve; const out = new Promise((r) => (resolve = r));
   let alive = true;
   // נתיבים קבועים כדי שבועות לא יעלו אחת על השנייה
@@ -311,7 +315,7 @@ async function hidden(ctx) {
   const { l } = ctx;
   const region = REGIONS.find((r) => r.id === l.region);
   const total = 12; const targets = 4;
-  const others = ANY_LETTERS.filter((c) => c !== l.ch && c !== l.base);
+  const others = ANY_LETTERS.filter((c) => !sameLetter(l, c));
   const cells = shuffle([...Array(total)].map((_, i) => (i < targets ? l.ch : others[Math.floor(Math.random() * others.length)])));
   ctx.body.innerHTML = `<div class="hide-field">${cells.map((c, i) => `
       <button class="hide-spot" style="--r:${Math.floor(Math.random() * 16) - 8}deg">
@@ -372,7 +376,7 @@ async function memory(ctx) {
 async function build(ctx) {
   const { l } = ctx;
   const ws = pick(ownWords(l).filter((x) => graphemes(x.w).length > 1), 3);
-  const others = ANY_LETTERS.filter((c) => c !== l.ch && c !== l.base);
+  const others = ANY_LETTERS.filter((c) => !sameLetter(l, c));
   for (let round = 0; round < ws.length; round++) {
     const x = ws[round];
     const g = graphemes(x.w);
@@ -460,6 +464,28 @@ async function celebrate(ctx) {
   await continueBtn(ctx, 'חוֹזְרִים לַמַּפָּה');
 }
 
+// ---------- ערבית בלבד: צורות האות בתחילת מילה, באמצע, בסוף, ולבד ----------
+const T = '\u0640'; // תַּטְוִיל: הקו המחבר
+async function forms(ctx) {
+  const { l } = ctx;
+  const joins = !AR_NON_JOINING.has(l.ch);
+  const list = joins
+    ? [[`${l.ch}${T}`, 'فِي أَوَّلِ الْكَلِمَةِ'], [`${T}${l.ch}${T}`, 'فِي وَسَطِ الْكَلِمَةِ'], [`${T}${l.ch}`, 'فِي آخِرِ الْكَلِمَةِ'], [l.ch, 'وَحْدَهُ']]
+    : [[l.ch, 'وَحْدَهُ'], [`${T}${l.ch}`, 'فِي آخِرِ الْكَلِمَةِ']];
+  ctx.body.innerHTML = `<div class="forms-row">${list.map(([f, cap]) => `<button class="form-card tap-me"><span class="form-ch">${f}</span><small>${cap}</small></button>`).join('')}</div>`;
+  const key = joins ? 'ui/insForms' : 'ui/insForms2';
+  bubbleText(ctx, ctx.textOf(key));
+  ctx.talk(key);
+  let left = list.length;
+  await new Promise((res) => ctx.body.querySelectorAll('.form-card').forEach((b) => (b.onclick = async () => {
+    b.classList.remove('boing'); void b.offsetWidth; b.classList.add('boing'); sfx.pop();
+    if (!b.classList.contains('done')) { b.classList.add('done'); b.classList.remove('tap-me'); left--; }
+    await ctx.talk(`L/${l.id}/name`);
+    if (left === 0) res();
+  })));
+  await continueBtn(ctx);
+}
+
 // ---------- הפסקה: לולה מדברת ישירות אל הילד ----------
 function interlude(key) {
   return async (ctx) => {
@@ -476,6 +502,7 @@ export const STAGES = [
   { key: 'letter', icon: '🔤', run: meetLetter },
   { key: 'syl', icon: '🎵', run: syllables },
   { key: 'trace', icon: '✏️', pose: 'think', run: trace },
+  ...(IS_AR ? [{ key: 'forms', icon: '🔠', run: forms }] : []),
   ...[0, 1, 2, 3, 4, 5].map((i) => ({ key: `word${i}`, icon: '🖼️', run: wordCard(i) })),
   { key: 'talkPlay', interlude: true, pose: 'talk', run: interlude('talkPlay') },
   { key: 'bubbles', icon: '🫧', run: bubbles },

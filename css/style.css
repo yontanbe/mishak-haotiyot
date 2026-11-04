@@ -1035,3 +1035,10 @@ html[lang="ar"] .speech, html[lang="ar"] .word, html[lang="ar"] .wc-t { line-hei
 .lang-gate.t-ar-en .lg-float.mix.p1, .lang-gate.t-ar-en .lg-float.mix.p3 { font-family: 'Noto Naskh Arabic', serif; text-shadow: 0 4px 0 #e0892b, 0 0 18px rgba(224, 137, 43, .8); }
 .lang-gate.t-he-en .lg-float.mix.p1, .lang-gate.t-he-en .lg-float.mix.p3 { text-shadow: 0 4px 0 #8b5cf6, 0 0 18px rgba(139, 92, 246, .8); }
 @media (orientation: portrait) { .lang-screen.four .lang-hero { align-self: center; } }
+/* ערבית: שלב צורות האות */
+.forms-row { display: flex; flex-wrap: wrap; gap: 2.4vmin; justify-content: center; align-items: stretch; max-width: 92vw; }
+.form-card { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-width: clamp(110px, 18vmin, 190px); padding: 2.4vmin 2vmin; border-radius: 28px; background: #fff; box-shadow: 0 8px 0 #c8b2ff, 0 14px 24px rgba(0,0,0,.15); }
+.form-card .form-ch { font-family: 'Noto Naskh Arabic', serif; font-size: clamp(3.6rem, 15vmin, 8rem); line-height: 1.25; color: var(--purple); }
+.form-card small { font-family: 'Noto Naskh Arabic', serif; font-size: clamp(.9rem, 2.4vmin, 1.25rem); color: #5b4a7a; }
+.form-card.done { box-shadow: 0 8px 0 #7bd88f, 0 14px 24px rgba(0,0,0,.15); }
+html[lang="ar"] .giant-letter, html[lang="ar"] .bubble, html[lang="ar"] .hidden-letter, html[lang="ar"] .tile, html[lang="ar"] .fly-letter, html[lang="ar"] .lost-letter, html[lang="ar"] .syl { font-family: 'Noto Naskh Arabic', serif; }

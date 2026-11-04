@@ -41,5 +41,5 @@ export function setBase(el, p) {
 
 // friend picture: תמונת החבר (img/friends/<id>.webp) או אימוג'י אם אין תמונה
 export function friendHTML(l, cls = '') {
-  return `<span class="fpic ${cls}"><img src="img/friends/${l.id}.webp" alt="" draggable="false" onerror="this.parentNode.classList.add('noimg')"><span class="emo">${l.friend.e}</span></span>`;
+  return `<span class="fpic ${cls}"><img src="img/friends/${l.img || l.id}.webp" alt="" draggable="false" onerror="this.parentNode.classList.add('noimg')"><span class="emo">${l.friend.e}</span></span>`;
 }

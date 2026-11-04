@@ -1,6 +1,7 @@
 // תוכן המשחק: 22 אותיות + 5 אותיות סופיות, עם ניקוד מלא.
 // כל מילה בפורמט "מילה|אימוג'י". 6 המילים הראשונות נלמדות בשלבי "מילה חדשה", השאר משמשות במשחקים.
 import { localizeDeep, IS_AR } from './i18n.js';
+import { AR_LETTERS } from './ar/letters.js';
 
 export const HERO = {
   name: 'לוּלָה הַמְּגַלָּה',
@@ -20,7 +21,7 @@ export const REGIONS = [
 
 const L = (o) => o;
 
-export const LETTERS = [
+const HE_LETTERS = [
   L({ id: 'alef', ch: 'א', name: 'אָלֶף', region: 'forest',
     friend: { e: '🦁', name: 'אָרִי הָאַרְיֵה', voice: 'Fenrir' },
     hint: 'לְאָלֶף יֵשׁ קַו אֲלַכְסוֹנִי בָּאֶמְצַע, וּשְׁתֵּי יָדַיִם קְטַנּוֹת.',
@@ -159,6 +160,8 @@ export const LETTERS = [
     syl: ['אַץ', 'אוֹץ', 'אִיץ'],
     words: ['עֵץ|🌳', 'מִיץ|🧃', 'חֵץ|🏹', 'אֶרֶץ|🌍', 'קַיִץ|⛱️', 'בֹּץ|🟫'] }),
 ];
+// בצד הערבי: 28 האותיות של הערבית (js/ar/letters.js)
+export const LETTERS = IS_AR ? AR_LETTERS : HE_LETTERS;
 
 // טקסטים כלליים (עם ניקוד) שמושמעים בכל המשחק. המפתח הוא שם קובץ השמע.
 export const UI = {
@@ -213,6 +216,7 @@ export const UI = {
 
 // משפטים לכל אות. נבנים כאן כדי שגם המשחק וגם מחולל השמע ישתמשו באותו טקסט בדיוק.
 export function letterLines(l) {
+  if (IS_AR) return letterLinesAr(l);
   const region = REGIONS.find((r) => r.id === l.region);
   const where = l.final ? 'נִגְמֶרֶת' : 'מַתְחִילָה';
   return {
@@ -227,6 +231,7 @@ export function letterLines(l) {
 }
 
 export function wordSentence(l, w) {
+  if (IS_AR) return `${w}. كَلِمَةُ ${w} تَبْدَأُ بِحَرْفِ ${l.of}.`;
   const where = l.final ? 'נִגְמֶרֶת' : 'מַתְחִילָה';
   return `${w}. הַמִּלָּה ${w} ${where} בָּאוֹת ${l.name}.`;
 }
@@ -258,6 +263,7 @@ export function lastSyllable(w) {
 }
 // משפט צלילים: אַ... אַ... אַרְיֵה!  ובאותיות סופיות: מֶלֶךְ! לֶךְ, לֶךְ.
 export function wordChant(l, w) {
+  if (IS_AR) { const s = arFirstSyllable(w); return `${s}... ${s}... ${w}!`; }
   if (l.final) { const s = lastSyllable(w); return `${w}! ${s}... ${s}.`; }
   const s = firstSyllable(w);
   return `${s}... ${s}... ${w}!`;
@@ -272,7 +278,7 @@ export function regionLine(r) {
 
 export const parseWord = (s) => {
   const [w, e] = s.split('|');
-  return { w, e, plain: w.replace(/[֑-ׇ]/g, '') };
+  return { w, e, plain: w.replace(/[֑-ׇ\u064B-\u0652\u0670]/g, '') };
 };
 
 // מספר שלבים לכל אות
@@ -280,3 +286,35 @@ export const STEPS_PER_LETTER = 19;
 
 // ערבית: מתרגמים את השורות הכלליות של לולה (האותיות העבריות לא מוצגות בצד הערבי)
 localizeDeep(UI); localizeDeep(HERO);
+
+// ---------- ערבית ----------
+function letterLinesAr(l) {
+  const region = REGIONS.find((r) => r.id === l.region);
+  return {
+    name: l.name,
+    friend1: `مَرْحَبًا يَا لُولَا! أَنَا ${l.friend.name}.`,
+    friend2: `وَجَدْتُ حَرْفًا صَغِيرًا اخْتَبَأَ عِنْدِي ${region.place}. إِنَّهُ حَرْفُ ${l.of}!`,
+    intro: `هَذَا حَرْفُ ${l.of}. ${l.hint}`,
+    syl: l.syl.join('... ') + '.',
+    yesno: `هَلْ تَبْدَأُ الْكَلِمَةُ بِحَرْفِ ${l.of}؟`,
+    done: `نَجَاحٌ كَبِيرٌ! حَرْفُ ${l.of} عَادَ إِلَى حَقِيبَةِ لُولَا!`,
+  };
+}
+// המקטע הראשון במילה בערבית: האות הראשונה עם התנועה שלה, ואם אחריה בא מד (ا، و، ي בלי תנועה) גם הוא
+const AR_G = (w) => w.match(/[\u0621-\u064A][\u064B-\u0652\u0670]*/g) || [];
+export function arFirstSyllable(w) {
+  const g = AR_G(w);
+  let out = g[0] || '';
+  const v = (out.match(/[\u064E\u064F\u0650]/) || [])[0];
+  const n = g[1] || '';
+  const madd = (v === '\u064E' && /^ا$/.test(n)) || (v === '\u064F' && /^و\u0652?$/.test(n)) || (v === '\u0650' && /^ي\u0652?$/.test(n));
+  if (madd) out += n;
+  return out;
+}
+
+// ערבית: האזורים במסע האותיות, ושורות לשלב צורות האות (רק בערבית)
+localizeDeep(REGIONS);
+if (IS_AR) Object.assign(UI, {
+  insForms: 'الْحَرْفُ يُغَيِّرُ شَكْلَهُ: فِي أَوَّلِ الْكَلِمَةِ، وَفِي وَسَطِهَا، وَفِي آخِرِهَا. اِلْمِسُوا كُلَّ شَكْلٍ!',
+  insForms2: 'هَذَا الْحَرْفُ لَا يَتَّصِلُ بِالْحَرْفِ الَّذِي بَعْدَهُ، فَلَهُ شَكْلَانِ فَقَطْ. اِلْمِسُوا كُلَّ شَكْلٍ!',
+});

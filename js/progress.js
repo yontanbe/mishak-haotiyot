@@ -1,7 +1,7 @@
 // שמירת התקדמות, ציון לילד ונתונים לדוח ההורים.
 // הכל נשמר בדפדפן (localStorage). אפשר להעביר בין מכשירים עם קוד גיבוי.
 import { LETTERS } from './data.js';
-import { IS_AR } from './i18n.js';
+import { IS_AR, localizeDeep } from './i18n.js';
 
 // לכל שפת מדריכה התקדמות נפרדת (ילד שמשחק בערבית וילד שמשחק בעברית הם שני ילדים)
 export const PROGRESS_KEYS = { he: 'alefbet-quest-v1', ar: 'lula-quest-ar-v1' };
@@ -85,6 +85,7 @@ export const RANKS = [
   { min: 63, icon: '🏆', name: 'אַלּוּפֵי הָאוֹתִיּוֹת' },
   { min: MAX_STARS, icon: '🌟', name: 'כּוֹכְבֵי הָאוֹתִיּוֹת' },
 ];
+localizeDeep(RANKS);
 export function rankOf(stars) {
   let r = RANKS[0];
   for (const x of RANKS) if (stars >= x.min) r = x;
