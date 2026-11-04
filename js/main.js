@@ -70,12 +70,27 @@ const regionOf = (l) => REGIONS.find((r) => r.id === l.region);
 // ---------- בחירת שפה: עברית (לימוד עברית) או English (אנגלית לדוברי עברית) ----------
 function langSelect() {
   stop();
+  const floaters = (chars, cls) => chars.map((c, i) => `<span class="lg-float ${cls} p${i}" style="--i:${i}">${c}</span>`).join('');
   app.innerHTML = `
-  <section class="screen lang-screen" style="${regionBG('home')}">
-    <div class="lang-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
-    <div class="lang-cards">
-      <button class="lang-card he" data-lang="he"><span class="lc-flag">א ב ג</span><b>עִבְרִית</b><small>אוֹתִיּוֹת, צְבָעִים, מִסְפָּרִים, סִפּוּרִים וְשִׁירִים</small></button>
-      <button class="lang-card en" data-lang="en"><span class="lc-flag" dir="ltr">A B C</span><b>English</b><small>לוֹמְדִים אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</small></button>
+  <section class="screen lang-screen">
+    <div class="lg-sky"><i class="cl c1"></i><i class="cl c2"></i><i class="cl c3"></i></div>
+    <div class="lg-ask">בְּמָה נְשַׂחֵק הַיּוֹם?</div>
+    <div class="lg-stage">
+      <button class="lang-gate he" data-lang="he" aria-label="עברית">
+        <span class="lg-arch" style="background-image:url(img/regions/home.webp)"></span>
+        <span class="lg-glow"></span>
+        ${floaters(['א', 'ב', 'ג', 'ד'], 'he')}
+        <img class="lg-friend" src="img/friends/alef.webp" alt="">
+        <span class="lg-label"><b>עִבְרִית</b><small>אוֹתִיּוֹת, מִסְפָּרִים, סִפּוּרִים וְשִׁירִים</small></span>
+      </button>
+      <div class="lang-hero">${heroHTML('wave', 'xl')}<div class="bubble-anchor"></div></div>
+      <button class="lang-gate en" data-lang="en" aria-label="English">
+        <span class="lg-arch" style="background-image:url(img/regions/english.webp)"></span>
+        <span class="lg-glow"></span>
+        ${floaters(['A', 'B', 'C', 'D'], 'en')}
+        <img class="lg-friend" src="${'img/friends/yod.webp'}" alt="">
+        <span class="lg-label"><b dir="ltr">English</b><small>אַנְגְּלִית עִם יוֹגִי הַיַּנְשׁוּף</small></span>
+      </button>
     </div>
   </section>`;
   const hero = app.querySelector('.hero');
@@ -83,7 +98,12 @@ function langSelect() {
   showBubble(app.querySelector('.bubble-anchor'), EN_UI.langPick);
   app.querySelector('.lang-screen').addEventListener('pointerdown', () => { unlockAudio(); }, { once: true });
   setTimeout(() => { if (navigator.userActivation?.hasBeenActive) talk(hero, app.querySelector('.bubble-anchor'), ['ui/langPick'], EN_UI.langPick); }, 400);
-  app.querySelectorAll('.lang-card').forEach((b) => (b.onclick = () => { unlockAudio(); sfx.pop(); prog.lang = b.dataset.lang; save(); home(); }));
+  app.querySelectorAll('.lang-gate').forEach((b) => (b.onclick = () => {
+    unlockAudio(); sfx.pop(); stop();
+    prog.lang = b.dataset.lang; save();
+    app.querySelector('.lang-screen').classList.add('picked', `picked-${b.dataset.lang}`);
+    setTimeout(home, 650);
+  }));
 }
 
 function home() {
